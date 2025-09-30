@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vit-clubs-n-chapters.vercel.app"),
   title: "VIT Clubs and Chapters",
   description: "Get all info you need for the club/chapter registration",
 };

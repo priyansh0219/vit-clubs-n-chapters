@@ -50,10 +50,45 @@ import {
   Instagram,
   Linkedin,
   Facebook,
+  Twitter,
+  Youtube,
+  Github,
+  Send,
+  Globe2,
   Filter,
   SlidersHorizontal,
   Check,
   ChevronsUpDown,
+  Palette,
+  BookOpen,
+  Heart,
+  Cpu,
+  Globe,
+  Trophy,
+  Code,
+  Wrench,
+  Zap,
+  Microscope,
+  Beaker,
+  Calculator,
+  Music,
+  Camera,
+  Gamepad2,
+  Stethoscope,
+  Dumbbell,
+  GraduationCap,
+  Rocket,
+  HandHeart,
+  Languages,
+  Lightbulb,
+  Target,
+  Headphones,
+  Flag,
+  MapPin,
+  Waves,
+  Network,
+  Crown,
+  Hexagon,
 } from "lucide-react";
 
 const ITEMS_PER_PAGE = 12;
@@ -67,9 +102,15 @@ type ClubData = {
   club_type?: string[];
   chapter_type?: string;
   socials?: {
+    website?: string;
     instagram?: string;
-    linkedin?: string;
+    twitter?: string;
     facebook?: string;
+    medium?: string;
+    telegram?: string;
+    linkedin?: string;
+    youtube?: string;
+    github?: string;
   };
 };
 
@@ -115,14 +156,24 @@ export default function Home() {
   }, []);
 
   // Available social platforms
-  const socialPlatforms = ["instagram", "linkedin", "facebook"];
+  const socialPlatforms = [
+    "website",
+    "instagram",
+    "twitter",
+    "facebook",
+    "medium",
+    "telegram",
+    "linkedin",
+    "youtube",
+    "github",
+  ];
 
   // Filter and search data
   const filteredData = useMemo(() => {
     let filtered = typedData.filter((item) => {
-      const matchesSearch =
-        item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        item.description.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = item.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
 
       const matchesType = filterType === "ALL" || item.asc_type === filterType;
 
@@ -209,14 +260,161 @@ export default function Home() {
 
   const getSocialIcon = (platform: string) => {
     switch (platform) {
+      case "website":
+        return <Globe2 className='w-4 h-4' />;
       case "instagram":
         return <Instagram className='w-4 h-4' />;
-      case "linkedin":
-        return <Linkedin className='w-4 h-4' />;
+      case "twitter":
+        return <Twitter className='w-4 h-4' />;
       case "facebook":
         return <Facebook className='w-4 h-4' />;
+      case "medium":
+        return <ExternalLink className='w-4 h-4' />; // Medium doesn't have a specific icon in Lucide
+      case "telegram":
+        return <Send className='w-4 h-4' />; // Send icon represents messaging
+      case "linkedin":
+        return <Linkedin className='w-4 h-4' />;
+      case "youtube":
+        return <Youtube className='w-4 h-4' />;
+      case "github":
+        return <Github className='w-4 h-4' />;
       default:
         return <ExternalLink className='w-4 h-4' />;
+    }
+  };
+
+  const getCategoryIcon = (type: string) => {
+    switch (type.toUpperCase()) {
+      // Chapter Types
+      case "INDIAN":
+        return <Crown className='w-3.5 h-3.5 text-orange-600' />; // Saffron color for Indian heritage
+      case "INTERNATIONAL":
+        return <Globe className='w-3.5 h-3.5 text-blue-600' />; // Blue for global reach
+      case "IEEE":
+        return (
+          <div className='relative w-3.5 h-3.5'>
+            <Hexagon className='w-3.5 h-3.5 text-purple-600' />
+            <Zap className='absolute inset-0.5 w-2.5 h-2.5 text-yellow-500' />
+          </div>
+        ); // Hexagon with lightning for IEEE's electrical engineering focus
+
+      // Club Types
+      case "ARTS_AND_CULTURE":
+        return <Palette className='w-3.5 h-3.5' />;
+      case "LITERATURE":
+        return <BookOpen className='w-3.5 h-3.5' />;
+      case "HEALTH_&_WELLNESS":
+        return <Heart className='w-3.5 h-3.5' />;
+      case "TECHNICAL":
+        return <Cpu className='w-3.5 h-3.5' />;
+      case "SOCIAL_OUTREACH":
+        return <HandHeart className='w-3.5 h-3.5' />;
+      case "SPORTS":
+        return <Trophy className='w-3.5 h-3.5' />;
+      case "PROGRAMMING":
+      case "CODING":
+        return <Code className='w-3.5 h-3.5' />;
+      case "ENGINEERING":
+        return <Wrench className='w-3.5 h-3.5' />;
+      case "ELECTRONICS":
+        return <Zap className='w-3.5 h-3.5' />;
+      case "SCIENCE":
+        return <Microscope className='w-3.5 h-3.5' />;
+      case "CHEMISTRY":
+        return <Beaker className='w-3.5 h-3.5' />;
+      case "MATHEMATICS":
+        return <Calculator className='w-3.5 h-3.5' />;
+      case "MUSIC":
+        return <Music className='w-3.5 h-3.5' />;
+      case "PHOTOGRAPHY":
+        return <Camera className='w-3.5 h-3.5' />;
+      case "GAMING":
+        return <Gamepad2 className='w-3.5 h-3.5' />;
+      case "MEDICAL":
+        return <Stethoscope className='w-3.5 h-3.5' />;
+      case "FITNESS":
+        return <Dumbbell className='w-3.5 h-3.5' />;
+      case "EDUCATION":
+        return <GraduationCap className='w-3.5 h-3.5' />;
+      case "SPACE":
+      case "AEROSPACE":
+        return <Rocket className='w-3.5 h-3.5' />;
+      case "LANGUAGES":
+      case "LANGUAGE":
+        return <Languages className='w-3.5 h-3.5' />;
+      case "INNOVATION":
+      case "RESEARCH":
+        return <Lightbulb className='w-3.5 h-3.5' />;
+      case "ENTREPRENEURSHIP":
+      case "BUSINESS":
+        return <Target className='w-3.5 h-3.5' />;
+      case "MEDIA":
+      case "RADIO":
+        return <Headphones className='w-3.5 h-3.5' />;
+      default:
+        return <Network className='w-3.5 h-3.5' />;
+    }
+  };
+
+  const getBadgeColors = (type: string) => {
+    switch (type.toUpperCase()) {
+      case "ARTS_AND_CULTURE":
+        return {
+          bg: "bg-gradient-to-r from-pink-100 via-purple-50 to-indigo-100",
+          text: "text-purple-800",
+          border: "border-purple-300",
+          hover: "hover:from-pink-200 hover:via-purple-100 hover:to-indigo-200",
+          shadow: "shadow-purple-200/50",
+        };
+      case "LITERATURE":
+        return {
+          bg: "bg-gradient-to-r from-emerald-100 via-teal-50 to-cyan-100",
+          text: "text-teal-800",
+          border: "border-teal-300",
+          hover: "hover:from-emerald-200 hover:via-teal-100 hover:to-cyan-200",
+          shadow: "shadow-teal-200/50",
+        };
+      case "HEALTH_&_WELLNESS":
+        return {
+          bg: "bg-gradient-to-r from-red-100 via-rose-50 to-pink-100",
+          text: "text-rose-800",
+          border: "border-rose-300",
+          hover: "hover:from-red-200 hover:via-rose-100 hover:to-pink-200",
+          shadow: "shadow-rose-200/50",
+        };
+      case "TECHNICAL":
+        return {
+          bg: "bg-gradient-to-r from-slate-100 via-gray-50 to-zinc-100",
+          text: "text-slate-800",
+          border: "border-slate-300",
+          hover: "hover:from-slate-200 hover:via-gray-100 hover:to-zinc-200",
+          shadow: "shadow-slate-200/50",
+        };
+      case "SOCIAL_OUTREACH":
+        return {
+          bg: "bg-gradient-to-r from-orange-100 via-amber-50 to-yellow-100",
+          text: "text-orange-800",
+          border: "border-orange-300",
+          hover:
+            "hover:from-orange-200 hover:via-amber-100 hover:to-yellow-200",
+          shadow: "shadow-orange-200/50",
+        };
+      case "SPORTS":
+        return {
+          bg: "bg-gradient-to-r from-green-100 via-lime-50 to-emerald-100",
+          text: "text-green-800",
+          border: "border-green-300",
+          hover: "hover:from-green-200 hover:via-lime-100 hover:to-emerald-200",
+          shadow: "shadow-green-200/50",
+        };
+      default:
+        return {
+          bg: "bg-gradient-to-r from-blue-100 via-indigo-50 to-purple-100",
+          text: "text-blue-800",
+          border: "border-blue-300",
+          hover: "hover:from-blue-200 hover:via-indigo-100 hover:to-purple-200",
+          shadow: "shadow-blue-200/50",
+        };
     }
   };
 
@@ -241,7 +439,7 @@ export default function Home() {
             <div className='relative flex-1'>
               <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5' />
               <Input
-                placeholder='Search clubs and chapters...'
+                placeholder='Search clubs and chapters by name...'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className='pl-10 bg-white/70'
@@ -316,15 +514,17 @@ export default function Home() {
                                         : [...selectedClubTypes, type]
                                     );
                                   }}
+                                  className='flex items-center gap-2'
                                 >
                                   <Check
-                                    className={`mr-2 h-4 w-4 ${
+                                    className={`h-4 w-4 ${
                                       selectedClubTypes.includes(type)
                                         ? "opacity-100"
                                         : "opacity-0"
                                     }`}
                                   />
-                                  {formatClubType(type)}
+                                  {getCategoryIcon(type)}
+                                  <span>{formatClubType(type)}</span>
                                 </CommandItem>
                               ))}
                             </CommandList>
@@ -372,15 +572,17 @@ export default function Home() {
                                         : [...selectedChapterTypes, type]
                                     );
                                   }}
+                                  className='flex items-center gap-2'
                                 >
                                   <Check
-                                    className={`mr-2 h-4 w-4 ${
+                                    className={`h-4 w-4 ${
                                       selectedChapterTypes.includes(type)
                                         ? "opacity-100"
                                         : "opacity-0"
                                     }`}
                                   />
-                                  {formatChapterType(type)}
+                                  {getCategoryIcon(type)}
+                                  <span>{formatChapterType(type)}</span>
                                 </CommandItem>
                               ))}
                             </CommandList>
@@ -501,8 +703,15 @@ export default function Home() {
                 <SelectContent>
                   <SelectItem value='ALL'>All Categories</SelectItem>
                   {clubTypes.map((type) => (
-                    <SelectItem key={type} value={type}>
-                      {formatClubType(type)}
+                    <SelectItem
+                      key={type}
+                      value={type}
+                      className='flex items-center gap-2'
+                    >
+                      <div className='flex items-center gap-2'>
+                        {getCategoryIcon(type)}
+                        <span>{formatClubType(type)}</span>
+                      </div>
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -527,65 +736,91 @@ export default function Home() {
           {currentData.map((item) => (
             <Card
               key={item.serial}
-              className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-white/80 backdrop-blur-sm border-white/30'
+              className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 backdrop-blur-sm border-white/40 overflow-hidden p-0'
             >
-              <CardHeader className='pb-3'>
-                <div className='flex items-start justify-between'>
-                  <div className='flex items-center gap-2'>
-                    {item.asc_type === "CLUB" ? (
-                      <Users className='w-5 h-5 text-blue-600' />
-                    ) : (
-                      <Building2 className='w-5 h-5 text-purple-600' />
-                    )}
-                    <Badge
-                      variant={
-                        item.asc_type === "CLUB" ? "default" : "secondary"
-                      }
-                      className='text-xs'
-                    >
+              {/* Image Section with Overlaid Badge */}
+              <div className='relative w-full h-56 overflow-hidden'>
+                <img
+                  src={`/images/${item.img_path}`}
+                  alt={item.name}
+                  className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                />
+                {/* Gradient overlay for better text visibility */}
+                <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent' />
+
+                {/* Badge overlaid on image */}
+                <div className='absolute top-4 left-4'>
+                  <Badge
+                    variant={item.asc_type === "CLUB" ? "default" : "secondary"}
+                    className={`text-xs font-semibold shadow-lg ${
+                      item.asc_type === "CLUB"
+                        ? "bg-blue-600 hover:bg-blue-700 text-white border-0"
+                        : "bg-purple-600 hover:bg-purple-700 text-white border-0"
+                    }`}
+                  >
+                    <div className='flex items-center gap-1'>
+                      {item.asc_type === "CLUB" ? (
+                        <Users className='w-3 h-3' />
+                      ) : (
+                        <Building2 className='w-3 h-3' />
+                      )}
                       {item.asc_type}
-                    </Badge>
-                  </div>
-                  <span className='text-xs text-gray-500 font-mono'>
+                    </div>
+                  </Badge>
+                </div>
+
+                {/* Serial number in top right */}
+                <div className='absolute top-4 right-4'>
+                  <span className='text-xs text-white/90 font-mono bg-black/30 backdrop-blur-sm px-2 py-1 rounded-md'>
                     #{item.serial}
                   </span>
                 </div>
+              </div>
 
-                <CardTitle className='text-lg group-hover:text-blue-600 transition-colors line-clamp-2'>
+              {/* Content Section */}
+              <div className='p-6'>
+                <CardTitle className='text-xl font-bold group-hover:text-blue-600 transition-colors line-clamp-2 mb-4 leading-tight'>
                   {item.name}
                 </CardTitle>
-              </CardHeader>
 
-              <CardContent className='pt-0'>
-                <CardDescription className='text-sm text-gray-600 line-clamp-4 mb-4 leading-relaxed'>
-                  {item.description}
-                </CardDescription>
-
-                {/* Tags */}
+                {/* Category Tags */}
                 <div className='flex flex-wrap gap-2 mb-4'>
                   {item.asc_type === "CLUB" && item.club_type ? (
-                    item.club_type.map((type, index) => (
-                      <Badge
-                        key={index}
-                        variant='outline'
-                        className='text-xs bg-blue-50 text-blue-700 border-blue-200'
-                      >
-                        {formatClubType(type)}
-                      </Badge>
-                    ))
+                    item.club_type.map((type, index) => {
+                      const colors = getBadgeColors(type);
+                      return (
+                        <Badge
+                          key={index}
+                          variant='outline'
+                          className={`text-xs ${colors.bg} ${colors.text} ${colors.border} hover:bg-gradient-to-r ${colors.hover} transition-all duration-300 hover:scale-110 hover:rotate-1 flex items-center gap-1.5 px-3 py-1.5 shadow-md ${colors.shadow} hover:shadow-lg font-semibold backdrop-blur-sm border-2`}
+                        >
+                          <div className='flex items-center gap-1.5'>
+                            {getCategoryIcon(type)}
+                            <span className='font-bold text-xs tracking-wide'>
+                              {formatClubType(type)}
+                            </span>
+                          </div>
+                        </Badge>
+                      );
+                    })
                   ) : item.chapter_type ? (
                     <Badge
                       variant='outline'
-                      className='text-xs bg-purple-50 text-purple-700 border-purple-200'
+                      className='text-xs bg-gradient-to-r from-violet-100 via-fuchsia-50 to-purple-100 text-violet-800 border-violet-300 hover:bg-gradient-to-r hover:from-violet-200 hover:via-fuchsia-100 hover:to-purple-200 transition-all duration-300 hover:scale-110 hover:-rotate-1 flex items-center gap-1.5 px-3 py-1.5 shadow-md shadow-violet-200/50 hover:shadow-lg font-semibold backdrop-blur-sm border-2'
                     >
-                      {formatChapterType(item.chapter_type)}
+                      <div className='flex items-center gap-1.5'>
+                        {getCategoryIcon(item.chapter_type)}
+                        <span className='font-bold text-xs tracking-wide'>
+                          {formatChapterType(item.chapter_type)}
+                        </span>
+                      </div>
                     </Badge>
                   ) : null}
                 </div>
 
                 {/* Social Links */}
                 {item.socials && Object.keys(item.socials).length > 0 && (
-                  <div className='flex gap-2'>
+                  <div className='flex gap-2 pt-2 border-t border-gray-100'>
                     {Object.entries(item.socials).map(
                       ([platform, url]) =>
                         url && (
@@ -593,13 +828,14 @@ export default function Home() {
                             key={platform}
                             variant='outline'
                             size='sm'
-                            className='p-2 h-8 w-8 hover:bg-blue-50'
+                            className='p-2 h-8 w-8 hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 hover:scale-110'
                             asChild
                           >
                             <a
                               href={url}
                               target='_blank'
                               rel='noopener noreferrer'
+                              title={`${item.name} on ${platform}`}
                             >
                               {getSocialIcon(platform)}
                             </a>
@@ -608,7 +844,7 @@ export default function Home() {
                     )}
                   </div>
                 )}
-              </CardContent>
+              </div>
             </Card>
           ))}
         </div>

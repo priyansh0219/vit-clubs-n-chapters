@@ -3,7 +3,7 @@
         "serial": 1,
         "name": "THE PHOTOGRAPHY CLUB",
         "description": "Photography Club provides a platform for all photographers to share their ideas, artistic vision, artistic photography, technical knowledge, spirit, enthusiasm with the public. Club promote an interest in all aspects of photography as an art throughout the campus, through exhibition and public events. Promote creativity through photography, to share and critique the photographs of peers, to educate and improve technical skills, and to spread the love of photography throughout the student community. Having an in group critique of photographs that members have taken. Organise various workshops and competitions for enhancing the skill of its members.",
-        "img_path": "",
+        "img_path": "PHOTOGRAPHY.webp",
         "asc_type": "CLUB",
         "club_type": [
             "ARTS_AND_CULTURE"
@@ -17,7 +17,7 @@
         "serial": 2,
         "name": "COMMUNITY RADIO",
         "description": "VIT Community Radio (Teamspeak) Vellore First Community Radio Station, for the empowerment of the community people who lives in and around the VIT campus. This is the radio under the frequency of 90.8. Basically, we aim to uplift the community people through our small attempt of speaking in the radio. It also helps VIT people for equipping themselves in-terms of personal and career. Here we do live shows, where we try to bring out everything about the world under the one roof for benefiting the people. We cover the events in VIT, there we interview the participants, external people and guests. During fests, we take live bytes from the students, faculties, guests etc. We also conduct some outreach programs for the benefit of the community people. We speak the voice of the people.",
-        "img_path": "",
+        "img_path": "COMMUNITY RADIO.webp",
         "asc_type": "CLUB",
         "club_type": [
             "ARTS_AND_CULTURE"
@@ -31,7 +31,7 @@
         "serial": 3,
         "name": "VIT FILM SOCIETY (VFS)",
         "description": "Film Society promote awareness about the actual cinema and that will judge the students ability to understand the movie. To learn the basic skills in film making, script writing, editing, video coverage etc. Club is mainly learning through entertainment. The activities encourage students to develop a different perception regarding the films. The movies managerial skills like leadership, team spirit, group dynamics, creativity, self-motivation etc are developed by the way of film making sessions. Scripting, Shooting, Lighting, editing, sound mixing etc are the part of the club activity. At a regular basis, organize quality events like workshops on script-writing, cinematography, movie-making, movie-analysis and other activities related to appreciation of films. Promote group discussions and panel discussions in the presence of technical experts in the area of movie making with the intent of imbibing taste for quality films.",
-        "img_path": "",
+        "img_path": "FILM SOCIETY.webp",
         "asc_type": "CLUB",
         "club_type": [
             "ARTS_AND_CULTURE"
@@ -42,7 +42,7 @@
         "serial": 4,
         "name": "MALAYALAM LITERARY ASSOCIATION (MLA)",
         "description": "Malayalam Literary Association (Thanima-MLA) is a literary club, by the Keralites of Vellore Institute of Technology. We are a club who thrives to preserve, promote, and uplift the rich, old traditions, cultures, and language of Kerala. In MLA, we help our members to develop their knowledge more on their mother tongue, Malayalam, by conducting weekly events, wherein each and every member have a chance to learn, interact, showcase their literary skills and converse with their peers. We promote Malayalam literature to help other students interested in Malayalam history and literature through these weekly events, be it debates on Malayalam literature, Just a Minute, literary crosswords, Turn Coats and many more, we train our members for competitions and fests. Through so, we all develop a strong bond amongst each other, making MLA, not just a club, but also a family.",
-        "img_path": "",
+        "img_path": "MALAYALAM LITERARY ASSOCIATION.webp",
         "asc_type": "CLUB",
         "club_type": [
             "LITERATURE"

@@ -6,6 +6,7 @@ import { AdvancedFilters } from "./advanced-filters";
 import { ClubCard } from "./club-card";
 import { ClubPagination } from "./club-pagination";
 import { EmptyState } from "./empty-state";
+import { fuzzySearch } from "@/lib/fuzzy-search";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -50,11 +51,8 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
 
   // Filter and search data
   const filteredData = useMemo(() => {
-    const filtered = clubData.filter((item) => {
-      const matchesSearch = item.name
-        .toLowerCase()
-        .includes(filters.searchTerm.toLowerCase());
-
+    // First apply all filters except search
+    const preFiltered = clubData.filter((item) => {
       // Advanced club type filter (multi-select)
       const matchesSelectedClubTypes =
         filters.selectedClubTypes.length === 0 ||
@@ -128,7 +126,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
           ));
 
       return (
-        matchesSearch &&
         matchesType &&
         matchesClubType &&
         matchesSocials &&
@@ -136,10 +133,30 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
       );
     });
 
-    // Always sort by serial number (ascending)
-    filtered.sort((a, b) => a.serial - b.serial);
+    // Apply fuzzy search on the pre-filtered results
+    let searchResults;
+    if (filters.searchTerm.trim()) {
+      searchResults = fuzzySearch(
+        preFiltered,
+        filters.searchTerm,
+        (item) => {
+          // Create a searchable text that includes name, description, and types
+          const searchableText = [
+            item.name,
+            item.description || "",
+            ...(item.club_type || []),
+            item.chapter_type || "",
+          ].join(" ");
+          return searchableText;
+        },
+        0.05 // Lower threshold for more flexible matching
+      );
+    } else {
+      // No search term, return all pre-filtered results sorted by serial number
+      searchResults = [...preFiltered].sort((a, b) => a.serial - b.serial);
+    }
 
-    return filtered;
+    return searchResults;
   }, [clubData, filters]);
 
   // Calculate pagination

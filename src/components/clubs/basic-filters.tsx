@@ -33,7 +33,7 @@ export const BasicFilters: React.FC<BasicFiltersProps> = ({
         <div className='relative flex-1'>
           <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500 w-5 h-5' />
           <Input
-            placeholder='Search clubs and chapters by name...'
+            placeholder='Search clubs and chapters...'
             value={filters.searchTerm}
             onChange={(e) => onFiltersChange({ searchTerm: e.target.value })}
             className='pl-10 bg-white/70 dark:bg-slate-700/70'

@@ -1,0 +1,113 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "serial": {
+                "type": "integer"
+            },
+            "name": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "img_path": {
+                "type": "string"
+            },
+            "asc_type": {
+                "enum": [
+                    "CLUB",
+                    "CHAPTER"
+                ]
+            },
+            "club_type": {
+                "type": "array",
+                "items": {
+                    "enum": [
+                        "ARTS_AND_CULTURE",
+                        "TECHNICAL",
+                        "SOCIAL_OUTREACH",
+                        "HEALTH_&_WELLNESS",
+                        "LITERATURE",
+                        "ENVIRONMENTAL_SUSTAINABILITY"
+                    ]
+                }
+            },
+            "chapter_type": {
+                "enum": [
+                    "INDIAN",
+                    "INTERNATIONAL",
+                    "IEEE"
+                ]
+            },
+            "socials": {
+                "type": "object",
+                "properties": {
+                    "website": {
+                        "type": "string"
+                    },
+                    "instagram": {
+                        "type": "string"
+                    },
+                    "twitter": {
+                        "type": "string"
+                    },
+                    "facebook": {
+                        "type": "string"
+                    },
+                    "medium": {
+                        "type": "string"
+                    },
+                    "telegram": {
+                        "type": "string"
+                    },
+                    "linkedin": {
+                        "type": "string"
+                    },
+                    "youtube": {
+                        "type": "string"
+                    },
+                    "github": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "required": [
+            "serial",
+            "name",
+            "description",
+            "img_path",
+            "asc_type",
+            "socials"
+        ],
+        "if": {
+            "properties": {
+                "asc_type": {
+                    "const": "CLUB"
+                }
+            }
+        },
+        "then": {
+            "required": [
+                "club_type"
+            ]
+        },
+        "else": {
+            "if": {
+                "properties": {
+                    "asc_type": {
+                        "const": "CHAPTER"
+                    }
+                }
+            },
+            "then": {
+                "required": [
+                    "chapter_type"
+                ]
+            }
+        }
+    }
+}

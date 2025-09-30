@@ -37,6 +37,7 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
+import { ThemeToggle } from "@/components/theme-toggle";
 import {
   Search,
   Users,
@@ -411,30 +412,140 @@ export default function Home() {
   };
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50'>
+    <div className='min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900'>
       <div className='container mx-auto px-4 py-8'>
+        {/* Theme Toggle */}
+        <div className='flex justify-end mb-4'>
+          <ThemeToggle />
+        </div>
+
         {/* Header */}
-        <div className='text-center mb-12'>
-          <h1 className='text-4xl md:text-6xl font-bold text-gray-900 mb-4'>
-            VIT Clubs & Chapters
-          </h1>
-          <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-            Discover and explore the vibrant community of clubs and chapters at
-            VIT
-          </p>
+        <div className='text-center mb-16'>
+          {/* Welcome Badge */}
+          <div className='inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 border border-blue-200 dark:border-blue-700 mb-6 shadow-sm'>
+            <div className='w-2 h-2 bg-green-500 rounded-full animate-pulse'></div>
+            <span className='text-sm font-medium text-gray-700 dark:text-gray-300'>
+              Explore {filteredData.length}+ Active Communities
+            </span>
+          </div>
+
+          {/* Main Title with Animation */}
+          <div className='relative'>
+            <h1 className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent leading-tight'>
+              VIT Clubs & Chapters
+            </h1>
+            {/* Decorative Elements */}
+            <div className='absolute -top-4 -left-4 w-8 h-8 bg-blue-400 rounded-full opacity-20 animate-bounce'></div>
+            <div
+              className='absolute -top-2 -right-6 w-6 h-6 bg-purple-400 rounded-full opacity-30 animate-bounce'
+              style={{ animationDelay: "0.5s" }}
+            ></div>
+            <div
+              className='absolute -bottom-2 left-1/4 w-4 h-4 bg-indigo-400 rounded-full opacity-25 animate-bounce'
+              style={{ animationDelay: "1s" }}
+            ></div>
+          </div>
+
+          {/* Enhanced Description */}
+          <div className='max-w-4xl mx-auto mb-8'>
+            <p className='text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 font-light leading-relaxed'>
+              Discover and join the vibrant community of clubs and chapters at
+              <span className='font-semibold text-blue-600 dark:text-blue-400'>
+                {" "}
+                Vellore Institute of Technology
+              </span>
+            </p>
+            <p className='text-lg text-gray-500 dark:text-gray-400 mb-6 max-w-3xl mx-auto'>
+              From technical innovation to cultural expression, from academic
+              excellence to social impact - find your passion and connect with
+              like-minded peers in our diverse ecosystem of student
+              organizations.
+            </p>
+          </div>
+
+          {/* Statistics Cards */}
+          <div className='grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8'>
+            <div className='bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/40 dark:border-slate-700/40 hover:shadow-xl transition-all duration-300 hover:scale-105'>
+              <div className='flex items-center justify-center mb-2'>
+                <Users className='w-8 h-8 text-blue-600 dark:text-blue-400' />
+              </div>
+              <div className='text-2xl font-bold text-gray-900 dark:text-white'>
+                {typedData.filter((item) => item.asc_type === "CLUB").length}
+              </div>
+              <div className='text-sm text-gray-600 dark:text-gray-300'>
+                Active Clubs
+              </div>
+            </div>
+
+            <div className='bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/40 dark:border-slate-700/40 hover:shadow-xl transition-all duration-300 hover:scale-105'>
+              <div className='flex items-center justify-center mb-2'>
+                <Building2 className='w-8 h-8 text-purple-600 dark:text-purple-400' />
+              </div>
+              <div className='text-2xl font-bold text-gray-900 dark:text-white'>
+                {typedData.filter((item) => item.asc_type === "CHAPTER").length}
+              </div>
+              <div className='text-sm text-gray-600 dark:text-gray-300'>
+                Chapters
+              </div>
+            </div>
+
+            <div className='bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/40 dark:border-slate-700/40 hover:shadow-xl transition-all duration-300 hover:scale-105'>
+              <div className='flex items-center justify-center mb-2'>
+                <Palette className='w-8 h-8 text-green-600 dark:text-green-400' />
+              </div>
+              <div className='text-2xl font-bold text-gray-900 dark:text-white'>
+                {clubTypes.length}
+              </div>
+              <div className='text-sm text-gray-600 dark:text-gray-300'>
+                Categories
+              </div>
+            </div>
+
+            <div className='bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/40 dark:border-slate-700/40 hover:shadow-xl transition-all duration-300 hover:scale-105'>
+              <div className='flex items-center justify-center mb-2'>
+                <Globe className='w-8 h-8 text-orange-600 dark:text-orange-400' />
+              </div>
+              <div className='text-2xl font-bold text-gray-900 dark:text-white'>
+                {
+                  typedData.filter(
+                    (item) =>
+                      item.socials && Object.keys(item.socials).length > 0
+                  ).length
+                }
+              </div>
+              <div className='text-sm text-gray-600 dark:text-gray-300'>
+                Connected
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className='flex justify-center'>
+            <Button
+              className='bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105'
+              onClick={() =>
+                document
+                  .querySelector(".bg-white\\/60")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Start Exploring
+              <ExternalLink className='ml-2 w-5 h-5' />
+            </Button>
+          </div>
         </div>
 
         {/* Search and Filters */}
-        <div className='bg-white/60 backdrop-blur-sm rounded-2xl p-6 mb-8 shadow-lg border border-white/20'>
+        <div className='bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 mb-8 shadow-lg border border-white/20 dark:border-slate-700/20'>
           {/* Main Search and Basic Filters */}
           <div className='flex flex-col md:flex-row gap-4 mb-4'>
             <div className='relative flex-1'>
-              <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5' />
+              <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500 w-5 h-5' />
               <Input
                 placeholder='Search clubs and chapters by name...'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className='pl-10 bg-white/70'
+                className='pl-10 bg-white/70 dark:bg-slate-700/70'
               />
             </div>
 
@@ -444,7 +555,7 @@ export default function Home() {
                 setFilterType(value)
               }
             >
-              <SelectTrigger className='md:w-48 bg-white/70'>
+              <SelectTrigger className='md:w-48 bg-white/70 dark:bg-slate-700/70'>
                 <SelectValue placeholder='Filter by Type' />
               </SelectTrigger>
               <SelectContent>
@@ -458,21 +569,29 @@ export default function Home() {
             <Button
               variant='outline'
               onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
-              className='md:w-48 bg-white/70'
+              className={`md:w-48 transition-all duration-300 ${
+                showAdvancedFilters
+                  ? "bg-blue-50 dark:bg-blue-900/30 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50"
+                  : "bg-white/70 dark:bg-slate-700/70 hover:bg-white/90 dark:hover:bg-slate-600/70"
+              }`}
             >
-              <SlidersHorizontal className='mr-2 h-4 w-4' />
+              <SlidersHorizontal
+                className={`mr-2 h-4 w-4 transition-transform duration-300 ${
+                  showAdvancedFilters ? "rotate-180" : ""
+                }`}
+              />
               Advanced Filters
             </Button>
           </div>
 
           {/* Advanced Filters Section */}
           {showAdvancedFilters && (
-            <div className='border-t border-gray-200 pt-4 space-y-4'>
+            <div className='border-t border-gray-200 dark:border-gray-700 pt-4 space-y-4'>
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {/* Multi-select Club Types */}
                 {(filterType === "ALL" || filterType === "CLUB") && (
                   <div className='space-y-2'>
-                    <label className='text-sm font-medium text-gray-700'>
+                    <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
                       Club Categories
                     </label>
                     <Popover>
@@ -530,7 +649,7 @@ export default function Home() {
                 {/* Multi-select Chapter Types */}
                 {(filterType === "ALL" || filterType === "CHAPTER") && (
                   <div className='space-y-2'>
-                    <label className='text-sm font-medium text-gray-700'>
+                    <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
                       Chapter Types
                     </label>
                     <Popover>
@@ -538,7 +657,7 @@ export default function Home() {
                         <Button
                           variant='outline'
                           role='combobox'
-                          className='w-full justify-between bg-white/70'
+                          className='w-full justify-between bg-white/70 dark:bg-slate-700/70'
                         >
                           {selectedChapterTypes.length > 0
                             ? `${selectedChapterTypes.length} selected`
@@ -587,7 +706,7 @@ export default function Home() {
 
                 {/* Social Media Filters */}
                 <div className='space-y-2'>
-                  <label className='text-sm font-medium text-gray-700'>
+                  <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
                     Social Media
                   </label>
                   <div className='space-y-2'>
@@ -601,7 +720,10 @@ export default function Home() {
                           )
                         }
                       />
-                      <label htmlFor='has-socials' className='text-sm'>
+                      <label
+                        htmlFor='has-socials'
+                        className='text-sm text-gray-700 dark:text-gray-300'
+                      >
                         Has social media
                       </label>
                     </div>
@@ -615,7 +737,10 @@ export default function Home() {
                           )
                         }
                       />
-                      <label htmlFor='no-socials' className='text-sm'>
+                      <label
+                        htmlFor='no-socials'
+                        className='text-sm text-gray-700 dark:text-gray-300'
+                      >
                         No social media
                       </label>
                     </div>
@@ -624,7 +749,7 @@ export default function Home() {
 
                 {/* Social Platform Filter */}
                 <div className='space-y-2'>
-                  <label className='text-sm font-medium text-gray-700'>
+                  <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
                     Social Platforms
                   </label>
                   <div className='space-y-2'>
@@ -653,7 +778,7 @@ export default function Home() {
                         />
                         <label
                           htmlFor={platform}
-                          className='text-sm capitalize flex items-center gap-1'
+                          className='text-sm capitalize flex items-center gap-1 text-gray-700 dark:text-gray-300'
                         >
                           {getSocialIcon(platform)}
                           {platform}
@@ -689,7 +814,7 @@ export default function Home() {
           {filterType === "CLUB" && !showAdvancedFilters && (
             <div className='mt-4'>
               <Select value={filterClubType} onValueChange={setFilterClubType}>
-                <SelectTrigger className='md:w-56 bg-white/70'>
+                <SelectTrigger className='md:w-56 bg-white/70 dark:bg-slate-700/70'>
                   <SelectValue placeholder='Filter by Category' />
                 </SelectTrigger>
                 <SelectContent>
@@ -711,7 +836,7 @@ export default function Home() {
             </div>
           )}
 
-          <div className='mt-4 flex flex-wrap gap-2 text-sm text-gray-600'>
+          <div className='mt-4 flex flex-wrap gap-2 text-sm text-gray-600 dark:text-gray-400'>
             <span className='flex items-center gap-1'>
               <Users className='w-4 h-4' />
               {filteredData.length} results found
@@ -728,10 +853,10 @@ export default function Home() {
           {currentData.map((item) => (
             <Card
               key={item.serial}
-              className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 backdrop-blur-sm border-white/40 overflow-hidden p-0'
+              className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/40 dark:border-slate-700/40 overflow-hidden p-0'
             >
               {/* Image Section with Overlaid Badge */}
-              <div className='relative w-full h-56 overflow-hidden'>
+              <div className='relative w-full h-56 overflow-hidden bg-white'>
                 <Image
                   src={`/images/${item.img_path}`}
                   alt={item.name}
@@ -773,7 +898,7 @@ export default function Home() {
 
               {/* Content Section */}
               <div className='p-6'>
-                <CardTitle className='text-xl font-bold group-hover:text-blue-600 transition-colors line-clamp-2 mb-4 leading-tight'>
+                <CardTitle className='text-xl font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 mb-4 leading-tight dark:text-white'>
                   {item.name}
                 </CardTitle>
 
@@ -814,7 +939,7 @@ export default function Home() {
 
                 {/* Social Links */}
                 {item.socials && Object.keys(item.socials).length > 0 && (
-                  <div className='flex gap-2 pt-2 border-t border-gray-100'>
+                  <div className='flex gap-2 pt-2 border-t border-gray-100 dark:border-gray-700'>
                     {Object.entries(item.socials).map(
                       ([platform, url]) =>
                         url && (
@@ -822,7 +947,7 @@ export default function Home() {
                             key={platform}
                             variant='outline'
                             size='sm'
-                            className='p-2 h-8 w-8 hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 hover:scale-110'
+                            className='p-2 h-8 w-8 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 hover:scale-110'
                             asChild
                           >
                             <a
@@ -846,13 +971,13 @@ export default function Home() {
         {/* Empty State */}
         {currentData.length === 0 && (
           <div className='text-center py-16'>
-            <div className='w-24 h-24 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center'>
-              <Search className='w-12 h-12 text-gray-400' />
+            <div className='w-24 h-24 mx-auto mb-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center'>
+              <Search className='w-12 h-12 text-gray-400 dark:text-gray-500' />
             </div>
-            <h3 className='text-xl font-semibold text-gray-900 mb-2'>
+            <h3 className='text-xl font-semibold text-gray-900 dark:text-white mb-2'>
               No results found
             </h3>
-            <p className='text-gray-600 mb-6'>
+            <p className='text-gray-600 dark:text-gray-400 mb-6'>
               Try adjusting your search terms or filters to find what
               you&apos;re looking for.
             </p>

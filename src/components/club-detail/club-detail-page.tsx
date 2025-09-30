@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -23,6 +22,7 @@ import {
   getBadgeColors,
 } from "@/lib/club-utils";
 import { getCategoryIcon, getSocialIcon } from "@/components/clubs/club-icons";
+import { SafeImage } from "@/components/ui";
 
 interface ClubDetailPageProps {
   club: ClubData;
@@ -67,16 +67,18 @@ export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
         {/* Hero Section */}
         <div className='grid lg:grid-cols-2 gap-8 mb-12'>
           {/* Club Image */}
-          <div className='relative flex justify-center'>
-            <Image
-              src={`/images/${club.img_path}`}
-              alt={club.name}
-              width={0}
-              height={0}
-              sizes='100vw'
-              className='w-auto h-auto max-w-full rounded-lg shadow-2xl'
-              priority
-            />
+          <div className='relative flex justify-center w-full max-w-md mx-auto lg:mx-0'>
+            <div className='relative w-full h-64 lg:h-80'>
+              <SafeImage
+                club={club}
+                fill
+                sizes='(max-width: 1024px) 100vw, 50vw'
+                className='object-cover rounded-lg shadow-2xl'
+                priority
+                placeholderSize='lg'
+                placeholderClassName='rounded-lg shadow-2xl'
+              />
+            </div>
           </div>
 
           {/* Club Info */}

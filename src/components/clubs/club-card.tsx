@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Card, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -13,6 +12,7 @@ import {
 } from "@/lib/club-utils";
 import { getCategoryIcon, getSocialIcon } from "./club-icons";
 import { generateSlug } from "@/lib/slug-utils";
+import { SafeImage } from "@/components/ui";
 
 interface ClubCardProps {
   club: ClubData;
@@ -26,15 +26,17 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
       <Card className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/40 dark:border-slate-700/40 overflow-hidden p-0 cursor-pointer hover:ring-2 hover:ring-blue-300 dark:hover:ring-blue-600'>
         {/* Image Section with Overlaid Badge */}
         <div className='relative w-full h-56 overflow-hidden bg-white'>
-          <Image
-            src={`/images/${club.img_path}`}
-            alt={club.name}
+          <SafeImage
+            club={club}
             fill
             sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
             className='object-cover transition-transform duration-500 group-hover:scale-110'
+            placeholderSize='md'
           />
-          {/* Gradient overlay for better text visibility */}
-          <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent' />
+          {/* Gradient overlay for better text visibility on actual images */}
+          {club.img_path && club.img_path.trim() !== "" && (
+            <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent' />
+          )}
 
           {/* Badge overlaid on image */}
           <div className='absolute top-4 left-4'>

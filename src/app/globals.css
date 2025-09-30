@@ -18,6 +18,46 @@
     -webkit-line-clamp: 4;
     line-clamp: 4;
   }
+
+  /* Custom animation delays */
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animation-delay-700 {
+    animation-delay: 700ms;
+  }
+
+  /* Text shadow utilities */
+  .text-shadow-lg {
+    text-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+      0 4px 6px -2px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Floating animation for decorative elements */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+}
+
+/* Custom keyframe animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @custom-variant dark (&:is(.dark *));

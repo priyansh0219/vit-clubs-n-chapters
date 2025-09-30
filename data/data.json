@@ -352,7 +352,7 @@
         "serial": 32,
         "name": "NATURE LOVERS CLUB",
         "description": "Nature Lover's Club, harboring the institute\u2019s most ardent nature enthusiasts aim to spread awareness about the importance of nature and its conservation in developing a better tomorrow. The club aims at increasing awareness among the students and providing freedom to participate in various environmental activities. In the process of conserving ecology and promoting sustainable development. Protecting and sustaining the environmental conditions in and around the campus and inspiring others to do on a large scale all around the nation.",
-        "img_path": "NATURE LOVER'S CLUB.webp",
+        "img_path": "NATURE LOVERS CLUB.webp",
         "asc_type": "CLUB",
         "club_type": [
             "SOCIAL_OUTREACH",
@@ -1038,7 +1038,7 @@
         "serial": 94,
         "name": "YUVA TOURISM CLUB",
         "description": "The YUVA Tourism Club at VIT is a vibrant community dedicated to fostering a love for travel and cultural exploration. The club organizes various trips, events, and activities that allow students to experience diverse destinations, understand global cultures, and promote sustainable tourism. Whether it's trekking, exploring heritage sites, or learning about local traditions, YUVA Tourism Club aims to ignite the wanderlust in students while encouraging responsible travel.",
-        "img_path": "",
+        "img_path": "YTC.jpg",
         "asc_type": "CLUB",
         "club_type": [
             "SOCIAL_OUTREACH"
@@ -1049,7 +1049,7 @@
         "serial": 95,
         "name": "STANDARDS CLUB",
         "description": "The BIS Standards Club at VIT Vellore, founded in 2023, is dedicated to raising awareness about standardization, quality control, and certification processes among students. With a focus on bridging the gap between academic learning and industry practices, the club strives to educate students on both Indian and international standards that are pivotal for India's growth as a global manufacturing and service hub. The club organizes workshops, seminars, and industry expert interactions to foster research and prepare students for careers in quality management, aiming to equip them with the knowledge to excel in the ever-evolving landscape of global standards.",
-        "img_path": "",
+        "img_path": "STANDARDS CLUB.jpg",
         "asc_type": "CLUB",
         "club_type": [
             "TECHNICAL"
@@ -1060,7 +1060,7 @@
         "serial": 96,
         "name": "SPANISH LITERARY ASSOCIATION (SLA)",
         "description": "The Spanish Literary Association (SLA) at VIT Vellore is a dynamic community that celebrates the Spanish language and its diverse cultural heritage. Situated within the School of Social Sciences and Languages, the club offers students an opportunity to immerse themselves in Spanish literature, enhance their linguistic skills, and explore the vibrant traditions and history of Hispanic cultures. Through literary discussions, cultural events, and language sessions, the SLA fosters a deep appreciation for the Spanish-speaking world and encourages students to broaden their global perspective.",
-        "img_path": "",
+        "img_path": "SLA.jpeg",
         "asc_type": "CLUB",
         "club_type": [
             "LITERATURE"
@@ -1071,7 +1071,7 @@
         "serial": 97,
         "name": "ANTI DRUG CLUB (ADC)",
         "description": "The Anti-Drug Club (ADC) at VIT Vellore is committed to raising awareness about the dangers of drug abuse and promoting a healthy, drug-free lifestyle among students. Through impactful campaigns, workshops, and interactive sessions, the club educates the campus community on the physical, mental, and social consequences of substance abuse. ADC strives to create a supportive environment that empowers students to make informed choices, stand against peer pressure, and contribute to a safer and healthier society.",
-        "img_path": "",
+        "img_path": "ADC.jpg",
         "asc_type": "CLUB",
         "club_type": [
             "SOCIAL_OUTREACH"
@@ -1082,7 +1082,7 @@
         "serial": 98,
         "name": "THE WHITEHATS CLUB",
         "description": "The Whitehats Club at VIT Vellore is a tech-driven community dedicated to ethical hacking, cybersecurity, and digital forensics. With a mission to promote cyber awareness and responsible internet practices, the club trains students in identifying vulnerabilities, defending digital infrastructures, and understanding the principles of ethical hacking. Through workshops, Capture the Flag (CTF) competitions, and expert sessions, Whitehats equips members with hands-on skills to tackle real-world cybersecurity challenges, fostering the next generation of ethical tech professionals.",
-        "img_path": "",
+        "img_path": "TWC.jpg",
         "asc_type": "CLUB",
         "club_type": [
             "TECHNICAL"
@@ -1093,7 +1093,7 @@
         "serial": 99,
         "name": "VINNOVATEIT CLUB",
         "description": "VinnovateIT at VIT Vellore is a vibrant and imaginative tech community where curiosity meets innovation in the ever-evolving world of computer science. Designed as a haven for passionate problem-solvers and creative thinkers, the club encourages exploration across domains like app development, machine learning, web tech, and more. With a whimsical spirit — often likened to the magic of Hogwarts — VinnovateIT blends fun with functionality, offering hands-on projects, peer learning, and a space where ideas come alive and tech dreams take flight.",
-        "img_path": "",
+        "img_path": "VINNOVATEIT.jpeg",
         "asc_type": "CLUB",
         "club_type": [
             "TECHNICAL"
@@ -1115,7 +1115,7 @@
         "serial": 101,
         "name": "GEOSPATIAL CLUB",
         "description": "The Geospatial Club at VIT Vellore is a student-driven community focused on Geographic Information Systems (GIS), remote sensing, spatial analysis, and cutting-edge mapping technologies. Dedicated to bridging the gap between theory and real-world application, the club offers hands-on learning experiences, workshops, and collaborative projects that empower members to tackle global challenges using geospatial solutions. It’s a hub for curious minds passionate about understanding and visualizing the world through the lens of data and location intelligence.",
-        "img_path": "",
+        "img_path": "GEOSPATIAL CLUB.jpeg",
         "asc_type": "CLUB",
         "club_type": [
             "TECHNICAL"
@@ -1126,7 +1126,7 @@
         "serial": 102,
         "name": "MATHVERSE CLUB",
         "description": "The Mathverse Club at VIT Vellore is a vibrant community for math enthusiasts who love exploring the fascinating world of numbers, patterns, and problem-solving. The club organizes workshops, quizzes, and challenges that encourage critical thinking and creativity, helping members deepen their understanding of mathematical concepts beyond the classroom. Whether it’s puzzles, competitions, or collaborative learning, Mathverse is the perfect space to ignite your passion for math and connect with like-minded peers.",
-        "img_path": "",
+        "img_path": "MATHVERSE.jpg",
         "asc_type": "CLUB",
         "club_type": [
             "TECHNICAL"
@@ -1209,7 +1209,7 @@
         "serial": 111,
         "name": "COMPBIO CELL - RSG INDIA",
         "description": "The CompBio Cell - RSG India chapter at VIT Vellore is part of a nationwide network dedicated to advancing the field of computational biology and bioinformatics. The chapter connects students passionate about applying computational techniques to solve biological problems, fostering learning through workshops, seminars, and collaborative projects. By bridging biology, computer science, and data analysis, CompBio Cell empowers members to explore cutting-edge research and innovations in life sciences, preparing them for impactful careers in this interdisciplinary domain.",
-        "img_path": "",
+        "img_path": "COMPBIO CELL.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
         "socials": {}
@@ -1470,7 +1470,7 @@
         "serial": 140,
         "name": "SOFT COMPUTING RESEARCH SOCIETY (SCRS)",
         "description": "The Soft Computing Research Society (SCRS) chapter at VIT Vellore is a dynamic, multi-domain community driving innovation at the intersection of computer science and soft computing technologies. It offers a holistic experience through four key domains: Technical members dive into AI, programming, and cutting-edge projects; Management members hone skills in project execution and event coordination; Design and Editorial members blend creativity with tech to craft engaging visuals and content; and PR & Outreach members build valuable industry connections and manage collaborations. Together, SCRS nurtures talent across diverse skill sets to transform ideas into impactful solutions.",
-        "img_path": "",
+        "img_path": "SCRS.jpeg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
         "socials": {}
@@ -1524,7 +1524,7 @@
         "serial": 146,
         "name": "THE SOCIETY OF PETROLEUM ENGINEERS (SPE)",
         "description": "The Society of Petroleum Engineers (SPE) chapter at VIT Vellore is a student-led community dedicated to advancing knowledge and innovation in the oil and gas industry. The chapter connects aspiring petroleum engineers through workshops, technical sessions, and industry interactions that cover exploration, drilling, production, and reservoir management. SPE at VIT provides a platform for students to develop professional skills, stay updated on energy sector trends, and prepare for impactful careers in the dynamic world of petroleum engineering.",
-        "img_path": "",
+        "img_path": "SPE.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
         "socials": {}
@@ -1533,7 +1533,7 @@
         "serial": 147,
         "name": "TOASTMASTERS INTERNATIONAL",
         "description": "Toastmasters International (TMI) is the leading movement devoted to making effective oral communication a worldwide reality. Learn the arts of speaking, listening, and thinking \u2013 vital skills that promote self-actualization, enhance leadership potential, foster human understanding, and contribute to the betterment of mankind. Improve their communication and leadership skills, and find the courage to change. Members are mentored to become better speakers by regularly practicing public speaking skills. The motto of Toastmasters International is \"where leaders are made\", and T we help the members explore leadership opportunities by letting them head a team 6 months after them being inducted. We have organize various national and international conferences and the Toastmasters of VIT have won several competitions in these conferences.",
-        "img_path": "",
+        "img_path": "TMI.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
         "socials": {}

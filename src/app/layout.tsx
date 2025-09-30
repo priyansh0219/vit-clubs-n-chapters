@@ -32,6 +32,10 @@ export default function RootLayout({
           name='google-site-verification'
           content='pJrXQL_TPtxT2kqTcwBcDOOMGn6G3d_wSGH7FtqEht0'
         />
+        <meta
+          name='google-adsense-account'
+          content='ca-pub-4670700793173319'
+        ></meta>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

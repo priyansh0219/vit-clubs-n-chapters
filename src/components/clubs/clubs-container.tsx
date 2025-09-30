@@ -55,14 +55,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         .toLowerCase()
         .includes(filters.searchTerm.toLowerCase());
 
-      const matchesType =
-        filters.filterType === "ALL" || item.asc_type === filters.filterType;
-
-      const matchesClubType =
-        filters.filterClubType === "ALL" ||
-        (item.asc_type === "CLUB" &&
-          item.club_type?.includes(filters.filterClubType));
-
       // Advanced club type filter (multi-select)
       const matchesSelectedClubTypes =
         filters.selectedClubTypes.length === 0 ||
@@ -77,6 +69,46 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         (item.asc_type === "CHAPTER" &&
           item.chapter_type &&
           filters.selectedChapterTypes.includes(item.chapter_type));
+
+      // Check if advanced category filters are being used
+      const hasAdvancedCategoryFilters =
+        filters.selectedClubTypes.length > 0 ||
+        filters.selectedChapterTypes.length > 0;
+
+      // Type filtering logic that works with advanced filters
+      let matchesType;
+      if (hasAdvancedCategoryFilters) {
+        // When advanced category filters are active, allow items that match those categories
+        // regardless of the basic type filter, but still respect type filter when no advanced match
+        const bothCategoriesSelected =
+          filters.selectedClubTypes.length > 0 &&
+          filters.selectedChapterTypes.length > 0;
+
+        if (bothCategoriesSelected) {
+          // If both club and chapter categories selected, show items matching either
+          matchesType = matchesSelectedClubTypes || matchesSelectedChapterTypes;
+        } else if (filters.selectedClubTypes.length > 0) {
+          // Only club categories selected
+          matchesType =
+            (filters.filterType === "ALL" || filters.filterType === "CLUB") &&
+            matchesSelectedClubTypes;
+        } else {
+          // Only chapter categories selected
+          matchesType =
+            (filters.filterType === "ALL" ||
+              filters.filterType === "CHAPTER") &&
+            matchesSelectedChapterTypes;
+        }
+      } else {
+        // No advanced filters, use basic type filter
+        matchesType =
+          filters.filterType === "ALL" || item.asc_type === filters.filterType;
+      }
+
+      const matchesClubType =
+        filters.filterClubType === "ALL" ||
+        (item.asc_type === "CLUB" &&
+          item.club_type?.includes(filters.filterClubType));
 
       // Social media filter
       const matchesSocials =
@@ -99,8 +131,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         matchesSearch &&
         matchesType &&
         matchesClubType &&
-        matchesSelectedClubTypes &&
-        matchesSelectedChapterTypes &&
         matchesSocials &&
         matchesSocialPlatforms
       );

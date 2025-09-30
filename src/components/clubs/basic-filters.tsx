@@ -64,7 +64,7 @@ export const BasicFilters: React.FC<BasicFiltersProps> = ({
               showAdvancedFilters: !filters.showAdvancedFilters,
             })
           }
-          className={`md:w-48 transition-all duration-300 ${
+          className={`md:w-48 transition-all duration-300 cursor-pointer ${
             filters.showAdvancedFilters
               ? "bg-blue-50 dark:bg-blue-900/30 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50"
               : "bg-white/70 dark:bg-slate-700/70 hover:bg-white/90 dark:hover:bg-slate-600/70"

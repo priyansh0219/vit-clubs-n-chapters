@@ -23,6 +23,7 @@ import {
 } from "@/lib/club-utils";
 import { getCategoryIcon, getSocialIcon } from "@/components/clubs/club-icons";
 import { SafeImage } from "@/components/ui";
+import { SocialPresenceStats } from "./social-presence-stats";
 
 interface ClubDetailPageProps {
   club: ClubData;
@@ -213,6 +214,11 @@ export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
             </div>
           </CardContent>
         </Card>
+
+        {/* Social Presence Stats */}
+        <div className='mt-8'>
+          <SocialPresenceStats club={club} />
+        </div>
 
         {/* Contact Information */}
         <Card className='mt-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-slate-800 dark:to-slate-700 border-blue-200 dark:border-slate-600'>

@@ -11,14 +11,15 @@ export async function generateStaticParams() {
 }
 
 interface ClubPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function ClubPage({ params }: ClubPageProps) {
+export default async function ClubPage({ params }: ClubPageProps) {
+  const { slug } = await params;
   const typedData = data as ClubData[];
-  const club = findClubBySlug(typedData, params.slug);
+  const club = findClubBySlug(typedData, slug);
 
   if (!club) {
     notFound();
@@ -34,8 +35,9 @@ export default function ClubPage({ params }: ClubPageProps) {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: ClubPageProps) {
+  const { slug } = await params;
   const typedData = data as ClubData[];
-  const club = findClubBySlug(typedData, params.slug);
+  const club = findClubBySlug(typedData, slug);
 
   if (!club) {
     return {

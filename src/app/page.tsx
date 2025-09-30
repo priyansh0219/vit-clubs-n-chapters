@@ -1,14 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Image from "next/image";
 import data from "@/../data/data.json";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -55,7 +50,6 @@ import {
   Github,
   Send,
   Globe2,
-  Filter,
   SlidersHorizontal,
   Check,
   ChevronsUpDown,
@@ -83,9 +77,6 @@ import {
   Lightbulb,
   Target,
   Headphones,
-  Flag,
-  MapPin,
-  Waves,
   Network,
   Crown,
   Hexagon,
@@ -142,7 +133,7 @@ export default function Home() {
       }
     });
     return Array.from(types).sort();
-  }, []);
+  }, [typedData]);
 
   // Get unique chapter types for filter
   const chapterTypes = useMemo(() => {
@@ -153,7 +144,7 @@ export default function Home() {
       }
     });
     return Array.from(types).sort();
-  }, []);
+  }, [typedData]);
 
   // Available social platforms
   const socialPlatforms = [
@@ -170,7 +161,7 @@ export default function Home() {
 
   // Filter and search data
   const filteredData = useMemo(() => {
-    let filtered = typedData.filter((item) => {
+    const filtered = typedData.filter((item) => {
       const matchesSearch = item.name
         .toLowerCase()
         .includes(searchTerm.toLowerCase());
@@ -227,6 +218,7 @@ export default function Home() {
 
     return filtered;
   }, [
+    typedData,
     searchTerm,
     filterType,
     filterClubType,
@@ -245,7 +237,7 @@ export default function Home() {
   // Reset to first page when filters change
   useMemo(() => {
     setCurrentPage(1);
-  }, [searchTerm, filterType, filterClubType]);
+  }, []);
 
   const formatClubType = (type: string) => {
     return type
@@ -740,10 +732,12 @@ export default function Home() {
             >
               {/* Image Section with Overlaid Badge */}
               <div className='relative w-full h-56 overflow-hidden'>
-                <img
+                <Image
                   src={`/images/${item.img_path}`}
                   alt={item.name}
-                  className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                  fill
+                  sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                  className='object-cover transition-transform duration-500 group-hover:scale-110'
                 />
                 {/* Gradient overlay for better text visibility */}
                 <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent' />

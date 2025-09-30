@@ -125,21 +125,14 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
                       variant='outline'
                       size='sm'
                       className='p-2 h-8 w-8 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 hover:scale-110'
-                      asChild
+                      title={`${club.name} on ${platform}`}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        e.preventDefault();
+                        window.open(url, "_blank", "noopener,noreferrer");
+                      }}
                     >
-                      <a
-                        href={url}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        title={`${club.name} on ${platform}`}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          e.preventDefault();
-                          window.open(url, "_blank", "noopener,noreferrer");
-                        }}
-                      >
-                        {getSocialIcon(platform)}
-                      </a>
+                      {getSocialIcon(platform)}
                     </Button>
                   )
               )}

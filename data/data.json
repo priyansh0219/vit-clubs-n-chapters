@@ -9,8 +9,9 @@
             "ARTS_AND_CULTURE"
         ],
         "socials": {
-            "instagram": "https://in.linkedin.com/company/the-photography-club-vit",
-            "linkedin": "https://www.instagram.com/photographyclubvit/"
+            "linkedin": "https://in.linkedin.com/company/the-photography-club-vit",
+            "instagram": "https://www.instagram.com/photographyclubvit/",
+            "facebook": "https://www.facebook.com/thephotographyclubvit/"
         }
     },
     {
@@ -36,7 +37,13 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitfilmsociety/?hl=en",
+            "youtube": "https://www.youtube.com/c/VITFilmSociety/",
+            "linkedin": "https://in.linkedin.com/company/vitfilmsociety",
+            "facebook": "https://www.facebook.com/VITFilmSociety/",
+            "website": "https://vitfilmsocietyvlr.wixsite.com/vfsvellore"
+        }
     },
     {
         "serial": 4,
@@ -47,7 +54,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/malayalam-literary-association",
+            "instagram": "https://www.instagram.com/mla_oruma/?hl=en",
+            "youtube": "https://youtube.com/@malayalamliteraryassociation?si=Cp93ksklc17B7FUz",
+            "facebook": "https://www.facebook.com/mlathanima/"
+        }
     },
     {
         "serial": 5,
@@ -58,7 +70,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/sos_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/smile-over-stress-sos-vit",
+            "facebook": "https://www.facebook.com/sosvitofficial/"
+        }
     },
     {
         "serial": 6,
@@ -69,7 +85,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitdebsoc/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/debate-society-vit",
+            "facebook": "https://www.facebook.com/vitdebsoc/"
+        }
     },
     {
         "serial": 7,
@@ -80,7 +100,13 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/vitanimationclub/",
+            "youtube": "https://www.youtube.com/c/vitanimationclub",
+            "instagram": "https://www.instagram.com/vit_animation/",
+            "website": "https://vitanimation.netlify.app/",
+            "linkedin": "https://in.linkedin.com/company/vit-animation"
+        }
     },
     {
         "serial": 8,
@@ -91,7 +117,15 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://tedxvit.com/",
+            "linkedin": "https://in.linkedin.com/company/tedx-vitvellore",
+            "medium": "https://medium.com/tedxvitvellore",
+            "facebook": "https://www.facebook.com/Tedxvitvellore/",
+            "twitter": "https://x.com/TEDxVITVellore",
+            "discord": "https://discord.com/invite/wjg7gx88yc",
+            "instagram": "https://www.instagram.com/tedxvitvellore/"
+        }
     },
     {
         "serial": 9,
@@ -102,7 +136,12 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/fep-si",
+            "instagram": "https://www.instagram.com/fepsi.india/?hl=en",
+            "facebook": "https://www.facebook.com/fepsi.india/",
+            "twitter": "https://x.com/fepsi_vit"
+        }
     },
     {
         "serial": 10,
@@ -113,7 +152,15 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://tecvit.in/",
+            "medium": "https://tec-vit.medium.com/",
+            "linkedin": "https://www.linkedin.com/company/the-electronics-club-vit/",
+            "instagram": "https://www.instagram.com/tec.vit/",
+            "facebook": "https://www.facebook.com/tec.vit/",
+            "github": "https://github.com/TEC-VIT",
+            "discord": "https://discord.com/invite/KpuaP2nCXj"
+        }
     },
     {
         "serial": 11,
@@ -124,7 +171,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/iquest.vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/innovatorsquest",
+            "facebook": "https://www.facebook.com/InnovatorsQuest/"
+        }
     },
     {
         "serial": 12,
@@ -135,7 +186,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/tagclub.vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/tag-club-vit",
+            "github": "https://github.com/Technology-And-Gaming-Club"
+        }
     },
     {
         "serial": 13,

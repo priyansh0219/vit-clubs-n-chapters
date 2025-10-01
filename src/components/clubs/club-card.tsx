@@ -12,6 +12,7 @@ import {
 } from "@/lib/club-utils";
 import { getCategoryIcon, getSocialIcon } from "./club-icons";
 import { generateSlug } from "@/lib/slug-utils";
+import { getSortedSocialPlatforms } from "@/lib/social-utils";
 import { SafeImage } from "@/components/ui";
 
 interface ClubCardProps {
@@ -119,25 +120,22 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
           {/* Social Links */}
           {club.socials && Object.keys(club.socials).length > 0 && (
             <div className='flex gap-2 pt-2 border-t border-gray-100 dark:border-gray-700'>
-              {Object.entries(club.socials).map(
-                ([platform, url]) =>
-                  url && (
-                    <Button
-                      key={platform}
-                      variant='outline'
-                      size='sm'
-                      className='p-2 h-8 w-8 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 hover:scale-110'
-                      title={`${club.name} on ${platform}`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        e.preventDefault();
-                        window.open(url, "_blank", "noopener,noreferrer");
-                      }}
-                    >
-                      {getSocialIcon(platform)}
-                    </Button>
-                  )
-              )}
+              {getSortedSocialPlatforms(club.socials).map(([platform, url]) => (
+                <Button
+                  key={platform}
+                  variant='outline'
+                  size='sm'
+                  className='p-2 h-8 w-8 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 hover:scale-110'
+                  title={`${club.name} on ${platform}`}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    window.open(url, "_blank", "noopener,noreferrer");
+                  }}
+                >
+                  {getSocialIcon(platform)}
+                </Button>
+              ))}
             </div>
           )}
         </div>

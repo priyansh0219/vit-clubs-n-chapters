@@ -22,6 +22,7 @@ import {
   getBadgeColors,
 } from "@/lib/club-utils";
 import { getCategoryIcon, getSocialIcon } from "@/components/clubs/club-icons";
+import { getSortedSocialPlatforms } from "@/lib/social-utils";
 import { SafeImage } from "@/components/ui";
 import { SocialPresenceStats } from "./social-presence-stats";
 
@@ -165,27 +166,26 @@ export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
                 </CardHeader>
                 <CardContent>
                   <div className='flex flex-wrap gap-3'>
-                    {Object.entries(club.socials).map(
-                      ([platform, url]) =>
-                        url && (
-                          <Button
-                            key={platform}
-                            variant='outline'
-                            size='sm'
-                            className='flex items-center gap-2 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200'
-                            asChild
+                    {getSortedSocialPlatforms(club.socials).map(
+                      ([platform, url]) => (
+                        <Button
+                          key={platform}
+                          variant='outline'
+                          size='sm'
+                          className='flex items-center gap-2 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200'
+                          asChild
+                        >
+                          <a
+                            href={url}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='flex items-center gap-2'
                           >
-                            <a
-                              href={url}
-                              target='_blank'
-                              rel='noopener noreferrer'
-                              className='flex items-center gap-2'
-                            >
-                              {getSocialIcon(platform)}
-                              <span className='capitalize'>{platform}</span>
-                            </a>
-                          </Button>
-                        )
+                            {getSocialIcon(platform)}
+                            <span className='capitalize'>{platform}</span>
+                          </a>
+                        </Button>
+                      )
                     )}
                   </div>
                 </CardContent>

@@ -12,13 +12,13 @@ export const formatChapterType = (type: string) => {
 export const socialPlatforms = [
   "website",
   "instagram",
-  "twitter",
   "facebook",
-  "medium",
-  "telegram",
+  "twitter",
   "linkedin",
   "youtube",
   "github",
+  "medium",
+  "telegram",
   "discord",
 ];
 

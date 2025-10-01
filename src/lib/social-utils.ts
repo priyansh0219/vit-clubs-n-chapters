@@ -1,6 +1,49 @@
 import { ClubData } from "@/types/club";
 
 /**
+ * Predefined order for displaying social platforms
+ */
+const SOCIAL_PLATFORM_ORDER = [
+  "website",
+  "instagram",
+  "facebook",
+  "twitter",
+  "linkedin",
+  "youtube",
+  "github",
+  "medium",
+  "telegram",
+  "discord",
+] as const;
+
+/**
+ * Sort social platforms in the predefined order
+ */
+export function getSortedSocialPlatforms(
+  socials: Record<string, string | undefined>
+): Array<[string, string]> {
+  const validSocials = Object.entries(socials).filter(
+    ([, url]) => url && url.trim() !== ""
+  ) as Array<[string, string]>;
+
+  // Sort based on the predefined order
+  return validSocials.sort(([platformA], [platformB]) => {
+    const indexA = SOCIAL_PLATFORM_ORDER.indexOf(
+      platformA as (typeof SOCIAL_PLATFORM_ORDER)[number]
+    );
+    const indexB = SOCIAL_PLATFORM_ORDER.indexOf(
+      platformB as (typeof SOCIAL_PLATFORM_ORDER)[number]
+    );
+
+    // If platform is not in the predefined order, put it at the end
+    const orderA = indexA === -1 ? SOCIAL_PLATFORM_ORDER.length : indexA;
+    const orderB = indexB === -1 ? SOCIAL_PLATFORM_ORDER.length : indexB;
+
+    return orderA - orderB;
+  });
+}
+
+/**
  * Calculate social presence score based on number of social media platforms
  */
 export function calculateSocialPresence(club: ClubData): {
@@ -33,9 +76,8 @@ export function calculateSocialPresence(club: ClubData): {
     };
   }
 
-  const activePlatforms = Object.entries(club.socials)
-    .filter(([, url]) => url && url.trim() !== "")
-    .map(([platform]) => platform);
+  const sortedPlatforms = getSortedSocialPlatforms(club.socials);
+  const activePlatforms = sortedPlatforms.map(([platform]) => platform);
 
   const score = activePlatforms.length;
   const percentage = Math.round((score / allPlatforms.length) * 100);

@@ -23,8 +23,8 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
   const clubSlug = generateSlug(club.name);
 
   return (
-    <Link href={`/club/${clubSlug}`} className='block'>
-      <Card className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/40 dark:border-slate-700/40 overflow-hidden p-0 cursor-pointer hover:ring-2 hover:ring-blue-300 dark:hover:ring-blue-600'>
+    <Link href={`/club/${clubSlug}`} className='block h-full'>
+      <Card className='group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/40 dark:border-slate-700/40 overflow-hidden p-0 cursor-pointer hover:ring-2 hover:ring-blue-300 dark:hover:ring-blue-600 h-full flex flex-col'>
         {/* Image Section with Overlaid Badge */}
         <div className='relative w-full h-56 overflow-hidden bg-white'>
           <SafeImage
@@ -69,7 +69,7 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
         </div>
 
         {/* Content Section */}
-        <div className='p-6'>
+        <div className='p-6 flex-1 flex flex-col'>
           <div className='flex items-start justify-between gap-2 mb-4'>
             <CardTitle className='text-xl font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-tight dark:text-white flex-1'>
               {club.name}
@@ -83,7 +83,7 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
           </div>
 
           {/* Category Tags */}
-          <div className='flex flex-wrap gap-2 mb-4'>
+          <div className='flex flex-wrap gap-2 mb-4 flex-1'>
             {club.asc_type === "CLUB" && club.club_type ? (
               club.club_type.map((type, index) => {
                 const colors = getBadgeColors(type);
@@ -119,7 +119,7 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
 
           {/* Social Links */}
           {club.socials && Object.keys(club.socials).length > 0 && (
-            <div className='flex gap-2 pt-2 border-t border-gray-100 dark:border-gray-700'>
+            <div className='flex gap-2 pt-2 border-t border-gray-100 dark:border-gray-700 mt-auto'>
               {getSortedSocialPlatforms(club.socials).map(([platform, url]) => (
                 <Button
                   key={platform}

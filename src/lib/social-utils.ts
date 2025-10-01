@@ -20,6 +20,7 @@ export function calculateSocialPresence(club: ClubData): {
     "github",
     "medium",
     "telegram",
+    "discord",
   ];
 
   if (!club.socials) {

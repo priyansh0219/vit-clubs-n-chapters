@@ -1,14 +1,18 @@
 import React from "react";
+import { Globe2 } from "lucide-react";
 import {
-  Globe2,
-  Instagram,
-  Twitter,
-  Facebook,
-  ExternalLink,
-  Send,
-  Linkedin,
-  Youtube,
-  Github,
+  FaInstagram,
+  FaTwitter,
+  FaFacebook,
+  FaMedium,
+  FaTelegram,
+  FaLinkedin,
+  FaYoutube,
+  FaGithub,
+  FaDiscord,
+  FaExternalLinkAlt,
+} from "react-icons/fa";
+import {
   Palette,
   BookOpen,
   Heart,
@@ -49,23 +53,25 @@ export const getSocialIcon = (platform: string) => {
     case "website":
       return <Globe2 {...iconProps} />;
     case "instagram":
-      return <Instagram {...iconProps} />;
+      return <FaInstagram {...iconProps} />;
     case "twitter":
-      return <Twitter {...iconProps} />;
+      return <FaTwitter {...iconProps} />;
     case "facebook":
-      return <Facebook {...iconProps} />;
+      return <FaFacebook {...iconProps} />;
     case "medium":
-      return <ExternalLink {...iconProps} />;
+      return <FaMedium {...iconProps} />;
+    case "discord":
+      return <FaDiscord {...iconProps} />;
     case "telegram":
-      return <Send {...iconProps} />;
+      return <FaTelegram {...iconProps} />;
     case "linkedin":
-      return <Linkedin {...iconProps} />;
+      return <FaLinkedin {...iconProps} />;
     case "youtube":
-      return <Youtube {...iconProps} />;
+      return <FaYoutube {...iconProps} />;
     case "github":
-      return <Github {...iconProps} />;
+      return <FaGithub {...iconProps} />;
     default:
-      return <ExternalLink {...iconProps} />;
+      return <FaExternalLinkAlt {...iconProps} />;
   }
 };
 

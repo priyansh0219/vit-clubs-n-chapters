@@ -19,6 +19,7 @@ export const socialPlatforms = [
   "linkedin",
   "youtube",
   "github",
+  "discord",
 ];
 
 export const getBadgeColors = (type: string) => {

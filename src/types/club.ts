@@ -16,6 +16,7 @@ export type ClubData = {
     linkedin?: string;
     youtube?: string;
     github?: string;
+    discord?: string;
   };
 };
 

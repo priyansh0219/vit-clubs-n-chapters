@@ -71,6 +71,9 @@
                     },
                     "github": {
                         "type": "string"
+                    },
+                    "discord": {
+                        "type": "string"
                     }
                 }
             }

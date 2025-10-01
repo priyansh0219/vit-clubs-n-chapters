@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "process-events": "node event-processor.js",
+    "analyze-events": "node event-processor.js analyze",
+    "match-events": "node event-processor.js match",
+    "events-summary": "node event-processor.js summary"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

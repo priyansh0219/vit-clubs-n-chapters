@@ -29,4 +29,5 @@ export type FilterState = {
   hasSocials: boolean | null;
   selectedSocialPlatforms: string[];
   showAdvancedFilters: boolean;
+  gravitasParticipant: boolean | null;
 };

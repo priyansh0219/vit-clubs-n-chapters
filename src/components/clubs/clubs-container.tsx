@@ -8,6 +8,8 @@ import { ClubPagination } from "./club-pagination";
 import { EmptyState } from "./empty-state";
 import { ClubFinderForm } from "@/components/club-finder";
 import { fuzzySearch } from "@/lib/fuzzy-search";
+import { GravitasStats } from "@/components/gravitas-stats";
+import { clubHasEvents } from "@/lib/events-utils";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -27,6 +29,7 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
     hasSocials: null,
     selectedSocialPlatforms: [],
     showAdvancedFilters: false,
+    gravitasParticipant: null,
   });
 
   // Get unique club types for filter
@@ -127,11 +130,19 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
               item.socials[platform as keyof typeof item.socials]
           ));
 
+      // Gravitas participant filter
+      const matchesGravitas =
+        filters.gravitasParticipant === null ||
+        (filters.gravitasParticipant
+          ? clubHasEvents(item.name)
+          : !clubHasEvents(item.name));
+
       return (
         matchesType &&
         matchesClubType &&
         matchesSocials &&
-        matchesSocialPlatforms
+        matchesSocialPlatforms &&
+        matchesGravitas
       );
     });
 
@@ -183,6 +194,7 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
       hasSocials: null,
       selectedSocialPlatforms: [],
       showAdvancedFilters: false,
+      gravitasParticipant: null,
     });
     setCurrentPage(1);
   };
@@ -211,6 +223,9 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         onStartExploring={handleStartExploring}
         onFindPerfectClub={handleFindPerfectClub}
       />
+
+      {/* Gravitas 2025 Stats */}
+      <GravitasStats className='mb-8' />
 
       {/* Search and Filters */}
       <div className='bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 mb-8 shadow-lg border border-white/20 dark:border-slate-700/20'>

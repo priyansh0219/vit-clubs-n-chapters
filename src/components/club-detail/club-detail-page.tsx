@@ -25,12 +25,17 @@ import { getCategoryIcon, getSocialIcon } from "@/components/clubs/club-icons";
 import { getSortedSocialPlatforms } from "@/lib/social-utils";
 import { SafeImage } from "@/components/ui";
 import { SocialPresenceStats } from "./social-presence-stats";
+import { ClubEvents } from "./club-events";
+import { getEventsForClub } from "@/lib/events-utils";
 
 interface ClubDetailPageProps {
   club: ClubData;
 }
 
 export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
+  // Get events for this club
+  const clubEvents = getEventsForClub(club.name);
+
   const handleShare = async () => {
     if (navigator.share) {
       try {
@@ -214,6 +219,13 @@ export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
             </div>
           </CardContent>
         </Card>
+
+        {/* Gravitas Events Section */}
+        {clubEvents.length > 0 && (
+          <div className='mt-8'>
+            <ClubEvents events={clubEvents} />
+          </div>
+        )}
 
         {/* Social Presence Stats */}
         <div className='mt-8'>

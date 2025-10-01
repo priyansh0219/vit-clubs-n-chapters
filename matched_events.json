@@ -1,0 +1,1749 @@
+{
+  "CODECHEF - VIT": [
+    {
+      "name": "CookOff 10.0",
+      "type": "Competition",
+      "description": "In Competitive Coding, logic reigns supreme. Algorithms can be learned, but true brilliance lies in raw, simple logic.\n\nWelcome to CookOff 10.0 – the legendary coding arena of graVITas. For a decade, it has tested skill, speed, and creativity, celebrating problem-solving, where innovation meets determination.\n\nWhether you’re a seasoned coder or a beginner ready to shine, this is your stage. Step into the Colosseum of Creativity, where every line of code takes you closer to victory.\n\nThis is more than a contest, it’s a tradition, a legacy. Now, it’s your moment.\n\nAre you ready to code your way to greatness?",
+      "club": "CODECHEF - VIT",
+      "short_description": "Step into the longest-running competitive coding event at graVITas! CookOff is back with its 10th edition. More than just algorithms and data structures, it’s a test of pure logic, problem-solving, and creativity. Whether you’re a coding veteran or a rising talent, this is your chance to challenge limits, showcase skills, and compete with sharpest minds. Be part of the legacy.",
+      "tagline": "Learn.Code.Simplify",
+      "image": "https://i.imgur.com/lT4FPGK.png",
+      "start_date": "2025-09-28T08:00:00Z",
+      "end_date": "2025-09-28T16:00:00Z"
+    },
+    {
+      "name": "Clueminati 3.0",
+      "type": "Games",
+      "description": "Every tale of survival begins with loss. A fellowship is torn apart - some dragged into Hell, others left on Earth, desperate to bring them back. The living hunt for clues, while the damned confronts cryptic trials, both inching toward a single truth: salvation is impossible without sacrifice.\n\nA final trial awaits - one that will test wit, unity, and resolve. Only the strongest will rise from the flame; the rest will remain bound in darkness.\n\nDo you have what it takes to bring your friends Back to Life?",
+      "club": "CODECHEF - VIT",
+      "short_description": "Clueminati is back with its third edition and this time, the treasure hunt is full of secrets, twists, and surprises at every turn. Teams will be split, mysteries will unfold, and only the cleverest will escape unscathed. Will you uncover the mysteries, outsmart the trials, and rise victorious? Step in... if you dare.",
+      "tagline": "Face The Flames, Revive or Remain.",
+      "image": "https://i.imgur.com/uaiwAUY.png",
+      "start_date": "2025-09-25T08:00:00Z",
+      "end_date": "2025-09-25T13:00:00Z"
+    }
+  ],
+  "COMPUTER SOCIETY OF INDIA (CSI)": [
+    {
+      "name": "LaserTag",
+      "type": "Games",
+      "description": "LaserTag is an electrifying 5v5 arena game that puts you and your team in a fast-paced battle to score the most points. Armed with high-tech laser guns, you’ll face off against opponents in a glowing battlefield filled with UV lights, lasers, and vibrant artwork that bring the arena to life. Every corner is designed to heighten the thrill, blending strategy, speed, and accuracy in a truly immersive experience.\n\nThe game is completely safe and beginner-friendly, making it perfect for first-timers while still delivering the adrenaline rush that seasoned players crave. With every shot fired and every point earned, the energy builds, keeping you on edge and fully engaged until the last second.\n\nWhether you’re here to compete with friends, test your reflexes, or just enjoy the glow of lasers lighting up the arena, LaserTag guarantees a fun, competitive, and unforgettable adventure. Step inside, gear up, and get ready for a battle that’s as safe as it is exhilarating.",
+      "club": "COMPUTER SOCIETY OF INDIA (CSI)",
+      "short_description": "LaserTag is a thrilling 5v5 arena game where you race to score the most points with laser guns against opponents. Surrounded by glowing UV lights, lasers, and vibrant artwork, the arena creates a fun, competitive vibe. Safe, beginner-friendly, and adrenaline-packed, it’s an experience you won’t forget. Step in, gear up, and let the battle begin!",
+      "tagline": "‘The grid never sleeps , the lights never die’",
+      "image": "https://i.imgur.com/Ak2EwOa.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "ForkThis",
+      "type": "Competition",
+      "description": "ForkThis is CSI-VIT’s flagship open-source workshop conducted by CSI core members. It focuses on Git and GitHub through theory, demos, and real-life implementation. The event includes an industry expert session on open source. \n After the workshop, a 2-day online competition will be held featuring bug-fix projects, a live leaderboard, and exciting prize money for the top performers.",
+      "club": "Computer Society of India",
+      "short_description": "ForkThis is CSI-VIT’s flagship workshop on Git and GitHub, featuring an expert session and a 2-day online competition.",
+      "tagline": "GIT.SET.FORK",
+      "image": "https://i.imgur.com/5dGxFVT.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T20:00:00Z"
+    },
+    {
+      "name": "BattleCode",
+      "type": "Competition",
+      "description": "BattleCode is a fast-paced competitive coding event packed with unique challenges.You’ll take on real opponents in head-to-head battles, race against the clock, and tackle rounds that test both your logic and strategy. Every stage brings a new twist, keeping you on your toes until the very end.",
+      "club": "IEEE - Computer Society",
+      "short_description": "BattleCode is a fast-paced coding event where you'll face opponents in head-to-head battles. Each stage introduces a new strategic twist, testing your skills until the very end.",
+      "tagline": "Code. Clash. Conquer. - Outsmart the battlefield, one algorithm at a time!",
+      "image": "https://i.imgur.com/dJ5fCHL.jpeg",
+      "start_date": "2025-09-28T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "Cicada 3300",
+      "type": "Games",
+      "description": "CICADA 3300 is a mystery-filled competition where you solve puzzles, crack codes, and uncover hidden clues. From ciphers and visual tricks to logic and memory challenges, every stage takes you deeper into the unknown. It’s not just about solving problems, but about discovering what lies beyond them. You weren’t meant to find this, You were meant to awaken. Matrix te tenet — nisi te ipsum perdas.",
+      "club": "IEEE COMPUTER SOCIETY (IEEE-CS)",
+      "short_description": "CICADA 3300 is a mystery-filled competition where you solve puzzles , ciphers ,  crack codes, and uncover hidden clues  pushing your logic, memory, and curiosity deeper into the unknown.",
+      "tagline": "The glitch wasn’t a mistake, it was a message.",
+      "image": "https://i.imgur.com/j2wo2lM.jpeg",
+      "start_date": "2025-09-22T10:00:00Z",
+      "end_date": "2025-09-22T18:00:00Z"
+    },
+    {
+      "name": "HackBattle",
+      "type": "Hackathon",
+      "description": "HackBattle, organized by IEEE Computer Society (IEEE CS), is a dynamic 36-hour hackathon designed to bring together the brightest innovators, passionate creators, and determined problem-solvers under one roof. It is more than just a coding marathon; it is a transformative journey where participants push the boundaries of creativity, technology, and teamwork.\nOver the course of a thrilling overnight experience, students and professionals alike will work tirelessly to turn ideas into reality, tackling carefully curated real-world problem statements that demand innovative thinking and practical solutions. Teams will ideate, design, and build projects that not only demonstrate technical excellence but also create meaningful impact in society.\nWhat sets HackBattle apart is its blend of competition and collaboration. While teams strive to outshine each other with their projects, the event fosters a supportive ecosystem where learning and knowledge-sharing are equally valued. Participants will have the opportunity to interact with mentors, industry leaders, and experts, gaining insights into emerging technologies, best practices, and career growth in the tech landscape.\nThe event is structured to ensure that creativity is matched with guidance and exposure. Alongside the hackathon, participants can attend exclusive workshops, tech talks, and panel discussions led by professionals who bring real-world experience to the table. These sessions not only help participants strengthen their technical skills but also inspire them to think bigger and bolder.\nHackBattle is also a networking platform where aspiring innovators connect with like-minded peers, mentors, and organizations. Whether it is collaborating with teammates, learning from experts, or showcasing projects to potential recruiters and sponsors, participants gain experiences that extend far beyond the 36-hour challenge.\nAt its core, HackBattle is a celebration of innovation, teamwork, and the unstoppable energy of technology. It is a space where ideas take flight, where persistence meets passion, and where the leaders of tomorrow emerge with solutions that can shape the future.",
+      "club": "IEEE COMPUTER SOCIETY (IEEE-CS)",
+      "short_description": "HackBattle is a dynamic 36-hour hackathon where innovators, creators, and problem-solvers come together to code, collaborate, and compete. This overnight coding marathon is a fast-paced journey of turning ideas into reality, tackling real-world challenges, and building impactful solutions that push creativity and technical skill to the next level. Alongside the competition, participants will enjoy inspiring sessions from industry leaders, offering expert insights, practical guidance, and valuable networking. More than just an event, HackBattle is a vibrant celebration of innovation, teamwork, and the unstoppable energy of technology.",
+      "tagline": "Less talk, more Hack",
+      "image": "https://i.imgur.com/stxOvLx.png",
+      "start_date": "2025-09-24T08:00:00Z",
+      "end_date": "2025-09-25T20:00:00Z"
+    }
+  ],
+  "BECOMING I FOUNDATION": [
+    {
+      "name": "Kaun Banega Codepati",
+      "type": "Competition",
+      "description": "Kon Banega Codepati (KBC) is a fun-filled coding + quiz event inspired by the iconic KBC format. With quiz rounds, coding challenges, lifelines, and a buzzer finale, it blends knowledge with entertainment. Open to all batches, KBC ensures collaboration, excitement, and rewards, making it one of Gravitas’ most engaging highlights.",
+      "club": "Becoming I Foundation (BIF-VIT)",
+      "short_description": "Kon Banega Codepati (KBC) blends quizzes, coding, and buzzer rounds with lifelines, offering fun, collaboration, and excitement across batches.",
+      "tagline": "Level Sabke Niklenge",
+      "image": "https://i.imgur.com/mhap5iu.jpeg",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    },
+    {
+      "name": "Make-A-Smile",
+      "type": "Workshop",
+      "description": "MAKE-A-SMILE is an event by Becoming I Foundation (BIF) at VIT, reimagining our FLAGSHIP EVENT Smile event with an exciting STEM-based twist. Continuing the tradition of spreading joy during Riviera and now extending to Gravitas, this edition blends creativity, learning, and fun in a hands-on environment. In collaboration with local schools, BIF welcomes children to VIT for an inspiring day of teamwork and exploration. Guided by dedicated VIT student volunteers, participants will form small teams to build innovative projects using specially curated STEM kits—creations they can proudly take home. Alongside the technical activities, MAKE-A-SMILE retains the essence original Smile event with games and moments of shared laughter.",
+      "club": "BECOMING I FOUNDATION",
+      "short_description": "MAKE-A-SMILE by Becoming I Foundation (BIF) at VIT reimagines our flagship Smile event with a STEM twist. Extending from Riviera to Gravitas, the event brings local schoolchildren to VIT for a day of creativity, teamwork, and fun. Guided by student volunteers, children will use STEM kits to build projects they can take home, while also enjoying games and the joy that has always defined Smile.",
+      "tagline": "Make-A-Smile: Where Joy Meets Genius",
+      "image": "https://i.imgur.com/w5mrlhT.jpeg",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    }
+  ],
+  "ASSOCIATION FOR COMPUTING MACHINERY (ACM)": [
+    {
+      "name": "Cryptic Hunt 4.0",
+      "type": "Games",
+      "description": "VIT’s largest hunt for three years running, Cryptic Hunt 4.0, is back with a new adventure. You will compete in a race against time to scan QR codes hidden throughout the campus, with a live leaderboard tracking your progress. A hunt that’ll test your wit and intelligence, register soon with your team and engage in a high-voltage affair across 36 hours!",
+      "club": "ASSOCIATION FOR COMPUTING MACHINERY (ACM)",
+      "short_description": "Cryptic Hunt 4.0 is an unconventional tech-based scavenger hunt where teams solve cryptic puzzles by scanning QR codes. Participants explore the campus and decode ciphers and riddles to climb their way up the leaderboard.",
+      "tagline": "Expect the unexpected!",
+      "image": "https://i.imgur.com/Ab20DkN.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    },
+    {
+      "name": "Code2Create 6.0 (C2C)",
+      "type": "Hackathon",
+      "description": "One of VIT’s oldest legacy hackathons, Code2Create is a flagship 48-hour event where creativity meets skill. With diverse tracks, C2C unites participants to solve real-world challenges, collaborate with peers, and learn from mentors. It’s the stage for innovation and talent, welcoming both beginners and seasoned hackers to build, showcase, and shine at the ultimate hackathon experience.",
+      "club": "Association for Computing Machinery (ACM-VIT)",
+      "short_description": "Code2Create 6.0, the grandest hack at VIT, unites innovators to build, learn, and transform bold ideas into reality.",
+      "tagline": "Don’t just code for the vibes, Code2Create.",
+      "image": "https://i.imgur.com/YmKYvrK.png",
+      "start_date": "2025-09-10T14:00:00Z",
+      "end_date": "2025-09-12T18:00:00Z"
+    }
+  ],
+  "ROBOVITICS": [
+    {
+      "name": "Robowars",
+      "type": "Games",
+      "description": "ROBOWARS is the flagship event of graVITas and one of the biggest combat robotics events in India. More than 40 bots of 8kg, 15kg and 60kg engage in thrilling, round-the-clock battles in the largest and safest arena in the country, competing for the championship title with their war machines. It delivers an adrenaline rush to both participants and the audience. Teams from all over the globe gather here to showcase their fighting spirit and strive for glory.",
+      "club": "ROBOVITICS",
+      "short_description": "Robowars, the flagship event of graVITas, is India’s biggest combat robotics arena. With 8kg, 15kg, and 60kg bots battling for glory, it brings global teams, raw power, and nonstop adrenaline to VIT Vellore.",
+      "tagline": "Forge . Battle . Wreck - The ultimate combat robotics war at Robowars 2025.",
+      "image": "https://i.imgur.com/wC9ruOi.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T23:00:00Z"
+    },
+    {
+      "name": "Hands on Robotics",
+      "type": "Workshop",
+      "description": "Hands on Robotics is a two-day premium event organized by RoboVITics, aimed at providing students with a practical and immersive introduction to the fascinating world of robotics. This workshop combines interactive theory sessions with engaging hands-on activities, ensuring that participants not only understand the concepts but also apply them in real time. Guided by experienced speakers and supported by dedicated volunteers, participants will receive step by step assistance throughout the event. This approach ensures a strong foundation in essential robotics principles while fostering active learning and collaboration.\n\nThe event is designed to offer an interdisciplinary experience, bringing together elements of electronics, programming, and mechanical design. Participants will embark on a journey to create their own web dashboard-controlled robot, learning to design and develop a custom web interface to control their bot.They will be using websockets, learning IoT to apply communication protocol to control the robot. Alongside this, they will work on building the robot’s physical structure using various tools and components, applying knowledge from multiple domains in a practical and exciting manner. By the end of the event, students will have a complete understanding of the process from concept to execution while gaining valuable skills in working with ESP32, MicroPython, and web technologies.\n\nHands on Robotics is more than just a workshop; it is an opportunity to innovate, explore, and take the first step toward mastering robotics. It promises a holistic, project-based learning experience that bridges theory and practice, empowering participants to create something extraordinary.",
+      "club": "ROBOVITICS",
+      "short_description": "Build, code, and command your own robot in just 2 days! \nHands-On Robotics is a practical, beginner-friendly workshop where you assemble a bot, program it with micropython, and control it in real time via a slick WebSocket web dashboard on your laptop or a mobile phone. Expect bite-sized theory, lots of tinkering, and instant feedback as your bot comes alive. Wrap up with a fun mini-challenge and leave with real skills, a working robot, and confidence to keep creating.",
+      "tagline": "Robotics Made Easy: Build, Code, Control.",
+      "image": "https://i.imgur.com/cZtEa0e.png",
+      "start_date": "2025-09-22T08:00:00Z",
+      "end_date": "2025-09-23T20:00:00Z"
+    },
+    {
+      "name": "GamaLab",
+      "type": "Hackathon",
+      "description": "Gamasome in collaboration with RoboVITics is excited to host a 24-hour AI & Software Development Hackathon at GraVITas ’25, bringing together top student innovators to tackle real-world challenges through cutting-edge software solutions. Teams of two will compete in domains spanning artificial intelligence and software development. After a preliminary shortlisting, participants will tackle a problem statement unveiled at the start of the event, working intensively to deliver impactful & innovative solutions.Winners stand to earn cash prizes, goodies, and exclusive 6-month paid internships at Gamasome. This hackathon blends innovation, teamwork, and opportunity, forging the next generation of AI talent.",
+      "club": "ROBOVITICS",
+      "short_description": "Gamasome, in collaboration with RoboVITics, is hosting a 24-hour AI & Software Development Hackathon at GraVITas ’25. Teams of two will compete on real-world challenges in AI and software, with problem statements revealed at the start.. Winners will receive cash prizes, goodies, and exclusive 6-month paid internships at Gamasome. This hackathon is a platform for innovation, teamwork, and shaping the next generation of AI talent. Participation is restricted to final year BTech students",
+      "tagline": "Ideas in Action.",
+      "image": "https://i.imgur.com/UOLxL6m.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "NeuroHack",
+      "type": "Hackathon",
+      "description": "Neuralzome, in collaboration with RoboVITics, is hosting a 24-hour AI & Robotics Hackathon at GraVITas ’25. Teams of two will compete in AI, robotics, and software development, solving a problem statement revealed at the start.Participation is restricted to 4th year students. Winners will receive cash prizes, goodies, and exclusive 6-month paid internships at Neuralzome.\nEvent is restricted only for final year B-Tech students",
+      "club": "ROBOVITICS",
+      "short_description": "Neuralzome, in collaboration with RoboVITics, is hosting a 24-hour AI & Robotics Hackathon at GraVITas ’25. Teams of two will compete in AI, robotics, and software development, solving a problem statement revealed at the start.Participation is restricted to 4th year students. Winners will receive cash prizes, goodies, and exclusive 6-month paid internships at Neuralzome. Event is open only for final year B-Tech students",
+      "tagline": "“Build Smarter, Hack Harder.",
+      "image": "https://i.imgur.com/QhOVBRU.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "Hands on Electronics",
+      "type": "workshop",
+      "description": "A workshop on basics of electronics for high school students. The session will contain basic concepts related to electronics, such as, current, voltage, types of circuits, active and passive components etc. We will also showcase some of the projects created by us such as a hand gesture controlled bot, an ultrasonic sensor based radar and some other stuff. We will also demonstrate a circuit using a breadboard to demonstrate the significance and applications of components like resistors, capacitors, LEDs, buttons etc. The session also reinforces electrical safety, systematic troubleshooting, and basic design thinking.",
+      "club": "ROBOVITICS",
+      "short_description": "This workshop teaches high school students the basics of electronics. It covers key concepts like current and voltage, demonstrates projects such as a gesture-controlled bot and an ultrasonic radar, and includes a hands-on breadboard circuit demonstration. The session also emphasizes electrical safety, troubleshooting, and design thinking.",
+      "tagline": "Unleash your potential and build the future with practical, hands-on electronic projects",
+      "image": "https://i.imgur.com/OW3jWKf.jpeg",
+      "start_date": "2025-09-06T09:00:00Z",
+      "end_date": "2025-09-07T18:00:00Z"
+    },
+    {
+      "name": "Machine Design with Fusion 360",
+      "type": "Workshop",
+      "description": "The Machine Design workshop is a hands-on, 2-day Workshop focused on mastering Autodesk Fusion 360 for designing mechanical components and assemblies. Participants will learn essential skills including sketching techniques, 3D CAD modeling, joints and assembly. The workshop will also cover rendering for realistic visual presentations, real-time simulation using PyBullet for physics-based motion and interaction testing, stress analysis, and animation to demonstrate mechanical movements.",
+      "club": "ROBOVITICS",
+      "short_description": "A 24 hour workshop focused on Teaching Fusion360 and real time simulation.",
+      "tagline": "Design, Simulate, Create",
+      "image": "https://i.imgur.com/ZcXyMH8.jpeg",
+      "start_date": "2025-09-23T21:00:00Z",
+      "end_date": "2025-09-25T06:00:00Z"
+    }
+  ],
+  "THE AI & ML CLUB - TAM": [
+    {
+      "name": "நுட்பம் (Nutpam)",
+      "type": "Hackathon",
+      "description": "PB–TLA brings a unique Tech Meets Tamil experience event for this Gravitas’25. The event consists of No-code Machine Learning workshop where participants explore how AI understands Tamil. Students will train simple models to recognize Tamil alphabets, analyze texts, and classify cultural images, gaining a fun and practical introduction to Artificial Intelligence. \n The event also continues with a mini-hackathon that challenges students to design Tamil-inspired tech prototypes. Using coding, no-code platforms, and ML tools, teams will create innovative solutions such as Tamil learning apps, cultural chatbots, AI dictionaries, or digital accessibility tools.",
+      "club": "PB- TAMIL LITERARY ASSOCIATION",
+      "short_description": "PB–TLA brings a unique Tech Meets Tamil experience at Gravitas’25.\n The event starts with a No-code ML workshop exploring how AI understands Tamil.\n Students will train models to recognize alphabets, analyze texts, and classify images.\n A mini-hackathon then challenges teams to design Tamil-inspired tech prototypes.\n From learning apps to chatbots and AI tools, innovation meets culture in this event.",
+      "tagline": "Celebrating Tamil Through Technology",
+      "image": "https://i.imgur.com/7ZRJJtD.png",
+      "start_date": "2025-09-22T09:00:00Z",
+      "end_date": "2025-09-22T18:00:00Z"
+    },
+    {
+      "name": "Code Cortex 2.0",
+      "type": "Hackathon",
+      "description": "An electrifying hackathon where innovation meets adrenaline! This high-energy event unites brilliant minds to tackle real-world challenges, unleash cutting-edge code, and build game-changing solutions.",
+      "club": "The AI & ML Club - TAM",
+      "short_description": "The ultimate innovation race: Code, create, and conquer.",
+      "tagline": "Ctrl+Alt+CodeCortex",
+      "image": "https://i.imgur.com/PBJWVrI.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    },
+    {
+      "name": "Data Alchemy 3.0",
+      "type": "Workshop",
+      "description": "A dynamic workshop where brilliant minds dive into data analysis and visualization, turning raw info into powerful insights. It’s a magnet for top talent ready to transform numbers into magic! From foundational concepts to advanced techniques, we’ll cover it all—hands-on, practical, and designed to take you from beginner to master.",
+      "club": "The AI ML club (TAM)",
+      "short_description": "A dynamic workshop where brilliant minds dive into data analysis and visualization, turning raw info into powerful insights. It’s a magnet for top talent ready to transform numbers into magic!",
+      "tagline": "Code. Compile. Conquer",
+      "image": "https://i.imgur.com/RlQELt4.jpeg",
+      "start_date": "2025-09-24T09:00:00Z",
+      "end_date": "2025-09-24T19:00:00Z"
+    },
+    {
+      "name": "SURVIVAL SHOWDOWN - The Stranger Things version",
+      "type": "Competition",
+      "description": "The Competitive Escape Room – a pulse-pounding event packed with mind-bending puzzles and challenges that push your problem-solving and teamwork skills to the limit. It’s an immersive, high-stakes experience where logic meets adrenaline!",
+      "club": "THE AI & ML CLUB",
+      "short_description": "A themed Competitive Escape Room – with brain-teasing puzzles and teamwork. Get ready for an adrenaline fueled event!",
+      "tagline": "Escape the upside down before it escapes you",
+      "image": "https://i.imgur.com/yxgsp9t.jpeg",
+      "start_date": "2025-09-21T09:00:00Z",
+      "end_date": "2025-09-21T20:00:00Z"
+    }
+  ],
+  "JUVENILE CARE": [
+    {
+      "name": "Juvenile Care Premier League (Internal)",
+      "type": "Games",
+      "description": "The Juvenile Care Premier League (JCPL) is a fun-filled sports initiative by Juvenile Care that brings joy, teamwork, and inclusivity to orphanage children. Through engaging outdoor games, it offers them a platform to play, learn, build confidence, and create lasting memories. JCPL is not just a sports event—it’s a celebration of childhood, care, and community.",
+      "club": "Juvenile Care ",
+      "short_description": "JCPL is a fun outdoor sports event for orphanage children, fostering smiles, teamwork, confidence, and cherished memories.",
+      "tagline": "Every Child, A Champion — building confidence, teamwork, and memories beyond the game",
+      "image": "https://i.imgur.com/w2cb8VP.jpeg",
+      "start_date": "2025-09-27T14:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "Juvenile Care Premier League (External)",
+      "type": "Games",
+      "description": "The Juvenile Care Premier League (JCPL) is a fun-filled sports initiative by Juvenile Care that brings joy, teamwork, and inclusivity to orphanage children. Through engaging outdoor games, it offers them a platform to play, learn, build confidence, and create lasting memories. JCPL is not just a sports event—it’s a celebration of childhood, care, and community.",
+      "club": "Juvenile Care ",
+      "short_description": "JCPL is a fun outdoor sports event for orphanage children, fostering smiles, teamwork, confidence, and cherished memories.",
+      "tagline": "Every Child, A Champion — building confidence, teamwork, and memories beyond the game",
+      "image": "https://i.imgur.com/w2cb8VP.jpeg",
+      "start_date": "2025-09-27T14:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    }
+  ],
+  "THE INSTITUTION OF ENGINEERING AND TECHNOLOGY (IET)": [
+    {
+      "name": "The Great Build-Off: A Race Against the Quake",
+      "type": "Games",
+      "description": "Engineering is more than calculations—it’s about turning ideas into reality! In this event, participants must design and build a structure with limited resources, balancing strength, stability, and creativity. With twists, challenges, and teamwork at its core, every creation will be tested for durability and ingenuity. Only the smartest, strongest, and most innovative design will stand tall!",
+      "club": "Indian Society Of Earthquake Technology (ISET)",
+      "short_description": "A thrilling fusion of quiz and adventure! Solve mind - bending questions, crack hidden clues, and race from one secret location to the next. Only the sharpest minds and fastest feet will uncover the final treasure!",
+      "tagline": "“Brains on Fire, Feet on the Run!”",
+      "image": "https://i.imgur.com/pkBV6uX.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    },
+    {
+      "name": "Techno Arena",
+      "type": "Games",
+      "description": "Techno Arena — the ultimate fusion of brainpower, teamwork, and fun! This dynamic event zone brings together a series of engaging technical challenges and high-energy non-technical games, offering something for everyone to enjoy and excel at. Whether you’re solving clever puzzles, racing against the clock in logic-based challenges, or diving into entertaining team games that test coordination and creativity.",
+      "club": "IEEE - Robotics and Automation Society",
+      "short_description": "Techno Arena blends technical challenges and fun games, fostering creativity, teamwork, learning, and excitement in an engaging, unforgettable arena experience.",
+      "tagline": "One Arena. One Code. Infinite Loops. Endless Logic, Boundless Minds.",
+      "image": "https://i.imgur.com/CEfeWRE.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "PyQuest",
+      "type": "Workshop",
+      "description": "Forget boring theory - this is Python in action! In this hands-on workshop, you’ll build a useful project. Guided step-by-step by speaker, you’ll code, experiment and customize your own creation. Walk away with both a working build and the confidence to take Python beyond the classroom. Ready to turn ideas into reality? Get ready to code your way to something amazing!",
+      "club": "The Institution of Engineering and Technology (IET)",
+      "short_description": "A hands-on Python workshop where you build, customize and work on a project - guided step-by-step to boost skills and confidence",
+      "tagline": "Where Curiosity Meets Code",
+      "image": "https://i.imgur.com/hgLQYMZ.png",
+      "start_date": "2025-09-22T14:00:00Z",
+      "end_date": "2025-09-22T18:00:00Z"
+    },
+    {
+      "name": "SENSORA",
+      "type": "Hackathon",
+      "description": "SENSORA 2025, the flagship international techno-management event of ISOI–VIT, will be held on 26–27 September at VIT Vellore during Gravitas. Featuring expert workshops, industry talks, and a 36-hour hackathon, it brings together students, innovators, and leaders from companies like Siemens, SAGE and Shark Tank-funded startups, focusing on AI, IoT, healthcare, and wireless systems to drive impactful innovation.",
+      "club": "INSTRUMENT SOCIETY OF INDIA(ISOI)",
+      "short_description": "SENSORA 2025, ISOI–VIT’s flagship international techno-management event, brings together innovators, developers, and leaders for workshops, talks, and a 36-hour hackathon—where creativity, collaboration, and technology drive groundbreaking innovations.",
+      "tagline": "Hack hard, play harder — because the future belongs to those who never stop.",
+      "image": "https://i.imgur.com/7OP8dpu.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T21:00:00Z"
+    },
+    {
+      "name": "Grid Grab",
+      "type": "Games",
+      "description": "Grid Grab is a fast-paced, Monopoly-inspired team challenge where 3–5 players per team join forces to test their knowledge, strategy, and innovation. Teams compete in quiz rounds, earn resources, and trade or outsmart rivals to seize control of the grid. The event runs in two slots—morning and evening—with different teams battling it out. Every move comes with hidden twists, so think fast, play smart, and roll your way to victory!",
+      "club": "Solar energy society of India X Student's association of Bio-engineering science and technology",
+      "short_description": "Grid Grab is a fast-paced team challenge where knowledge and strategy help you earn resources, outsmart rival teams, and control the grid.",
+      "tagline": "Compete with knowledge, trade resources, and use strategy to master the grid for victory.",
+      "image": "https://i.imgur.com/V4dkeHM.png",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "Antidote Hunt",
+      "type": "Workshop",
+      "description": "In a quaint little town nestled into the landscape, it is rumored to be the home of a mad scientist with ideas so radical, his experiments have been classified as crimes against humanity. Sources suggest that his most recent project is some kind of pathogen so dangerous that, if released would cause a mass extinction event. Through an underground network, a pathogen sample from one of his tests has been obtained. The secret service has decided to hire some of the world's best scientists to find a cure for the pathogen before it breaks out. The participants will assume the role of the scientists, working in teams to uncover the contents of the sample. The teams will be tested at each turn, having to run chromatographs, read data, and find staining patterns to accurately identify the mystery pathogen. The final goal is to find the antidote for the disease. The team to accurately find the cure the fastest will be lauded as heroes among their peers and will be rewarded by the Secret Service for their courage in the face of doom.",
+      "club": "Society of Biological Engineering",
+      "short_description": "Elite biotech operatives take on a mission-style challenge. Decode antidotes, analyze samples, and race to trace the pathogen through chromatography, staining, and more, all in a high-stakes, lab-driven battle for survival.",
+      "tagline": "From outbreak to Breakthrough",
+      "image": "https://i.imgur.com/n441RRn.png",
+      "start_date": "2025-09-21T09:00:00Z",
+      "end_date": "2025-09-21T20:00:00Z"
+    },
+    {
+      "name": "Potternova",
+      "type": "Competition",
+      "description": "Potternova is a Harry Potter–themed tech event where magic blends with technology. Across two days, participants tackle coding, debugging, and problem-solving challenges with a magical twist. Creativity, logic, and teamwork are key as teams navigate unique tasks inspired by the wizarding world, making this an unforgettable journey into tech wizardry.",
+      "club": "IEEE-PCS(Professional Communication Society)",
+      "short_description": "Potternova is a Harry Potter–themed tech event blending coding, logic, and creativity with magical twists and challenges.",
+      "tagline": "Where magic meets logic, unleash your wizardry through spells of code and tech challenges.",
+      "image": "https://i.imgur.com/7zH4SEN.png",
+      "start_date": "2025-09-24T20:00:00Z",
+      "end_date": "2025-09-25T20:00:00Z"
+    },
+    {
+      "name": "Capture The Flag 3.0",
+      "type": "Games",
+      "description": "Capture The Flag 3.0 (CTF 3.0) is the third edition of IEEE ComSoc VIT's flagship team- based tech hunt that blends logical reasoning, real-time problem-solving, and campus-wide strategy.",
+      "club": "IEEE COMMUNICATION SOCIETY",
+      "short_description": "Games type event.",
+      "tagline": "Roam and Zone, Flags of Your Own?????",
+      "image": "https://i.imgur.com/pIAcsXJ.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    },
+    {
+      "name": "EnerVision",
+      "type": "Hackathon",
+      "description": "Ready to engineer the future of energy? In this overnight hackathon, innovators shall join forces to push loT technology to its limits. Build smart sensor-powered solutions, craft intelligent algorithms, and solve urgent energy challenges head-on. With expert reviews shaping every stage, your idea could emerge as the blueprint for how the world powers tomorrow.",
+      "club": "Solar energy society of India",
+      "short_description": "An overnight hackathon where innovators harness IoT, smart sensors, and intelligent algorithms to create cutting-edge solutions for urgent energy challenges.",
+      "tagline": "Smart power, Reinvented",
+      "image": "https://i.imgur.com/QGWwxLh.png",
+      "start_date": "2025-09-23T08:00:00Z",
+      "end_date": "2025-09-23T18:00:00Z"
+    },
+    {
+      "name": "Echoes of the extinct",
+      "type": "Competition",
+      "description": "Form a team of 3–5 and battle through an arcade of Jurassic challenges—from mind-bending puzzles to adrenaline-packed mini-games, with surprise auctions that flip the game on its head.",
+      "club": "Society of Biological Engineering",
+      "short_description": "A dinosaur has escaped !!\n Teams must investigate evidence, identify which dinosaur has escaped,and strategize how to capture it.",
+      "tagline": "A Jurassic Saga",
+      "image": "https://i.imgur.com/p870Jfo.png",
+      "start_date": "2025-09-28T09:00:00Z",
+      "end_date": "2025-09-28T16:00:00Z"
+    },
+    {
+      "name": "ELECTRA",
+      "type": "Workshop",
+      "description": "IEEE-EDS Electra Mini Colloquium provides a unique opportunity to explore breakthroughs in electron devices. With distinguished speakers, technical insights, and interactive sessions, the event connects students, researchers, and industry professionals, creating a vibrant space for learning, networking, and advancing knowledge in semiconductor and electronic device technologies.",
+      "club": "IEEE-Electron Devices Society",
+      "short_description": "A premier IEEE-EDS event fostering knowledge exchange, collaboration, and insights into emerging trends and technologies in electron devices.",
+      "tagline": "Connecting minds and shaping the future of electronics through research and innovation.",
+      "image": "https://i.imgur.com/W1ZiGnw.jpeg",
+      "start_date": "2025-09-26T11:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    },
+    {
+      "name": "CodeRush 3.0",
+      "type": "Games",
+      "description": "CodeRush 3.0 is the flagship competitive coding event of IEEE TEMS at graVITas’25, featuring a unique relay-race style coding challenge. Teams of three participants will take turns coding, with each member continuing from where the previous teammate left off. The event is conducted under a strict time limit, testing participants’ coding skills, problem-solving ability, and teamwork under pressure.",
+      "club": "IEEE Technology and Engineering Management Society (IEEE-TEMS)",
+      "short_description": "CodeRush 3.0 challenges teams of three in a thrilling relay-style coding race, testing logic, speed, strategy, and teamwork under pressure.",
+      "tagline": "Relay your logic, race the clock, and rise as coding champions",
+      "image": "https://i.imgur.com/E5A0WFQ.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T17:00:00Z"
+    },
+    {
+      "name": "404 Fun Found",
+      "type": "Games",
+      "description": "Forget typical hackathons - this is a high-energy, multi-round showdown where coding is only part of the game. Expect puzzles, trivia, logic challenges and quirky twists that test speed, creativity, strategy and teamwork. Each round pushes you beyond limits with surprises that keep you guessing. Gather your team and dive into the ultimate blend of skill, wit and fun!",
+      "club": "The Institution of Engineering and Technology (IET)",
+      "short_description": "A fast-paced multi-round challenge mixing puzzles, trivia, coding and teamwork - race against time, think creatively and outsmart surprises",
+      "tagline": "Crack the Clues, Catch the Fun",
+      "image": "https://i.imgur.com/UXCG1HD.png",
+      "start_date": "2025-09-26T14:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    },
+    {
+      "name": "Hackovation 2.0",
+      "type": "Hackathon",
+      "description": "Hackovation 2.0 is a dynamic 36-hour hackathon crafted to inspire participants to design impactful solutions addressing real-world challenges. Teams will collaborate intensively across diverse domains such as Artificial Intelligence & Machine Learning, Internet of Things, Sustainability, Automation, Fintech, Healthcare, Cybersecurity, and beyond. The event strives to cultivate innovation, technical mastery, and collective problem-solving.",
+      "club": "IEEE POWER ELECTRONICS SOCIETY (IEEE-PELS)",
+      "short_description": "Hackovation 2.0 is a 36-hour hackathon bringing together creative minds to innovate, collaborate, and build impactful solutions for real-world challenges.",
+      "tagline": "Sail the seas of Innovation",
+      "image": "https://i.imgur.com/CWjYhNb.png",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    },
+    {
+      "name": "CivilHunt 2.0",
+      "type": "Games",
+      "description": "CivilHunt 2.0 is a team event where students solve campus-based riddles, puzzles, and challenges that represent steps in building a virtual dam. After each task, teams spin a digital Dam Wheel for surprises—either boosts or setbacks. With coordinators tracking progress, the team earning the most dam progress after all tasks wins. Teamwork, strategy, and campus spirit unite.",
+      "club": "Indian Geotechnical Society",
+      "short_description": "CivilHunt2.0 is about solving series of tasks, building a metaphorical dam experiencing ups&downs simulating a construction project.",
+      "tagline": "Let the Hunt Begin",
+      "image": "https://i.imgur.com/f9D84PD.jpeg",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    }
+  ],
+  "STUDENTS FOR THE EXPLORATION AND DEVELOPMENT OF SPACE (SEDS)": [
+    {
+      "name": "Star Party",
+      "type": "Workshop",
+      "description": "StarParty is SEDS-VIT’s flagship overnight stargazing event, offering a breathtaking view of the cosmos from the iconic Technology Tower rooftop. Discover planets, constellations, and deep-sky objects through immersive, hands-on sessions led by passionate students. From telescope tutorials to guided sky tours, StarParty brings the universe closer than ever before.\nJoin us for this annual celestial celebration, a night of wonder, learning, and unforgettable memories under the stars",
+      "club": "STUDENTS FOR THE EXPLORATION AND DEVELOPMENT OF SPACE (SEDS)",
+      "short_description": "Get ready to witness the universe like never before! \nJoin SEDS-VIT’s StarParty for a magical night of stargazing on the Technology Tower rooftop. Explore planets, constellations, cosmic wonders and powerful telescopes. Don’t miss this unforgettable experience!",
+      "tagline": "Join SEDS-VIT’s StarParty for stargazing sessions atop Technology Tower.",
+      "image": "https://i.imgur.com/iPmfmuL.png",
+      "start_date": "2025-09-26T20:00:00Z",
+      "end_date": "2025-09-29T01:00:00Z"
+    }
+  ],
+  "SOCIETY FOR BIOLOGICAL ENGINEERING (SBE)": [
+    {
+      "name": "Bloodlines 2.0",
+      "type": "Games",
+      "description": "Bloodlines 2.0 is SBE-VIT’s thrilling forensic science competition where teams dive into real-world inspired cases. Using DNA analysis, blood typing, and genetic markers, participants race against time to solve puzzles of paternity and ancestry. Combining accuracy, speed, and teamwork, the event challenges competitors to apply scientific methods and uncover the truth.",
+      "club": "SBE-VIT (Society for Biological Engineering)",
+      "short_description": "Race against time in Bloodlines 2.0: solve ancestry and paternity tests using DNA, blood analysis, and forensic science.",
+      "tagline": "Legacy, Lies and Fortune",
+      "image": "https://i.imgur.com/om9KqQC.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T20:00:00Z"
+    },
+    {
+      "name": "Build-A-Terr 2.0",
+      "type": "Workshop",
+      "description": "Discover your creativity at Build-A-Terr 2.0, a hands-on workshop where you craft your own unique terrarium in a jar. Design, build, and personalize your miniature green world and then take it home as a living keepsake!",
+      "club": "Society for Biological Engineering",
+      "short_description": "Discover your creativity at Build-A-Terr 2.0- where you craft, build and personalize your own terrarium in a jar!",
+      "tagline": "Bottle up a Forest!",
+      "image": "https://i.imgur.com/jqjEtA1.png",
+      "start_date": "2025-09-14T08:00:00Z",
+      "end_date": "2025-09-14T18:00:00Z"
+    },
+    {
+      "name": "Synaptic Sprint",
+      "type": "Games",
+      "description": "This is a high energy, relay style event where teams act as neurons racing through brain loves. Participants solve biology based cognitive challenges to restore a failing cortex, combining neuroscience, teamwork, and strategy in a fast-paced format.",
+      "club": "SOCIETY FOR BIOLOGICAL ENGINEERING",
+      "short_description": "Brain Simulation game where each of the rounds are based on the four lobes of the brain",
+      "tagline": "Neurons on the run",
+      "image": "https://i.imgur.com/weznG4r.png",
+      "start_date": "2025-09-13T09:00:00Z",
+      "end_date": "2025-09-13T19:00:00Z"
+    },
+    {
+      "name": "Yellow Tape 4.0",
+      "type": "Games",
+      "description": "Step into the role of a detective in Yelllow Tape, a thrilling crime solving challenge. Examine clues, interrogate witnesses and unravel deception with your team to crack the case before time runs out!",
+      "club": "SBE-VIT",
+      "short_description": "Murder mystery based event where participants solve crimes by solving clues and interrogating suspects in a given time limit.",
+      "tagline": "Everyone's a suspect. No one's safe",
+      "image": "https://i.imgur.com/BkvPo4R.png",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    }
+  ],
+  "STANDARDS CLUB": [
+    {
+      "name": "Standards CAM-HACK 2.0",
+      "type": "Hackathon",
+      "description": "A 2-day Fusion 360 Hackathon where participants design, model, and prototype real-world solutions using CAD, CAM, simulation, and industry standards. Over 34 hours, teams will collaborate, innovate, and present their creations to judges, blending creativity, engineering, and problem-solving in an exciting design sprint.",
+      "club": "Standards Club",
+      "short_description": "A 2-day Fusion 360 Hackathon where teams design, prototype, and pitch innovative solutions using CAD, CAM, and creativity.",
+      "tagline": "Design. Simulate. Innovate. Unlock Your Creativity with Hands-On Fusion 360 Mastery!",
+      "image": "https://i.imgur.com/FTdAF5u.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    },
+    {
+      "name": "Fusion of CAM and Standards",
+      "type": "Workshop",
+      "description": "Join us for a hands-on workshop diving into the world of Fusion 360, where design meets manufacturing. Learn how to create precise models, generate toolpaths, and understand key CAM (Computer-Aided Manufacturing) workflows — all while following industry standards to ensure accuracy, safety, and efficiency. Guided by an experienced instructor, you'll get practical insights and tips to take your CAD/CAM skills to the next level. Whether you're a beginner or looking to sharpen your expertise, this session will help you bridge the gap between design creativity and manufacturing precision.",
+      "club": "Standards Club",
+      "short_description": "This workshop offers a practical introduction to Fusion 360, focusing on the CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) processes. Participants will learn to create accurate 3D models and generate toolpaths for manufacturing, ensuring designs meet industry standards for safety, accuracy, and efficiency. This hands-on session is ideal for anyone wanting to improve their design and manufacturing skills, guided by an expert instructor.",
+      "tagline": "Design. Simulate. Innovate. Unlock Your Creativity with Hands-On Fusion 360 Mastery!",
+      "image": "https://i.imgur.com/HO0yizi.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    }
+  ],
+  "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE)": [
+    {
+      "name": "Formula-Aero: Design-a-thon",
+      "type": "Ideathon",
+      "description": "Welcome to Formula-Aero, a high-octane design challenge where innovation meets engineering. This competition challenges participants to concentrate and design the aerodynamics of a Formula style race car. Participants will gain valuable skills in motorsport and mechanical design. A Rs.15,000 prize pool is awarded for the most innovative and effective aerodynamic designs.",
+      "club": "Society of Automotive Engineers (SAE)",
+      "short_description": "A high-octane design challenge where innovation meets engineering, with a Rs.15,000 prize pool for the best aerodynamic designs.",
+      "tagline": "Powered by Team Ojas Racing",
+      "image": "https://i.imgur.com/jnWSOEY.jpeg",
+      "start_date": "2025-09-26T13:00:00Z",
+      "end_date": "2025-09-27T01:00:00Z"
+    },
+    {
+      "name": "SoapBox Racing",
+      "type": "Competition",
+      "description": "Soap Box is your chance to design, build, and race your very own car! Put your technical and mechanical skills into action as you work hands-on with the complete kit we provide. From assembling the chassis to fine-tuning for performance, every step is yours to create. And the best part? You get to take your creation to the track and race it! Whether you’ve dreamed of being a mechanic, an engineer, or a racer, this event gives you the perfect platform to learn, build, and experience the thrill of driving something you made yourself. This will be a 3-day event.",
+      "club": "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE)",
+      "short_description": "Soap Box is your chance to design, build, and race your own car! With a complete kit provided, you’ll assemble the chassis, fine-tune for performance, and take your creation to the track. It’s the perfect blend of engineering, mechanics, and racing excitement—all in one hands-on experience. This will be a 3-day event.",
+      "tagline": "Create, Coast, Conquer",
+      "image": "https://i.imgur.com/K1up2al.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "Quadcopter",
+      "type": "Workshop",
+      "description": "Join Quadcopter, an exciting 3-day hands-on workshop where you’ll build, fly, and keep your own drone! From unboxing the kit to final flight, our experts guide every step. Explore drone technology, experience the thrill of flight, and watch your creation soar. Perfect for enthusiasts and beginners alike—build it, fly it, own it. Your drone journey starts here!",
+      "club": "Society of Automotive Engineers ( SAE - VIT )",
+      "short_description": "Build, fly, and own your drone in this 3-day hands-on workshop—experience drone technology, flight thrills, and innovation.",
+      "tagline": "From assembly to flight, create and own your personal drone adventure today.",
+      "image": "https://i.imgur.com/7PCj4OM.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "SAE AirShow",
+      "type": "Games",
+      "description": "Team Vimaanas & Rotor FPV from SAE-VIT presents AirShow! Witness thrilling aerial stunts and engineering mastery in a two-part spectacle: Team Vimaanas takes to the skies with high-speed model aircraft in the first half, followed by Rotor FPV's heart-pumping drone show in the second half!",
+      "club": "society of automotive engineers",
+      "short_description": "Team Vimaanas & Rotor FPV from SAE-VIT presents AirShow: Planes & drones unite for a thrilling aerial spectacle of speed & skill!",
+      "tagline": "Experience the thrill of flight with stunning aerial stunts and engineering brilliance.",
+      "image": "https://i.imgur.com/mJev1RG.png",
+      "start_date": "2025-09-26T14:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    },
+    {
+      "name": "Aerodominator 11.0",
+      "type": "Competition",
+      "description": "Part of Gravitas 2025, Aerodominator brings top teams from across India (and beyond) to design, build & fly radio-controlled aircraft under real-world constraints. Aerodominator offers a platform to learn, interact and test your Aircraft Engineering Skills. The mission statement is to deploy an unmanned aerial vehicle (UAV) that will be launched from a designated takeoff zone and accurately drop payload (water) mid-air into a targeted payload drop zone of dimension 10m x 10m in minimum time without major damages to the airframe, serving as a rapid-response aid in fire-affected areas to support firefighting and disaster relief efforts",
+      "club": "SAE-VIT",
+      "short_description": "Aerodominator challenges top teams from across India and beyond to design, build, and fly radio-controlled aircraft under real-world constraints.",
+      "tagline": "Design, Build, Dominate.",
+      "image": "https://i.imgur.com/VhZRde8.png",
+      "start_date": "2025-09-26T12:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "SAE Drone Racing League",
+      "type": "Competition",
+      "description": "The Drone Racing League (DRL) event at our college technical fest is designed to deliver a thrilling combination of speed, precision, and innovation, conducted strictly under the MultiGP international standards and rules. The races will take place on standardized MultiGP tracks, specially designed with gates, flags, and technical obstacles to replicate real-world competitive drone racing conditions. These tracks feature a mix of sharp turns, slalom paths, vertical elements, and high-speed straights, challenging pilots to demonstrate mastery over agility, control, and split-second decision-making. All participating drones will be required to comply with MultiGP class specifications regarding size, weight, batteries, and video transmission systems, ensuring a fair and uniform platform for all competitors. To maintain safety and professionalism, the event will include strict pre-race inspections, pilot briefings, and real-time monitoring by referees and race marshals. The competition format will progress from multiple timed heats to semifinals and a grand finale, with automated lap timing systems ensuring precise and transparent results. Separate categories may also be introduced for novice and advanced pilots, allowing enthusiasts of all experience levels to participate and learn within a structured environment.",
+      "club": "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE)",
+      "short_description": "A Racing Competition for FPV Drone pilots at the professional as well as amateur (college teams) level. The Pilots will have to fly their drones across the designated track, which will be built at the event venue.",
+      "tagline": "Turning Air into Asphalt",
+      "image": "https://i.imgur.com/C0E8ekz.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    },
+    {
+      "name": "PCBify",
+      "type": "Competition",
+      "description": "Are you curious about how electronic devices are built, or how complex circuits come to life on compact green boards? \nHere’s your chance to explore the fascinating world of Printed Circuit Boards (PCBs) through an immersive, beginner-friendly workshop.\n\nOver the span of two days, participants will gain both theoretical knowledge and hands-on experience in PCB design. \nStarting from the fundamentals of electronic circuits and schematic design, the workshop will guide students through design software tools, component placement, routing techniques, and industry standards. By the end of the workshop, attendees will have designed their very own PCB, bridging the gap between conceptual circuits and real-world applications.",
+      "club": "Society of Automotive Engineers (SAE)",
+      "short_description": "A two-day beginner-friendly workshop introducing the world of Printed Circuit Boards (PCBs). \nParticipants will learn the basics of electronic circuits, \nschematic design, component placement, and routing using design software. By the end, they will create their own PCB, gaining both theoretical knowledge and hands-on experience.",
+      "tagline": "Beginner-friendly workshop to learn PCB design basics and create your own circuit board in two days.",
+      "image": "https://i.imgur.com/jnWSOEY.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "SAE Go Karting",
+      "type": "Games",
+      "description": "Go Karting brings high-speed excitement to campus, giving you the chance to test your driving skills or pick them up on the go! Our specially designed race track will challenge your reflexes, control, and speed as you take on sharp turns and straight-line sprints. Race head-to-head with friends, feel the adrenaline build with every lap, and push your limits to see who claims victory. Whether you’re chasing the thrill of competition or simply want to experience racing for the first time, this is your moment to throttle up and own the track!",
+      "club": "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE)",
+      "short_description": "Feel the rush of Go Karting on campus—sharp turns, fast sprints, pure adrenaline! Race your friends and own the track.",
+      "tagline": "Floor the pedal and drive your heart out in an adrenaline-filled GoKarting experience.",
+      "image": "https://i.imgur.com/p688MiT.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "Aero-Crafters",
+      "type": "Workshop",
+      "description": "AeroCrafters is an engaging workshop where you’ll explore the fundamentals of airplanes and flight dynamics before building your own model plane with guidance from the skilled Asailing Falcons team. Gain valuable hands-on experience, deepen your understanding of aeronautics, and develop essential teamwork skills along the way. This is the perfect opportunity to combine learning with fun, as you work alongside passionate mentors and fellow enthusiasts. From understanding how planes take flight to watching your own creation soar. This workshop offers both knowledge and unforgettable memories in one exciting package!",
+      "club": "SAE-VIT",
+      "short_description": "Aero-Crafters is a 3-day workshop at graVITas where VIT students design, build, and fly model aircraft in teams, guided by SAE-VIT and Assailing Falcons",
+      "tagline": "Take off into aeromodelling — a hands-on journey with SAE-VIT & Assailing Falcons.",
+      "image": "https://i.imgur.com/fMMQKau.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T17:00:00Z"
+    },
+    {
+      "name": "SAE Grand Prix",
+      "type": "Competition",
+      "description": "SAE Grand Prix is an electrifying overnight event where you step in as the team principal of your own racing crew. From strategy to quick decision-making under pressure, every choice matters. Experience the thrill of a night race, build teamwork, and live the motorsport dream. Gather your crew, light up the track, and race into the night!",
+      "club": "SAE (Society Of Automotive Engineers)",
+      "short_description": "SAE Grand Prix is the event where you step in as the team principal of your own racing crew. From strategy to quick decision-making under pressure. Experience the thrill of a night race, build teamwork, and live the motorsport dream.",
+      "tagline": "Light up the track, and race into the night!",
+      "image": "https://i.imgur.com/NXzcdC9.jpeg",
+      "start_date": "2025-09-27T20:00:00Z",
+      "end_date": "2025-09-28T08:00:00Z"
+    }
+  ],
+  "SOCIETY OF MANUFACTURING ENGINEERS (SME)": [
+    {
+      "name": "Programming the Future: Experiential Learning in Industrial Robotics for Industry 4.0",
+      "type": "SMEC",
+      "description": "Discover \"Programming the Future: Experiential Learning in Industrial Robotics for Industry 4.0\"—a dynamic, hands-on training experience that connects theory to real-world skills in smart manufacturing. Engage directly with FANUC LR Mate and Universal Robots Cobot, mastering intuitive programming, simulation, and modern automation technologies. Explore integration with sensors, vision systems, and automation cells. The course immerses you in Industry 4.0 essentials: IoT connectivity, interoperability, and data-driven innovation. Learn how robotics transforms production while prioritizing safety and collaboration. Perfect for students, engineers, and professionals, this program unlocks the expertise needed to excel in tomorrow’s advanced manufacturing landscape. ",
+      "club": "SMEC",
+      "short_description": "NA",
+      "tagline": "Programming the Future: Experiential Learning in Industrial Robotics for Industry 4.0",
+      "image": "https://i.postimg.cc/cCMKg25Q/Industrial-Robot-5-0.png",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    },
+    {
+      "name": "Fuel Of Shadows",
+      "type": "Games",
+      "description": "Fuel of Shadows is a multi-stage escape room that challenges participants to restore power in a simulated blackout scenario. Through timed puzzles rooted in logic, circuitry, and mechanical design, teams must collaborate, think critically, and race against the clock to escape the shadows. Designed for thrill-seekers and problem-solvers, this event blends immersive storytelling with real-world engineering challenges.",
+      "club": "ASME VIT",
+      "short_description": "Fuel of shadows is an escape room type game based on automobiles.",
+      "tagline": "Unleash the secret. Race the shadows. Claim the truth.",
+      "image": "https://i.imgur.com/37QUrMv.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T14:00:00Z"
+    },
+    {
+      "name": "Manufacture Your Dream: RC Cars Building and Racing",
+      "type": "Games",
+      "description": "Join us for \"Manufacture Your Dream: RC Car Building and Racing,\" where you'll build and race your own RC car. With tools, materials, and guidance provided, compete on a custom track for the fastest car award. Experience creativity, competition, and fun as you bring your ideas to life!",
+      "club": "Society of Manufacturing Engineers (SME-VIT)",
+      "short_description": "Unleash creativity—build, compete, and race your dream RC car. Conquer the track, win prizes, and fuel your passion",
+      "tagline": "Build, race, and innovate—experience the thrill of manufacturing your dream RC car.",
+      "image": "https://i.imgur.com/7PICtqA.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "Aero-Vision",
+      "type": "Workshop",
+      "description": "Join us for a one-day intensive workshop on aero-modelling software, where you'll learn to design, analyze, and simulate using tools like XFLR8 and Fusion 360. Gain hands-on experience in creating CAD models, running aerodynamic simulationS and understanding design principles. Perfect for beginners and enthusiasts, this event equips you with practical skills to bring your aero-modelling ideas to life.",
+      "club": "ASME-VIT",
+      "short_description": "A one-day workshop on XFLR8 and Fusion 360--learn CAD modeling,aerodynamic simulations, and aero-modelling basics through hands-on training.",
+      "tagline": "Dream. Design. Deploy.",
+      "image": "https://i.imgur.com/6BduCIL.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T20:00:00Z"
+    },
+    {
+      "name": "The Cube-Sat Workshop",
+      "type": "Workshop",
+      "description": "Come to our two-day CubeSat workshop! You will use CAD to design a CubeSat in this workshop, then put the simplified functional satellite together and test it. Learn electronics, data analysis, and microcontroller programming. The best part is that you will bring home your CubeSat model, which combines space engineering, practical construction, and creativity to record actual data.",
+      "club": "ASME-VIT",
+      "short_description": "Build your own satellite! Design, program, and construct a working model during our two-day workshop. You'll even bring it home to gather real data.",
+      "tagline": "Discovering Space, One Cube at a Time",
+      "image": "https://i.imgur.com/7PAjjAz.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-28T15:00:00Z"
+    }
+  ],
+  "TREKKING CLUB": [
+    {
+      "name": "Detective Dilemma",
+      "type": "Games",
+      "description": "The Detective Dilemma event at VIT Vellore is an immersive, 30-minute crime simulation where teams analyze a realistic crime scene, gather physical and verbal clues, interrogate witnesses, and synthesize evidence to identify the culprit, motive, and method, fostering critical thinking, teamwork, and deduction skills in a thrilling, competitive environment.",
+      "club": "VIT Trekking Club",
+      "short_description": "A 30-minute crime-solving event at VIT, requiring teams to collect evidence and identify the culprit through teamwork and logic",
+      "tagline": "Detect, Deduce, Deliver Justice.",
+      "image": "https://i.imgur.com/ZEDuyL2.jpeg",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-28T17:00:00Z"
+    },
+    {
+      "name": "Nerf Wars",
+      "type": "Games",
+      "description": "Nerf Wars is an exciting team-based activity where players use Nerf blasters and foam darts in a safe environment. Game modes like Capture the Flag, Team Elimination, and Base Defense test strategy, teamwork, and reflexes. The event promotes coordination, leadership, and problem-solving while delivering fun, energy, and friendly competition, ensuring a thrilling experience for all.",
+      "club": "Vit Trekking Club",
+      "short_description": "Nerf Wars uses Nerf guns and foam darts in thrilling battles, combining strategy, teamwork, and nonstop fun for participants.",
+      "tagline": "Experience the thrill of Nerf battles where teamwork, strategy, and fun collide.",
+      "image": "https://i.imgur.com/nHQbMsh.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T17:00:00Z"
+    },
+    {
+      "name": "Laser Room",
+      "type": "Games",
+      "description": "Cross the Laser Room by dodging glowing beams and racing against time! Each participant must make it from one side to the other with a maximum of 3 laser touches allowed. Precision, agility, and speed decide your success—can you escape without getting caught?",
+      "club": "VIT Trekking Club",
+      "short_description": "“Cross the laser-filled room, dodge beams, and reach the other side without exceeding three touches.”",
+      "tagline": "“Dodge the beams, race the clock, and escape the Laser Room Challenge!”",
+      "image": "https://i.imgur.com/M0AHldo.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T17:00:00Z"
+    },
+    {
+      "name": "Escape Room",
+      "type": "Games",
+      "description": "Trapped in a locked room with only your wits and teammates to rely on, participants must solve a series of mind-bending riddles, uncover hidden clues, and crack clever puzzles — all within a limited time. This thrilling escape room challenge tests your logic, teamwork, and presence of mind. Will you escape in time?",
+      "club": "Trekking Club",
+      "short_description": "Race against time in an exciting escape room, solving riddles and puzzles with teamwork, logic, and sharp thinking to escape.",
+      "tagline": "Every corner hides a clue, every riddle holds a secret, and every second slips away.",
+      "image": "https://i.imgur.com/euS0pWz.png",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-28T17:00:00Z"
+    }
+  ],
+  "AMERICAN INSTITUTE OF CHEMICAL ENGINEERS (AICHE)": [
+    {
+      "name": "Operation Antidote: The Final Formula",
+      "type": "Competition",
+      "description": "SMV is under siege by a mysterious virus—experience a zombie apocalypse simulation where survivors, engineers, medics, scientists, tacticians, and zombies collaborate or compete through 4 problem-solving rounds. Tackle resource shortage, barricades, plot twists, and emergencies for bonus points. Shape your fate: will teamwork and strategy lead you to the cure or will betrayal turn the tide for the undead?",
+      "club": "AIChE",
+      "short_description": "The ultimate campus apocalypse simulation combines physical engineering challenges and dramatic role-playing for a tech fest experience unlike any other.",
+      "tagline": "Race against time to decode chaos and forge the cure before it’s too late.",
+      "image": "https://i.imgur.com/IsQ0vUM.png",
+      "start_date": "2025-09-28T09:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    },
+    {
+      "name": "Smooth Operator",
+      "type": "Workshop",
+      "description": "Smooth Operator is a Formula 1- themed K-12 workshop where 8-10 member pit crews tackle challenges at high-speed pit stops. From unstable fuels to overheating coolant and tyre grip loss, teams do hands-on experiments during the Grand Prix . Time constraints adds excitement, blending engineering skill with the adrenaline of racing.",
+      "club": "AIChE",
+      "short_description": "Smooth Operator is Formula 1- themed workshop where pit crews tackle challenges and solve problem faced by their favourite racer in the Grand Prix!",
+      "tagline": "Finishing fast is not always bad.",
+      "image": "https://i.imgur.com/cshkNGt.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    },
+    {
+      "name": "Trust issues",
+      "type": "Competition",
+      "description": "Trust Issues is a survival-style quiz-meets-engineering challenge where knowledge, speed, and betrayal collide. Round one features a rapid-fire buzzer quiz on common knowledge and basic engineering. Eliminated players regroup as rivals in round two—hands-on, time-bound chemical experiments testing precision and problem-solving. Retained teammates boost scoring chances, making adaptability the ultimate key to victory.",
+      "club": "AICHE",
+      "short_description": "Trust Issues blends quizzes, betrayal, and chemical experiments—testing knowledge, adaptability, and teamwork under pressure for ultimate survival.",
+      "tagline": "“Do you trust your friends … enough to survive Trust Issues?”",
+      "image": "https://i.imgur.com/UhRZTbv.png",
+      "start_date": "2025-09-23T13:00:00Z",
+      "end_date": "2025-09-23T20:00:00Z"
+    }
+  ],
+  "CUBING CLUB": [
+    {
+      "name": "SmowXpress",
+      "type": "Workshop",
+      "description": "SmowXpress is a fast-paced, hands-on IoT workshop where you build smarter, faster. Using Smowcode, a visual coding language that’s 10x quicker than traditional coding, you’ll prototype real industrial IoT solutions on the ESP32 in just hours. Learn, create, and demo your projects live—whether you’re a beginner or enthusiast, experience the thrill of innovation in one power-packed session.",
+      "club": "CUBING CLUB",
+      "short_description": "SmowXpress: A fast-paced workshop using Smowcode—10x faster coding on ESP32. Build industrial IoT prototypes in hours and demo live.",
+      "tagline": "TRAVEL WITH SMOWXPRESS",
+      "image": "https://i.imgur.com/V5HGE4s.jpeg",
+      "start_date": "2025-09-24T10:00:00Z",
+      "end_date": "2025-09-24T18:00:00Z"
+    },
+    {
+      "name": "Just LEGO It",
+      "type": "Competition",
+      "description": "\"Just LEGO it!\" is a creativity-packed event where participants form teams and bring their imaginations to life using LEGO bricks. Across three exciting rounds, they’ll build, adapt, and innovate under fun challenges. From crafting buildings to transforming them with unique themes and finally tackling a surprise twist, this event tests creativity, problem-solving, and teamwork.",
+      "club": "Cubing Club",
+      "short_description": "Participants will receive LEGO pieces and a theme, and they must build something creative that aligns with the given theme.",
+      "tagline": "LEGO Your limits",
+      "image": "https://i.imgur.com/EOf82sd.png",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    },
+    {
+      "name": "Echos in Order",
+      "type": "Games",
+      "description": "Echos in Order is a clue-hunt where every audio and video clip hides patterns, anomalies, and secret hints. Players must decode rhythms, spot visual cues, and connect scattered fragments to unlock the next stage. Only those who can truly \"hear\" and \"see\" beyond the obvious will reach the final revelation.Echos in Order is a multi-sensory clue-hunt using audio-visual puzzles, testing analytical, perceptual, and collaborative problem-solving skills.",
+      "club": "Cubing Club",
+      "short_description": "Echos in Order is a multi-sensory clue hunt using audio and visual puzzles, testing analytical, perceptual, and collaborative problem solving skills.",
+      "tagline": "Hear the unseen, see the unheard.",
+      "image": "https://i.imgur.com/MzgWh0f.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    },
+    {
+      "name": "SOLVE YOUR BRAIN",
+      "type": "Workshop",
+      "description": "In this interactive EEG demonstration, participants wear EEG bands that project their brainwaves live while solving puzzles like the Rubik’s Cube. The audience experiences both the challenge and the fascinating brain activity behind it, blending science with excitement. At the end, each participant receives a personalized brainwave report, making the event insightful, engaging, and unforgettable.",
+      "club": "The Cubing Club",
+      "short_description": "Participants wear EEG bands, solve puzzles, display brainwaves live, engage audience, and receive personalized brainwave activity reports after challenges",
+      "tagline": "Where Mind Meets Motion",
+      "image": "https://i.imgur.com/GfOGsYp.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T13:00:00Z"
+    }
+  ],
+  "DREAM MERCHANTS": [
+    {
+      "name": "Dream Team 7.0",
+      "type": "Hackathon",
+      "description": "Dream Team 7.0 is an immersive IPL auction simulation that puts participants in the role of franchise owners. Teams of friends strategize together to build competitive squads through budgeted bidding, combining the thrill of player auctions with real-world skills such as strategic planning, financial management, and teamwork. Participants must carefully analyze player values, balance team composition, and make tactical decisions to maximize points and performance. The event offers a realistic and engaging environment where cricket knowledge meets business strategy, rewarding both competitive spirit and collaborative thinking. Dream Team 7.0 is not just a game—it’s a test of strategy, leadership, and smart decision-making in the world of cricket management.",
+      "club": "DREAM MERCHANTS",
+      "short_description": "Dream Team 7.0 is a strategic IPL auction simulation where participants collaborate by forming teams with friends to act as franchise owners, building competitive squads through budgeted bidding. This event promotes strategic planning , financial management , and teamwork skills in a realistic and engaging environment.",
+      "tagline": "Where Champions Are Bought, Not Born!",
+      "image": "https://i.imgur.com/689MNeO.png",
+      "start_date": "2025-09-21T10:00:00Z",
+      "end_date": "2025-09-23T17:00:00Z"
+    },
+    {
+      "name": "Bricks By Bid",
+      "type": "Hackathon",
+      "description": "Bricks by Bid is a strategic simulation where participants form teams with friends to collaboratively build and expand their infrastructure. The event features bidding-based auctions for raw materials and city assets, alongside resource trading and infrastructure development. It promotes teamwork, negotiation, and resource management skills in an engaging and competitive environment.",
+      "club": "Dream Merchants",
+      "short_description": "Bricks by Bid is a team-based simulation of bidding, trading, and building infrastructure, fostering strategy, negotiation, and resource management.",
+      "tagline": "Trade Smart, Bid Bold, Build Big, Transform Ideas into Bricks.",
+      "image": "https://i.imgur.com/WEbXEUn.png",
+      "start_date": "2025-09-27T21:00:00Z",
+      "end_date": "2025-09-28T06:00:00Z"
+    }
+  ],
+  "AMERICAN SOCIETY OF CIVIL ENGINEERS (ASCE)": [
+    {
+      "name": "Bridge It",
+      "type": "Workshop",
+      "description": "Bridge It is a flagship two-day workshop and competition that blends theory with hands-on creativity. Participants learn bridge design basics, then apply them through model-making and load testing. Evaluated on strength, efficiency, and innovation, the event fosters teamwork, problem-solving, and design thinking—offering a unique platform to showcase creativity and build beyond boundaries.",
+      "club": "American Society of Civil Engineers (ASCE-VIT)",
+      "short_description": "Bridge It Eklavya is a two-day event where participants explore the fundamentals of bridge design and construction through interactive sessions, practical model-building, and testing challenges that encourage innovation and teamwork.",
+      "tagline": "Bridge Beyond Boundaries",
+      "image": "https://i.imgur.com/PIJVX94.png",
+      "start_date": "2025-09-27T11:00:00Z",
+      "end_date": "2025-09-28T16:00:00Z"
+    },
+    {
+      "name": "DESIGNFORGE 2.0",
+      "type": "Workshop",
+      "description": "DESIGNFORGE 2.0 is a premier structural engineering program designed for civil and structural engineering enthusiasts. It unfolds in two phases:\n\nPhase 1 – Workshop: Participants undergo intensive hands-on training in Autodesk Revit, learning interface navigation, advanced modeling, detailing, and project documentation through a guided mini-project.\n\nPhase 2 – Design Challenge + Fun Twists: Teams work on a real-world structural design problem using Revit. Alongside technical modeling, they will face surprise “fun challenges” such as sudden design modifications, sabotage elements, and simulated crisis alerts (e.g., flood conditions). These dynamic tasks test participants’ adaptability, problem-solving, and teamwork under pressure.\n\n\nThis unique blend of structured learning, technical application, and creative unpredictability fosters innovation, professional growth, and collaboration, bridging academic knowledge with real-world industry practices.",
+      "club": "AMERICAN SOCIETY OF CIVIL ENGINEERS (ASCE)",
+      "short_description": "DESIGNFORGE 2.0 is a two-phase event where participants first gain hands-on training in Autodesk Revit and then compete in a design challenge. Phase 2 adds excitement with surprise tasks such as sudden design changes, sabotage twists, and crisis simulations, pushing teams to showcase adaptability, creativity, and teamwork under pressure.",
+      "tagline": "design.develop.dominate",
+      "image": "https://i.imgur.com/XJz7zLT.jpeg",
+      "start_date": "2025-09-11T10:00:00Z",
+      "end_date": "2025-09-12T18:00:00Z"
+    }
+  ],
+  "CENTRE FOR SOCIAL ENTREPRENEURSHIP DEVELOPMENT(CSED)": [
+    {
+      "name": "Startup Street X",
+      "type": "Hackathon",
+      "description": "Startup Street X marks the 10th edition of our flagship entrepreneurial marathon, a 24-hour overnight challenge immersing participants in the complete startup journey. Visionary thinkers and innovators brainstorm, validate, strategize, and refine ideas with mentor guidance, culminating in a Shark Tank style pitching round judged on innovation and impact. Networking opportunities and exposure to real-world entrepreneurial challenges make this event a launchpad for future changemakers, offering mentorship, insights, and collaboration potential for all involved .",
+      "club": "CENTRE FOR SOCIAL ENTREPRENEURSHIP DEVELOPMENT(CSED)",
+      "short_description": "A high energy 24 hour overnight ideathon where dynamic teams collaborate to brainstorm, develop, and refine groundbreaking startup ideas. Throughout the challenge, participants receive expert mentorship and work towards pitching their business models to industry leaders, aiming for funding, prizes, and transformative mentorship opportunities that propel innovation and entrepreneurship",
+      "tagline": "DREAM | BUILD | LEAD",
+      "image": "https://i.imgur.com/kP9oO8o.png",
+      "start_date": "2025-09-26T16:00:00Z",
+      "end_date": "2025-09-27T16:00:00Z"
+    }
+  ],
+  "INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE)": [
+    {
+      "name": "Spectra",
+      "type": "Workshop",
+      "description": "Build your own AI-powered smartwatch from scratch in this two-day hands-on workshop! Your wearable will feature an OLED display showing date, time, health stats, environmental readings, and team branding. Track heart rate, blood oxygen, step count, sense temperature and pressure, and interact with your watch via AI chatbot. Upon completion, you’ll take home a fully functional smartwatch you built yourself.",
+      "club": "Indian Society For Technical Education (ISTE)",
+      "short_description": "Create your own AI-powered smartwatch with an OLED display, health tracking, environmental sensing, step count, and AI chatbot interaction.",
+      "tagline": "Track fitness, manage health, and stay connected - all from your wrist.",
+      "image": "https://i.imgur.com/v2u3kBW.png",
+      "start_date": "2025-09-24T08:00:00Z",
+      "end_date": "2025-09-25T01:00:00Z"
+    },
+    {
+      "name": "Helix",
+      "type": "Workshop",
+      "description": "Step into the world of game creation with Helix, a beginner friendly workshop on 3D game development using Unity. Step by step, you will be creating a physics based 3D runner set in a rotating tunnel where gravity flips at your command and obstacles challenge you, while learning Unity, C#, and object oriented programming through hands-on practice.",
+      "club": "Indian Society for Technical Education (ISTE)",
+      "short_description": "Start your game development journey with Helix, a beginner friendly Unity workshop featuring a 3D runner with gravity flipping mechanics.",
+      "tagline": "Turn the world upside down with creativity, physics, and interactive game challenges.",
+      "image": "https://i.imgur.com/hHwIvtC.png",
+      "start_date": "2025-09-21T08:00:00Z",
+      "end_date": "2025-09-21T20:00:00Z"
+    },
+    {
+      "name": "Celestia",
+      "type": "Hackathon",
+      "description": "Celestia is a 24-hour beginner-friendly vibe coding hackathon where AI tools power creativity and innovation. Working in teams, participants will brainstorm, design, and prototype solutions across six tracks—Dev Tools, Open Innovation, SDG, Hardware, EdTech, and Healthcare. The event offers an exciting chance to gain new skills and transform ideas into impactful, real-world solutions.",
+      "club": "Indian Society for Technical Education (ISTE)",
+      "short_description": "Celestia is a 24-hour beginner-friendly vibe coding hackathon spanning six tracks, where participants collaborate, innovate, and pitch impactful ideas.",
+      "tagline": "Shaping a smarter tomorrow through code, collaboration, and innovation at Celestia.",
+      "image": "https://i.imgur.com/3LBOcy4.png",
+      "start_date": "2025-09-27T16:00:00Z",
+      "end_date": "2025-09-28T16:00:00Z"
+    }
+  ],
+  "SPIC MACAY": [
+    {
+      "name": "Tote-ally Blocked Out 2.0",
+      "type": "Workshop",
+      "description": "Tote-ally Blocked Out is back—this time to spark innovation through tradition!\n SPICMACAY brings you the timeless art of Rajasthani block printing. Discover how centuries-old craftsmanship meets modern creativity as you explore block printing with hand-carved wooden blocks, precise alignment, and layered colors to create colourful motifs. Finally, add your personal touch by customizing your tote bag, making it a keepsake that reflects your unique style.\n Walk away with a handcrafted tote that’s not just a keepsake, but a celebration of tradition, technique, and creativity combined.",
+      "club": "Spic Macay",
+      "short_description": "Tote-ally Blocked Out is back! With SPICMACAY, discover the elegance of Rajasthani block printing. Explore patterns, play with colours, and craft your own tote bag. Take home a creation that blends tradition, artistry, and your personal touch—a keepsake made by you, for you.",
+      "tagline": "Your Tote, Your Story, Your Style",
+      "image": "https://i.imgur.com/UVQFNJW.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T16:00:00Z"
+    },
+    {
+      "name": "Nritya Paadhai",
+      "type": "Workshop",
+      "description": "Get ready to dance, smile, and move with Nritya Paadhai! This exciting Bharatanatyam workshop, led by classically trained members of SPIC MACAY, VIT Vellore, is your ticket to discovering one of India’s most graceful and powerful dance forms. Through fun activities, you'll learn its history, explore basic postures and rhythmic adavus, express yourself through abhinaya and beautiful mudras. By the end, you'll even perform a simple piece together! Perfect for beginners and dance lovers, it's all about having fun while stepping into the world of tradition, rhythm, and storytelling. Come, feel the rhythm, and make every step count!",
+      "club": "SPIC MACAY",
+      "short_description": "Discover the graceful and powerful art of Bharatanatyam! Learn postures, rhythmic adavus, abhinaya, and beautiful mudras through fun, beginner-friendly activities - and perform a simple piece together. Come and join us to feel the rhythm, express yourself, and make every step a story!",
+      "tagline": "From Traditional Roots to Timeless Expressions",
+      "image": "https://i.imgur.com/q0yv1qq.jpeg",
+      "start_date": "2025-09-11T08:00:00Z",
+      "end_date": "2025-09-11T14:00:00Z"
+    }
+  ],
+  "MATRIX- THE MULTIMEDIA CLUB": [
+    {
+      "name": "Scratch & Hatch",
+      "type": "Workshop",
+      "description": "Scratch & Hatch is an engaging hands-on workshop designed to introduce students to the exciting world of game development using Scratch, a beginner-friendly visual programming language developed by MIT.\nIn this workshop, participants will learn the basics of Scratch, explore its drag-and-drop coding blocks, and understand how to bring animations, characters, and interactions to life. Step by step, they will be guided through the process of creating their very own interactive game—from setting up sprites and backgrounds to adding movements, sounds, and scoring systems.\nThe workshop emphasizes learning by doing. Rather than just theory, participants will actively follow along, experimenting with Scratch as they build a game together with the instructor. By the end of the session, each participant will have not only learned the fundamentals of coding logic but also created a working game they can proudly share and expand upon.\nThis workshop is perfect for beginners with no prior coding experience. All you need is curiosity and creativity—Scratch will take care of the rest!",
+      "club": "MATRIX- THE MULTIMEDIA CLUB",
+      "short_description": "Scratch & Hatch is a beginner-friendly workshop where you’ll learn to design and code your very own game using Scratch. No prior coding experience needed—just bring your creativity and hatch your first game!",
+      "tagline": "Scratch the code, Hatch the future",
+      "image": "https://i.imgur.com/a4McLde.jpeg",
+      "start_date": "2025-09-21T10:00:00Z",
+      "end_date": "2025-09-21T13:00:00Z"
+    }
+  ],
+  "HEALTH CLUB": [
+    {
+      "name": "Fitkit",
+      "type": "Hackathon",
+      "description": "The Health Club, in collaboration with the Culinary Club and Nutrition Club, presents Fitkit — a mini-hackathon blending technology with healthy living. Teams of 4 will design digital solutions (apps, websites, or tools) that analyze cooking inputs to identify ingredients and provide nutritional breakdowns. Extra credit goes to healthy substitutions, personalized meal suggestions, and smart kitchen integration.",
+      "club": "Health club X culinary club X nutrition club",
+      "short_description": "Fitkit, a mini-hackathon by Health, Culinary, and Nutrition Clubs, challenges participants to build tech solutions for nutrition analysis and healthier cooking.",
+      "tagline": "When coding meets cooking for a healthier tomorrow",
+      "image": "https://i.imgur.com/42VDj5d.jpeg",
+      "start_date": "2025-09-22T09:00:00Z",
+      "end_date": "2025-09-22T17:00:00Z"
+    },
+    {
+      "name": "Health tech",
+      "type": "Ideathon",
+      "description": "The Health Tech Ideathon is a one-day innovation challenge where participants create impactful solutions for real-world problems in healthcare, fitness, and wellness. Problem statements will be shared in advance, giving teams time to brainstorm and prepare their ideas. On the event day, the first half will be dedicated to final preparation and refining concepts, while the second half will focus on presentations. Solutions may take the form of mobile apps, wearable devices, AI-based systems, or smart community initiatives. The event aims to inspire creativity, practicality, and social impact. Exciting prizes await the most innovative and meaningful ideas.",
+      "club": "Health club",
+      "short_description": "Participate in the Health Tech Ideathon! Brainstorm innovative ideas in healthcare, fitness, and wellness, present your solutions, and win exciting prizes.",
+      "tagline": "Innovating Health, Empowering Lives: Your Ideas for a Better Tomorrow.",
+      "image": "https://i.imgur.com/gZ1QKjt.jpeg",
+      "start_date": "2025-09-21T09:00:00Z",
+      "end_date": "2025-09-21T17:00:00Z"
+    },
+    {
+      "name": "Hack the Dash 2.0",
+      "type": "Hackathon",
+      "description": "Join our Power BI Workshop & Competition! Learn data visualization skills in our workshop and then compete to design interactive dashboards using real datasets. No coding experience needed. Form a team of 3-4 and work together to create innovative dashboards. Top teams win exciting prizes. Explore data analytics in a practical way and have fun. A perfect opportunity to learn and showcase your skills!",
+      "club": "Health Club",
+      "short_description": "Join our Power BI Workshop & Competition! Learn data visualization fundamentals and showcase skills for exciting prizes and career growth!",
+      "tagline": "Data Meets Creativity:Unlock Insights with Power BI",
+      "image": "https://i.imgur.com/YrgfEqh.jpeg",
+      "start_date": "2025-09-23T09:00:00Z",
+      "end_date": "2025-09-23T17:00:00Z"
+    }
+  ],
+  "IEEE CIRCUITS AND SYSTEMS (IEEE-CAS)": [
+    {
+      "name": "Bits and Beats",
+      "type": "Workshop",
+      "description": "Bits and Beats is a hands-on workshop introducing audio signal processing using MATLAB and Simulink. Participants will explore the fundamentals of DSP through a mini-project on creating chorus and flanger effects, gaining practical experience in real-time audio processing—an excellent foundation for careers in audio engineering, DSP, embedded systems, and music production.",
+      "club": "IEEE Circuits and Systems",
+      "short_description": "Hands-on MATLAB workshop on audio signal processing with mini-projects on chorus and flanger effects using Simulink.",
+      "tagline": "Engineering the Echo of Tomorrow",
+      "image": "https://i.imgur.com/6LLJCDz.png",
+      "start_date": "2025-09-22T08:00:00Z",
+      "end_date": "2025-09-22T20:00:00Z"
+    },
+    {
+      "name": "FPGA Prototyping Summit",
+      "type": "Workshop",
+      "description": "The FPGA Prototyping Summit is a hands-on workshop guiding students through Verilog-based RTL design and FPGA implementation. Covering the full FPGA design flow—from simulation to hardware deployment—it bridges academic theory with industry practices, preparing participants for careers in VLSI, embedded systems, and semiconductors through interactive sessions, demos, and guided coding exercises.",
+      "club": "IEEE Circuits and Systems",
+      "short_description": "Hands-on workshop on Verilog-based RTL design and FPGA prototyping for careers in VLSI and embedded systems.",
+      "tagline": "Designing the future, one bit at a time.",
+      "image": "https://i.imgur.com/G8noLae.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T20:00:00Z"
+    },
+    {
+      "name": "Embed Control 6.0",
+      "type": "Hackathon",
+      "description": "Embed Control 6.0, the flagship event of IEEE CAS, returns this year with an exciting twist – a hardware hackathon to complement its hands-on workshop. Day one will be an industry expert-guided workshop on the ESP32 development board, and day two is where students will team up and test their knowledge in a hardware hackathon on embedded systems.",
+      "club": "IEEE Circuits and Systems",
+      "short_description": "Embed Control 6.0 is an ESP32 workshop and hardware hackathon for students to learn, build, and compete in embedded systems",
+      "tagline": "Embed, Lead, Innovate",
+      "image": "https://i.imgur.com/ujpMCGJ.png",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    }
+  ],
+  "TOASTMASTERS INTERNATIONAL": [
+    {
+      "name": "Crisis Inc. 2.0",
+      "type": "Hackathon",
+      "description": "Crisis Inc. is an intense corporate crisis simulation where newly promoted department heads race against time to solve evolving company problems. Participants pitch in novel solutions, collaborate for the common cause, and adapt to sudden changes. Creativity, strategy, and teamwork are tested in every round, culminating in a high-stakes final crisis where only the sharpest, most cooperative team emerges victorious.",
+      "club": "Toastmasters International - VIT",
+      "short_description": "Crisis Inc. challenges newly promoted department heads to solve evolving company crises with creativity, strategy, and teamwork—think fast, lead wisely, and outsmart the crisis!",
+      "tagline": "Placements @ Crisis Inc.",
+      "image": "https://i.imgur.com/7uowkCz.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    }
+  ],
+  "IEEE WOMEN IN ENGINEERING (IEEE-WIE)": [
+    {
+      "name": "Bot or Not",
+      "type": "Workshop",
+      "description": "Bot or Not is a high-energy workshop on deepfake detection. Using Python, TensorFlow, and CNNs, you’ll uncover how AI fakes are made and learn to spot them. From real datasets to building your own model, you’ll gain practical skills, a working project, and sharper instincts for distinguishing real from fake.",
+      "club": "IEEE Women In Engineering",
+      "short_description": "Bot or Not: A hands-on workshop to detect deepfakes using Python, TensorFlow, and CNNs with real datasets.",
+      "tagline": "Fake it till you break it — deepfake detection made real.",
+      "image": "https://i.imgur.com/lKZPk6v.png",
+      "start_date": "2025-09-11T14:00:00Z",
+      "end_date": "2025-09-11T20:00:00Z"
+    },
+    {
+      "name": "Switchuation 2.0",
+      "type": "Hackathon",
+      "description": "Switchuation 2.0 is a unique WebDev hackathon with a twist—teams swap project ideas at the start and build someone else’s vision. Blending web development with AI, it’s a fast-paced challenge of adaptability, creativity, and teamwork. Embrace new perspectives, think on your feet, and turn unfamiliar concepts into extraordinary creations. Step up, switch gears, and innovate.",
+      "club": "IEEE Women in Engineering",
+      "short_description": "Switchuation 2.0 is a WebDev hackathon where teams swap ideas, embracing AI, creativity, and collaboration to build innovative projects.",
+      "tagline": "One Team's start is another's finale .SWITCH, SHUFFLE AND SLAYYY",
+      "image": "https://i.imgur.com/AhiHVst.png",
+      "start_date": "2025-09-23T08:00:00Z",
+      "end_date": "2025-09-23T20:00:00Z"
+    }
+  ],
+  "MOZILLA FIREFOX": [
+    {
+      "name": "PLAYNAMICS",
+      "type": "Workshop",
+      "description": "Playnamics is more than just a game development marathon ,it’s a high-energy creative playground where ideas turn into interactive realities. Across this action-packed event, you’ll dive deep into the exciting world of game creation through a perfect blend of learning, hands-on building, and collaboration. We’ve lined up inspiring speaker sessions featuring experts from entrepreneurship, technology, and design & storytelling. But it’s not all talk ,our hands-on workshop will guide you step-by-step through building your own game, from brainstorming and prototyping to polishing gameplay and visuals. You’ll team up with fellow participants to brainstorm wild ideas, solve creative challenges, and bring your vision to life. Whether you’re just starting out or already have a few game projects under your belt, Playnamics is your chance to learn new skills, unleash your creativity, and connect with a community of passionate makers , all in an atmosphere buzzing with innovation and fun.",
+      "club": "MOZILLA FIREFOX CLUB",
+      "short_description": "Playnamics is a game development workshop , a creative playground where participants can learn, build, and experience the process of making a game from scratch along with their friends. Mentors and two expert speakers will be there as ultimate power-ups,\n helping to level up skills and ideas.",
+      "tagline": "From player to creator!",
+      "image": "https://i.imgur.com/RLSpulJ.png",
+      "start_date": "2025-09-24T10:00:00Z",
+      "end_date": "2025-09-24T19:00:00Z"
+    },
+    {
+      "name": "CodeXcape",
+      "type": "Hackathon",
+      "description": "CodeXcape is an enthralling 24 Hour event that will have three unique and exciting rounds. Jeopardy - The Trivia Round. Scotland Yard - The Strategy Round. Hackathon - The Innovation Round. The Jeopardy Round will have 5-10 Questions per team that will be divided into 5 levels of difficulties ranging from very easy to very challenging. Right answers will gain the teams MozCoins depending on the level of difficulty of the question and an appropriate MozCoins deduction will be made for every wrong answer as well. Once the Jeopardy round is over we will move into the Scotland Yard round which will have multiple lobbies and each lobby will have 6 teams. 5 detective teams and 1 Mr.X (Imposter) team. The imposter's location will be revealed every 5 moves and based on that the detectives are supposed to track Mr.X. Based on how close each detective is to Mr.X , they get some amount of MozCoins and the same goes for Mr.X. Mr.X gains MozCoins for how far away from the detectives he is. The detectives and Mr.X also have the opportunity to spend points in round 2. Detectives can use MozCoins to know the location of Mr.X at any move and Mr.X can use MozCoins to warp to some preset location if he knows the detectives are close. The showpiece round is the hackathon which will be a unique take on hackathons. The teams will have randomised problem statements. They can change their problem statement to some other random problem statement by spending MozCoins. Other than this there will be several ways to spend MozCoins in the hackathon like mentorship and time extensions. The final marking will be accounted by hackathon for 80% and 20% by the remainder of MozCoins left in their account",
+      "club": "MOZILLA FIREFOX",
+      "short_description": "CodeXcape is an enthralling 24-hour competition structured around three distinct rounds and a strategic currency called MozCoins. The event begins with a trivia round, \"Jeopardy,\" where teams accumulate MozCoins by correctly answering questions of varying difficulty. Next, in the \"Scotland Yard\" strategy round, teams play as detectives or an imposter, earning coins based on their ability to track or evade, and can spend them on tactical advantages. The final and main event is the Hackathon, where teams use their accumulated MozCoins to purchase critical resources like new problem statements, mentorship, or time extensions. A team's final victory is calculated with the hackathon project heavily weighted at 80% of the score, while their leftover MozCoins account for the remaining 20%.",
+      "tagline": "Outwit with trivia, outplay with strategy, and out-code the competition in 24 hours.",
+      "image": "https://i.imgur.com/L4OxvtJ.jpeg",
+      "start_date": "2025-09-27T21:00:00Z",
+      "end_date": "2025-09-28T21:00:00Z"
+    }
+  ],
+  "MUSIC CLUB": [
+    {
+      "name": "Right! A Tune",
+      "type": "Hackathon",
+      "description": "The Music Club, an elite club at VIT, is home to some of the most talented musicians\nwho bring together \"Right! A Tune,\" an opportunity-rich flagship event that\nblends technology, music production, and performance all in one with an\nadditional Music Production Workshop on the first day.\nThis is a song-creation competitive hackathon with a cash prize for the top 3 winners.\nThe participants may participate solo, in a pair or as a team. They can find their collaborations before or during the event.\nSpanning 48 hours, \"Right! A Tune\" is a dream come true for aspiring producers looking for the right opportunity to learn, connect and create music they love. Participants form teams, write, arrange and produce their own music from scratch. The best part? Their work gets released on Spotify, Apple Music and other major digital streaming platforms.",
+      "club": "MUSIC CLUB",
+      "short_description": "A 48 Hour Overnight Music Production hackathon focused on music enthusiasts who want to bring their musical creativity to life. Participants may find collaborators and form teams to write, record and mix their original songs. The Music Club will also host a music production workshop from industry level expert. Winners may receive cash prizes.",
+      "tagline": "When the clock strikes creativity!",
+      "image": "https://i.imgur.com/AOhdihR.png",
+      "start_date": "2025-09-26T12:00:00Z",
+      "end_date": "2025-09-28T12:00:00Z"
+    }
+  ],
+  "ROTARACT CLUB": [
+    {
+      "name": "Ignition'25",
+      "type": "Ideathon",
+      "description": "Ignition’25 is a fast-paced ideathon that fuses strategy games with real-world problem-solving. From hyperlink races on Wikipedia to innovation challenges and idea pitches, teams will battle it out for the title of Ignition’25 Champions.",
+      "club": "Rotaract Club",
+      "short_description": "Ignition’25 is a thrilling ideathon blending strategy games and innovation challenges, where teams compete creatively to become ultimate champions.",
+      "tagline": "Spark Ideas. Fuel Innovation.",
+      "image": "https://i.imgur.com/z4fuKss.jpeg",
+      "start_date": "2025-09-23T08:00:00Z",
+      "end_date": "2025-09-23T19:00:00Z"
+    }
+  ],
+  "VIT SPARTANS": [
+    {
+      "name": "Battle in Borderland",
+      "type": "Games",
+      "description": "Teams battle through four thrilling rounds: escape a clue-filled room in 10 minutes, race sequentially in the Wikipedia Relay where the slowest team is cut, crack hidden codes to stop a ticking bomb, and finally face the Split or Steal showdown—where trust, bluff, and strategy decide whether teams share glory, seize it all, or lose everything.",
+      "club": "VIT Spartans",
+      "short_description": "Escape rooms, relay races, code-breaking, and a final trust showdown—four thrilling rounds testing teamwork, speed, logic, and strategy",
+      "tagline": "From secrets to strategy, speed to psychology — only the sharpest team survives all.",
+      "image": "https://i.imgur.com/iqxolzJ.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    }
+  ],
+  "IEEE-MICROWAVE THEORY AND TECHNIQUES SOCIETY (IEEE-MTTS)": [
+    {
+      "name": "Techno Treasure Hunt : RF Rescue Edition",
+      "type": "Games",
+      "description": "RF Rescue Edition is an exciting team-based treasure hunt where players solve RF and microwave-themed puzzles to unlock hidden clues. Teams of 3-5 race across 5–7 clue stations, cracking codes, scanning QR hints, and decoding signals. The adventure culminates in a final mission: restoring the lab by defeating signal interference through teamwork, logic, and discovery.",
+      "club": "IEEE-MTTS",
+      "short_description": "RF Rescue Edition: A campus treasure hunt where teams decode RF puzzles, chase clues, and save the lab from signal interference.",
+      "tagline": "“Decode the Clues. Rescue the Frequency.”",
+      "image": "https://i.imgur.com/nWJZoBj.jpeg",
+      "start_date": "2025-09-26T14:00:00Z",
+      "end_date": "2025-09-26T17:00:00Z"
+    },
+    {
+      "name": "Beat The Jammer",
+      "type": "Games",
+      "description": "Beat the Jammer is a fast-paced, tech-inspired game where teams race to locate the strongest music signal while a jammer blasts noise to block it. Players rotate as hider, jammer, and seekers, using sharp listening and quick moves. Bonus puzzles and tricky twists like moving jammers or blindfolds make it a fun mix of sound hunt and strategy.",
+      "club": "IEEE-MTTS",
+      "short_description": "Beat the Jammer: A fun sound-hunt game of signals, noise, strategy, puzzles, and twists.",
+      "tagline": "Outsmart the static, chase the sound.",
+      "image": "https://i.imgur.com/w2q31Zb.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    }
+  ],
+  "CULINARY CLUB": [
+    {
+      "name": "Purble Place",
+      "type": "Games",
+      "description": "Purble Place is a light-hearted and engaging competition that brings out the creativity of participants through the art of cake decorating. Designed as a casual yet skillful event, it encourages participants to experiment with color theory, design, and presentation while working under constraints that add an exciting challenge.\n Each team will be provided with a plain cake base along with a limited set of basic cream colors. Using these, they must decorate their cakes into an imaginative and visually appealing art piece. Since only primary colors will be supplied, participants will need to mix and experiment to generate additional colors, thereby testing both their creativity and practical understanding of color blending.\n The event will be conducted in two slots to ensure that all participants have adequate time and space to work comfortably. Within their given time frame, participants will plan, design, and execute their cake decoration.",
+      "club": "The Culinary Club",
+      "short_description": "Purble Place is a cake decorating event that encourages participants to experiment with color theory. Each team will be provided with a plain cake base along with a limited set of basic cream colors. Within their given time frame, participants will plan, design, and execute their cake decoration.",
+      "tagline": "Turning simplicity into sweet art",
+      "image": "https://i.imgur.com/4JBmPyZ.png",
+      "start_date": "2025-09-26T11:00:00Z",
+      "end_date": "2025-09-26T17:00:00Z"
+    },
+    {
+      "name": "Byte to Bite",
+      "type": "Hackathon",
+      "description": "BYTE TO BITE is a three-round event that brings together the worlds of artificial intelligence and culinary art. Participants will be challenged to think creatively and technically as they first code a smart system to generate a recipe and then cook that exact dish using real ingredients. \n \n ROUND 1: AI MODELING\n small workshop to help the participants understand the steps to creating their own wrapper model, and an introduction to prompt engineering, as well as providing extra resources to help them\n ROUND 2: RECIPE RENDER \n this round gives the participants time to create their own wrapper \n ROUND 3: FROM SCRIPT TO SKILLET\n The participants would be provided with a mystery box with some random ingredients and using their made wrapper, they must generate a recipe which then has to be recreated by the participants",
+      "club": "The Culinary Club",
+      "short_description": "BYTE TO BITE is the ultimate tech-culinary challenge where code meets cuisine. Participants will be taught the basics of AI Wrappers and prompt engineering, and then Participants will have to build their own AI recipe generator, then use their custom model to create a unique dish from a mystery box of ingredients. It's a true test of skill, from script to skillet!",
+      "tagline": "Cook What You Code",
+      "image": "https://i.imgur.com/kNCCU9c.jpeg",
+      "start_date": "2025-09-28T10:00:00Z",
+      "end_date": "2025-09-28T16:00:00Z"
+    }
+  ],
+  "STUDENTS ASSOCIATION OF BIO-ENGINEERING SCIENCE AND TECHNOLOGY (SABEST)": [
+    {
+      "name": "Into the Micro-Verse",
+      "type": "Ideathon",
+      "description": "Into the Micro-Verse is an interactive strategy game where players guide microbial teams through survival challenges. Stages include Immune Evasion, Antibiotic Resistance, Metabolic Rewiring, and CRISPR-Phage Defence. Side quests provide boosts like cloaks, resistance genes, or shields. Every decision shapes the final “evolved” microbe. Blending science, creativity, and competition, Micro-Verse makes adaptation the key to victory.",
+      "club": "SABEST (Students’ Association of Bio-Engineering Sciences and Technology",
+      "short_description": "Into the Micro-Verse is a competitive simulation where players engineer microbial survival by strategizing immune evasion, antibiotic resistance, metabolic rewiring, and CRISPR-based phage defence.",
+      "tagline": "Microscopic world. Massive stakes.",
+      "image": "https://i.imgur.com/sdmeVjM.png",
+      "start_date": "2025-09-13T08:00:00Z",
+      "end_date": "2025-09-13T19:00:00Z"
+    },
+    {
+      "name": "Forensic Minds",
+      "type": "Workshop",
+      "description": "Forensic Minds is an immersive hands-on murder mystery workshop where participants become investigators, analyzing evidence with real forensic techniques like gel electrophoresis, blood typing, and more. Each experiment reveals vital clues, demanding logic, teamwork, and reasoning. Blending science with mystery, the workshop challenges participants to uncover motives, identify suspects, and solve the case in a thrilling race against time.",
+      "club": "SABEST (Students’ Association of Bio-Engineering Sciences and Technology)",
+      "short_description": "Forensic Minds is a hands-on workshop where participants investigate murder mysteries using forensic science, solving cases through experiments, logic, and teamwork.",
+      "tagline": "Trust the Science. Question everything else.",
+      "image": "https://i.imgur.com/Jde91dM.png",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    },
+    {
+      "name": "LIGHTS OUT",
+      "type": "Competition",
+      "description": "Lights Out is a high-octane, bio-inspired motorsport challenge blending Formula 1 with nature’s genius. Teams tackle four thrilling stages—BioRevamp, Pitstop Gauntlet, BioAuction, and the Grand Prix Showdown—reimagining flawed F1 designs with biomimicry, surviving high-speed relays, gambling biocoins on upgrades, and unveiling bold, nature-powered race machines. Innovation, strategy, and adrenaline collide—when the lights go out, the game begins.",
+      "club": "SABEST (Students' Association of Bio-Engineering Sciences and Technology)",
+      "short_description": "Lights Out fuses Formula 1 with nature—biomimicry, strategy, and adrenaline drive teams through four thrilling, high-stakes stages.",
+      "tagline": "REDESIGN. OPTIMISE. RACE.",
+      "image": "https://i.imgur.com/SjO7hqX.jpeg",
+      "start_date": "2025-09-28T08:00:00Z",
+      "end_date": "2025-09-28T19:00:00Z"
+    }
+  ],
+  "INSTITUTION OF ENGINEERS INDIA IE(I)": [
+    {
+      "name": "Hackatopia",
+      "type": "Ideathon",
+      "description": "An ideathon where participants transform their ideas into basic project structures—such as simple web prototypes—and then get the chance to pitch them on stage. The event is designed to give maximum participants this opportunity, encouraging not just coding but also creativity, clarity, and entrepreneurial thinking. By blending innovation with presentation, it aims to spark an entrepreneurial mindset, motivating participants to see their ideas as potential startups while providing a fun, collaborative, and pitch-driven environment",
+      "club": "Institution of Engineers India",
+      "short_description": "An ideathon where participants build prototypes, pitch ideas, and ignite entrepreneurial thinking in a creative, collaborative, and fun environment.",
+      "tagline": "Where every idea gets a voice",
+      "image": "https://i.imgur.com/IQFJ6py.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T20:00:00Z"
+    }
+  ],
+  "ANIMATION CLUB": [
+    {
+      "name": "Pixelens",
+      "type": "Workshop",
+      "description": "Join us for a 10-hour immersive workshop where creativity meets technology! Guided by an expert animator, participants will explore storytelling, character creation, and visual development while mastering Blender’s powerful tools for modeling, animation, and rendering. From concept to screen, learn the complete workflow of producing an animated film. Perfect for beginners and aspiring filmmakers alike!",
+      "club": "ANIMATION CLUB",
+      "short_description": "A 10-hour workshop blending storytelling and Blender skills—learn to craft, animate, and render your own animated film.",
+      "tagline": "Model, Animate, Render.",
+      "image": "https://i.imgur.com/5VbDpJ4.png",
+      "start_date": "2025-09-25T11:00:00Z",
+      "end_date": "2025-09-25T21:00:00Z"
+    }
+  ],
+  "THE CATALYST CLUB": [
+    {
+      "name": "The Last Experiment!",
+      "type": "Games",
+      "description": "Unravel a chilling mystery at Murder at the Molecular Lab! \n Dr. Aurelia Sparks has been found dead before presenting her breakthrough fuel formula.\n Teams race against time to solve chemistry-based puzzles and expose the killer.\n 10 minutes, 4 suspects, 1 deadly chemical — can you crack the case?",
+      "club": "The Catalyst Club",
+      "short_description": "Unravel a thrilling lab mystery! Solve chemistry puzzles, interrogate suspects, and race against time to expose Dr. Sparks’ killer.",
+      "tagline": "\"Forensic Fun, Catalyst Style!”",
+      "image": "https://i.imgur.com/uZyHiAk.jpeg",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    }
+  ],
+  "NATIONAL ASSOCIATION OF STUDENTS OF ARCHITECTURE (NASA)": [
+    {
+      "name": "Painted Panes",
+      "type": "Workshop",
+      "description": "The Painted Panes Workshop invites participants to explore the art of transforming plain glass into striking, decorative pieces.\n \n Designed for beginners and art enthusiasts alike, the session introduces simple techniques and creative approaches that bring colours and patterns to life. \n \n It offers a hands-on experience that combines learning with creativity, allowing participants to craft unique designs that reflect their personal style.",
+      "club": "National Association of Students of Architecture (NASA)",
+      "short_description": "Brighten your day at Painted Panes! Learn fun, easy glass-painting techniques to create vibrant, customised art pieces!",
+      "tagline": "Don’t be shy! Dive in and just pane it bright !",
+      "image": "https://i.imgur.com/SOBt91u.png",
+      "start_date": "2025-09-27T14:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    }
+  ],
+  "TECHNOLOGY AND GAMING CLUB (TAG)": [
+    {
+      "name": "DESYNC X BGMI (TAG)",
+      "type": "Games",
+      "description": "Battlegrounds Mobile India (BGMI) is a mobile battle royale game exclusive to Indian players, developed by Krafton. Up to 64 players parachute onto diverse maps, gather weapons, and compete to be the last one standing. BGMI features solo and squad modes, strategic gameplay, frequent events, and regular updates for immersive action in a fast-paced, shrinking battlefield",
+      "club": "Technology And Gaming Club",
+      "short_description": "Battlegrounds Mobile India (BGMI) delivers thrilling battle royale action, where 64 players compete in intense, fast-paced survival matches. Play, fight, and conquer!",
+      "tagline": "Enter The Glitch. Embrace The Chaos",
+      "image": "https://i.imgur.com/yw0F3Qb.png",
+      "start_date": "2025-09-26T09:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    },
+    {
+      "name": "DESYNC X VALORANT (TAG)",
+      "type": "Games",
+      "description": "Step into the world of Valorant, where precision, strategy, and teamwork decide the champions. In this event, teams will face off in high-energy matches that test coordination, quick thinking, and adaptability. Every round is a new opportunity to outsmart your opponents, showcase your skills, and work together for the win. With unique agent abilities, dynamic maps, and fast-paced objectives, Valorant offers the perfect stage for intense competition. Gather your squad, plan your plays, and aim for the top — the title awaits the best team.",
+      "club": "Technology and Gaming Club",
+      "short_description": "Teams battle in high-energy matches that test skill, adaptability, and coordination. With unique agents and dynamic maps, every round is a chance to outsmart opponents and claim the title.",
+      "tagline": "Enter the Glitch. Embrace the Chaos",
+      "image": "https://i.imgur.com/yw0F3Qb.png",
+      "start_date": "2025-09-26T08:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    },
+    {
+      "name": "DESYNC X FIFA (TAG)",
+      "type": "Games",
+      "description": "Participants will compete in an exciting FC 25 tournament played in knockout style. Players face off in head-to-head matches, showcasing their gaming skills and football strategies. Winners advance through each round until the final, where the ultimate champion is crowned. The event promises fun, competition, and thrilling virtual football action.",
+      "club": "Technology and Gaming",
+      "short_description": "thrilling FIFA tournament where gamers compete head-to-head for glory, prizes, and ultimate bragging rights",
+      "tagline": "Enter the Glitch. Embrace the Chaos",
+      "image": "https://i.imgur.com/yw0F3Qb.png",
+      "start_date": "2025-09-26T09:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    }
+  ],
+  "INDIAN CONCRETE INSTITUTE": [
+    {
+      "name": "Squid Game: The Final Showdown",
+      "type": "Games",
+      "description": "Squid Game: The Final Showdown is an electrifying four-round competition blending endurance, strategy, strength, and creativity. Starting with 150 participants, players face iconic challenges like Red Light, Green Light, Tug of War, and unique engineering-inspired battles. With eliminations at every stage, only one team of two will survive the tests of agility, teamwork, and skill to claim ultimate victory.",
+      "club": "Indian Concrete Institute",
+      "short_description": "Squid Game: The Final Showdown challenges 150 players through endurance, strategy, and creativity, with only two emerging victorious.",
+      "tagline": "“The Arena of Elimination. The Glory of Survival.”",
+      "image": "https://i.imgur.com/3jZvZu4.png",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    }
+  ],
+  "NATIONAL SERVICE SCHEME (NSS)": [
+    {
+      "name": "Clay and Play",
+      "type": "Workshop",
+      "description": "Discover the joy of pottery in this hands-on workshop-no prior experience needed! Learn clay preparation, wheel techniques, and shaping methods from skilled instructors. Then, unleash your creativity to craft your own unique piece on the pottery wheel. Take home your handmade creation as a personal keepsake and a reminder of your artistic journey.",
+      "club": "National Service Scheme ( NSS )",
+      "short_description": "Experience pottery hands-on—learn clay, wheel, and shaping, then create and take home your unique handcrafted keepsake.",
+      "tagline": "Craft your Vision",
+      "image": "https://i.imgur.com/29OWCLc.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    },
+    {
+      "name": "Frame it with Figma",
+      "type": "Workshop",
+      "description": "\"Join this hands-on workshop, open to everyone with no prior design experience! In Session 1, learn Figma to create wireframes, mockups, and prototypes with real-time collaboration. In Session 2, apply your skills to design a full UI for a web or mobile app. Win exciting cash prizes and earn a certificate of participation!\"",
+      "club": "NATIONAL SERVICE SCHEME (NSS)",
+      "short_description": "\"Hands-on Figma workshop: learn wireframes, mockups, prototypes, then design a complete UI. Win cash prizes, certificates for all.\"",
+      "tagline": "Design your vision",
+      "image": "https://i.imgur.com/6669jNe.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-28T17:00:00Z"
+    }
+  ],
+  "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS (SIAM)": [
+    {
+      "name": "Math Premier League (MPL)",
+      "type": "Games",
+      "description": "Math Premier League (MPL) is a thrilling 3 round team event mixing tech, logic, and adrenaline! Begin with a coding round to showcase programming skills, dash through a puzzle packed Treasure Hunt, and finish with the high stakes Jeopardy quiz where wit and knowledge decide the winner. From coding to clue chasing to quizzes, MPL is the arena to code, hunt, and conquer.",
+      "club": "Society for Industrial and Applied Mathematics (SIAM)",
+      "short_description": "Math Premier League brings coding, puzzles, and quizzes together in a 3 round team event where teamwork, speed, and logic conquer.",
+      "tagline": "Solve. Sprint. Survive. Welcome to MPL!",
+      "image": "https://i.imgur.com/2TA7BVh.jpeg",
+      "start_date": "2025-09-27T08:00:00Z",
+      "end_date": "2025-09-27T20:00:00Z"
+    },
+    {
+      "name": "Hackulus",
+      "type": "Hackathon",
+      "description": "\"Hackulus 2025 is an exhilarating 24-hour hackathon organised by the Society for Industrial and Applied Mathematics (SIAM) at VIT Vellore. This edition promises to be bigger and better, featuring 7 diverse tracks and expecting a turnout of 400–500 talented participants from across the country.\nThe hackathon aims to foster innovation and creativity, bringing together passionate individuals to develop impactful solutions to real-world challenges. Participants will compete across domains such as AI & Mathematical Modelling, Healthcare, Fintech, Open Innovation, VIT Centric and more, working under the continuous mentorship of industry experts and guided by cutting-edge insights.\nHackulus is not just a hackathon, it’s a platform to innovate, collaborate, and transform ideas into reality. By connecting students, professionals, and industry leaders, the event provides participants with exposure, networking opportunities, and the chance to showcase their skills to potential recruiters and sponsors. With its focus on technological advancement and community-driven problem-solving, Hackulus 2025 promises to deliver an unparalleled learning and innovation experience.\"",
+      "club": "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS (SIAM)",
+      "short_description": "Hackulus is an exciting 24-hour hackathon organised by SIAM, VIT Vellore, bringing together 400–500 innovators across 7 diverse tracks. With expert mentorship and endless creativity, participants will develop real-world solutions to tackle today’s biggest challenges.",
+      "tagline": "Where Ideas Meet Impact",
+      "image": "https://i.imgur.com/qFV35VD.png",
+      "start_date": "2025-09-21T08:00:00Z",
+      "end_date": "2025-09-22T08:00:00Z"
+    }
+  ],
+  "THE BIOTECH RESEARCH SOCIETY INDIA (BRSI)": [
+    {
+      "name": "Season Zero",
+      "type": "Games",
+      "description": "Step into Season Zero, where your favorite shows and movies come alive in a game like no other. Navigate through 3 rooms, each packed with challenges inspired by F.R.I.E.N.D.S, Brooklyn 99, The Conjuring, and Interstellar. Solve puzzles, laugh, get a little spooked, and test your wits at every turn.\n\nOnly the cleverest and quickest will make it through all rooms. Bring your friends, enjoy the twists, and aim to be the one winner who conquers all 4 shows. Fun, surprises, and a little madness await — are you ready to play?",
+      "club": "Biotech Research Society India (BRSI)",
+      "short_description": "Season Zero is a multi-round event reimagining Netflix hits as immersive challenges, blending puzzles, suspense, and fun-filled competition.",
+      "tagline": "Streaming now on all platforms",
+      "image": "https://i.imgur.com/47F7olh.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    },
+    {
+      "name": "CRISPRverse",
+      "type": "Hackathon",
+      "description": "CRISPRverse is a challenge-driven event where participants experience genome editing through competitive, hands-on tasks. Starting with guided workshops, teams design CRISPR strategies, tackle knockout vs. knock-in decisions, and simulate editing results. Advancing through rounds, they present complete pipelines to judges. By combining training, competition, and creativity, CRISPRverse offers an engaging platform to learn, apply, and showcase CRISPR innovation.",
+      "club": "Biotech Research Society India (BRSI)",
+      "short_description": "CRISPRverse is a competitive, hands-on event where teams design, simulate, and present CRISPR genome editing solutions from start to finish.",
+      "tagline": "Rewrite Existence",
+      "image": "https://i.imgur.com/tBRN6SG.png",
+      "start_date": "2025-09-24T09:00:00Z",
+      "end_date": "2025-09-25T18:00:00Z"
+    }
+  ],
+  "VINNOVATEIT CLUB": [
+    {
+      "name": "Vinhack",
+      "type": "Hackathon",
+      "description": "The flagship hackathon of VinnovateIT is back... bigger, bolder, and built for the future. This isn’t just a hackathon; it’s your invitation to step into the tech renaissance, a revival of creativity, collaboration, and groundbreaking technology.\n\nFor 36 hours, innovators, developers, and creators will collaborate to turn daring ideas into real solutions. Armed with open-source tools, participants will dive deep into AI models, blockchain, VR/AR, gaming engines, IoT ecosystems, and cloud-native frameworks building projects that push the boundaries of what’s possible.\n\nTracks span across AI, IoT, Gaming, Sustainability, and Futuristic Tech, giving teams the freedom to explore, experiment, and disrupt. From immersive virtual worlds and autonomous systems to decentralized apps and sustainable tech, VinHack challenges you to imagine big and build bigger.\n\nWith expert mentors, cutting-edge resources, and a community of bold thinkers, VinHack is more than a competition, it’s a launchpad for the next generation of innovation.\n\nBuild. Share. Redefine the future.",
+      "club": "VinnovateIT",
+      "short_description": "36 hours. Limitless innovation.\nThe flagship hackathon of VinnovateIT is back, bigger, bolder, and powered by open-source tools. Build disruptive solutions with AI, blockchain, VR/AR, gaming engines, IoT, and cloud-native frameworks. From virtual worlds to autonomous systems and decentralized apps, VinHack is where bold ideas become next-gen products.",
+      "tagline": "Step into the Tech Renaissance",
+      "image": "https://i.imgur.com/HVxAEBl.png",
+      "start_date": "2025-09-22T09:00:00Z",
+      "end_date": "2025-09-23T19:00:00Z"
+    }
+  ],
+  "ADDITIVE MANUFACTURING SOCIETY OF INDIA (AMSI)": [
+    {
+      "name": "3D Quest",
+      "type": "Games",
+      "description": "Get ready for an adrenaline-charged treasure hunt as two teams of 3–5 participants race against the clock! Each team will solve clever clues to discover hidden 3D printed puzzle pieces scattered across the iconic stretch from CDMM to SMV. With just 30 minutes to crack the code and complete the puzzle, only one team will claim victory and take home a unique 3D printed prize. Every second counts—will your team rise to the challenge and outsmart the competition?",
+      "club": "Additive Manufacturing Society of India - AMSI",
+      "short_description": "Two teams race simultaneously against the clock, collecting and assembling parts. Winner takes it all.",
+      "tagline": "Decode.Collect.Construct",
+      "image": "https://i.imgur.com/MqMR5wE.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    }
+  ],
+  "ANCHORING CLUB": [
+    {
+      "name": "The Tech Traitors Masquerade",
+      "type": "Games",
+      "description": "The Tech Traitors Masquerade is a high stakes deception game where players slip into secret roles as Faithfuls or Traitors. Faithfuls race to crack tech themed challenges such as coding puzzles, bug hunts and trivia while Traitors lurk in disguise, subtly sabotaging their progress.\n With a virtual spotlight on participants each round, it is a battle of suspicion, strategy and logic to decide who survives and who gets unmasked.",
+      "club": "VIT Anchoring Club",
+      "short_description": "A thrilling deception game where Faithfuls tackle tech challenges while hidden Traitors sabotage, sparking suspense, strategy, and survival.",
+      "tagline": "Yaha trust is rare, but dhokha everywhere",
+      "image": "https://i.imgur.com/eURfkxA.png",
+      "start_date": "2025-09-27T15:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    },
+    {
+      "name": "Voices Unplugged",
+      "type": "Workshop",
+      "description": "“Voices Unplugged,” organized by the VIT Anchoring Club, is a three-hour interactive workshop introducing school students to the art of public speaking. Guided by experienced mentors, participants will explore voice modulation, body language, confidence-building, and storytelling through engaging games, exercises, and challenges. Designed to break stage fear, the workshop nurtures leadership, communication skills, and confidence for future opportunities.",
+      "club": "VIT Anchoring Club",
+      "short_description": "A community-driven workshop inviting kids from a school to learn public speaking basics through fun, interactive sessions.",
+      "tagline": "Teaching Words, Inspiring Worlds",
+      "image": "https://i.imgur.com/lH8Vmyn.jpeg",
+      "start_date": "2025-09-14T14:00:00Z",
+      "end_date": "2025-09-14T17:00:00Z"
+    }
+  ],
+  "INDIAN INSTITUTE OF CHEMICAL ENGINEERS (IICHE)": [
+    {
+      "name": "Dexter's Laboratory",
+      "type": "Games",
+      "description": "A murder mystery and scavenger hunt that does not confine participants to a path or ploy. Search for the murderer, the maniacal scheme that is unravelled in four hours of a thrilling bout. Experiment with the clues available to discover ways that were beyond the realm of even Dexter himself. But remember this....the clock doesn't stop, why should the scheme?",
+      "club": "Indian Institute of Chemical Engineers",
+      "short_description": "Be riddled or be ravelled forever; Because everybody loves a good villain, but the thrill is what defines a memory.",
+      "tagline": "It's a shame you can only die once.",
+      "image": "https://imgur.com/EMO63BT.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-28T13:00:00Z"
+    },
+    {
+      "name": "Eau la la",
+      "type": "Workshop",
+      "description": "Ever imagined a fragrance that’s uniquely you? Step into Eau la la, where science sparks creativity and play meets perfume! Win fragrance notes through fun, interactive games, craft your own signature scent, and give it its own name, tagline, and story. Fresh, exciting, and unforgettable—you don’t just walk away with a perfume, you walk away with a memory bottled by you.",
+      "club": "IIChE",
+      "short_description": "Unlock, mix, create! Earn fragrance notes, blend your personalized perfume, give it a name & tagline, and make it yours.",
+      "tagline": "Your notes. Your blend. Your perfume.",
+      "image": "https://i.imgur.com/Hh0Wx2k.png",
+      "start_date": "2025-09-26T09:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    }
+  ],
+  "THE ELECTRONICS CLUB (TEC)": [
+    {
+      "name": "SENSORED X",
+      "type": "Competition",
+      "description": "SENSORED X is an electrifying 2-day overnight experience where curiosity meets creation!  On Day 1, dive into the world of sensors and microcontrollers—master breadboard wiring, circuit assembly, and component handling while working hands-on with 10 real components (yours to keep!). On Day 2, step into the Mystery Box Challenge —unbox hidden sensors, decode their purpose, design a prototype, and pitch your solution to claim the prize pool of ₹5000 ! More than just a workshop, SENSORED X is a journey of learning, building, and competing—an unforgettable celebration of innovation, teamwork, and the spirit of electronics. 🚀",
+      "club": "The Electronics Club (TEC)",
+      "short_description": "A 2-day hands-on sensor workshop covering basics to prototype building, ending with a thrilling Mystery Box Challenge.",
+      "tagline": "Think. Sense. Create – The Mystery Starts Here",
+      "image": "https://i.imgur.com/qbMryVl.png",
+      "start_date": "2025-09-23T21:00:00Z",
+      "end_date": "2025-09-25T06:00:00Z"
+    }
+  ],
+  "SOLAR ENERGY SOCIETY OF INDIA (SESI)": [
+    {
+      "name": "TwinControl Studio",
+      "type": "Workshop",
+      "description": "In today’s fast-paced tech world, mastering embedded simulation and rapid prototyping is crucial to stay ahead in IoT and Industry 4.0. Without these skills, innovation slows and opportunities vanish. Our workshop offers exclusive free access to Twinsimulate, empowering you with real-time microcontroller simulation and hands-on learning. Join us to unlock faster design, smarter debugging, and cutting-edge expertise your gateway to the future of embedded systems. Register now to lead tomorrow’s technology.",
+      "club": "SESI",
+      "short_description": "Workshop event on how to use TwinSimulate software",
+      "tagline": "Smarter design, faster debugging",
+      "image": "https://i.imgur.com/EW68xxc.jpeg",
+      "start_date": "2025-09-28T08:00:00Z",
+      "end_date": "2025-09-28T18:00:00Z"
+    }
+  ],
+  "THE SOCIETY OF PETROLEUM ENGINEERS (SPE)": [
+    {
+      "name": "THE CARTER CONSPIRACY",
+      "type": "Games",
+      "description": "Dr. Benjamin Carter, a renowned chemical researcher, is mysteriously found dead in his laboratory. Whispers suggest he was on the brink of synthesizing a volatile formula. Was it scientific failure—or calculated murder? Teams must decode cryptic clues across 8 campus sites, recover 5 critical components, and navigate Carter’s experimental escape lab to unravel the conspiracy and expose the culprit.",
+      "club": "SPE",
+      "short_description": "Dr. Carter’s dead. A conspiracy brews. Race across campus, crack clues, and escape the lab before time runs out.",
+      "tagline": "“8 Locations. 5 Components. 1 Killer.\n Will you escape with the truth… or become part of the silence?”",
+      "image": "https://i.imgur.com/DoxkFNa.jpeg",
+      "start_date": "2025-09-28T09:00:00Z",
+      "end_date": "2025-09-28T19:00:00Z"
+    }
+  ],
+  "SMILE OVER STRESS (SOS)": [
+    {
+      "name": "CID-A-THON",
+      "type": "Games",
+      "description": "Be the mind of a murderer. You're the criminal psychologist on a high-stakes case, and the crime scene is your only lead. The clock is ticking as you race to decipher cryptic clues, bizarre patterns, and hidden messages to build a psychological profile and unmask the killer. Do you have what it takes to solve the ultimate puzzle?",
+      "club": "Smile Over Stress",
+      "short_description": "Criminal psychology escape room.",
+      "tagline": "Is it psychotic or are you in too deep?",
+      "image": "https://i.imgur.com/98nNS0H.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T21:00:00Z"
+    }
+  ],
+  "VIT MATHEMATICAL ASSOCIATION (VITMAS)": [
+    {
+      "name": "Modelling Minds",
+      "type": "Hackathon",
+      "description": "Modelling Minds is an overnight machine learning hackathon where participants (solo or in teams of up to 3) clean, preprocess, and build ML models on curated datasets. Models are evaluated on hidden test data based on multiple performance metrics.\n\nDesigned for both beginners and enthusiasts, this event tests real-world problem-solving, optimization under time pressure, and practical data intuition — all in a competitive yet fun environment! A special intro session will be conducted at the start to guide beginners through ML basics before they dive into the hackathon and compete for prizes.",
+      "club": "VITMAS",
+      "short_description": "Modelling Minds is a hands-on ML challenge where participants clean, preprocess, and build models using real-world datasets.",
+      "tagline": "Analyze. Interpret. Unravel.",
+      "image": "https://i.imgur.com/TDubdpe.jpeg",
+      "start_date": "2025-09-27T20:00:00Z",
+      "end_date": "2025-09-28T12:00:00Z"
+    }
+  ],
+  "IEEE PROFESSIONAL COMMUNICATION SOCIETY (IEEE-PCS)": [
+    {
+      "name": "PlaceIt",
+      "type": "Ideathon",
+      "description": "PlaceIT is an inspiring Ideathon that fuels innovation in Web Development, Cybersecurity, AI/ML, and IoT. Participants receive expert guidance, explore problem statements, and collaborate to craft impactful solutions. With mentorship and evaluation, the event enhances technical knowledge, problem-solving, teamwork, and presentation skills. PlaceIT empowers students to transform ideas into reality, fostering creativity, curiosity, and innovation in a collaborative environment.",
+      "club": "IEEE-PCS",
+      "short_description": "PlaceIT sparks innovation in Web, Cybersecurity, AI/ML, and IoT, fostering teamwork, creativity, and impactful idea transformation.",
+      "tagline": "From sparks of creativity to solutions that inspire change, innovation starts here",
+      "image": "https://i.imgur.com/TaMXB6d.png",
+      "start_date": "2025-09-13T10:00:00Z",
+      "end_date": "2025-09-14T17:00:00Z"
+    }
+  ],
+  "BULLS AND BEARS CLUB": [
+    {
+      "name": "CASHFLOW 4.0",
+      "type": "Games",
+      "description": "\"Cashflow 4.0 – a thrilling financial simulation where you don’t just play a game, you live the life of an investor. Participants start with a virtual wallet and step into a world of incomes, expenses, assets, and liabilities, just like in real life. The goal? Build enough passive income to escape the rat race and race toward financial freedom.\n\nBut beware—it’s not a smooth ride. Along the way, you’ll face market swings, surprise windfalls, sudden raids, and even the risk of bankruptcy. One smart investment could multiply your wealth, while one wrong move could wipe you out. With every turn, you’ll trade, negotiate, and outwit rivals to stay ahead.\n\nCashflow 4.0 is more than a board game—it’s a high-speed battlefield of strategy, wit, and decision-making. Adapt to the chaos, manage your resources, and play your moves wisely, because in the end, only the most strategic mind will claim financial victory.\"",
+      "club": "BULLS AND BEARS CLUB",
+      "short_description": "Cashflow 4.0 – Where money moves fast and fortunes flip! Invest, trade, and outsmart rivals as raids, bankruptcies, and market twists strike without warning. Escape the rat race—or get crushed in it.",
+      "tagline": "Turn Dice into Dollars, Dreams into Destiny.",
+      "image": "https://i.imgur.com/NIQnk0k.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T17:00:00Z"
+    }
+  ],
+  "CYCLING CLUB": [
+    {
+      "name": "Cyclomania",
+      "type": "Games",
+      "description": "Go beyond a simple race in Cyclomania, the ultimate team cycling showdown! Tackle three thrilling events: repair a cycle against the clock, race with water in a high-energy relay, and combine speed with accuracy in a precision time trial. This competition tests teamwork, strategy, and versatility, pushing teams to their limits to crown the true Cyclomania Champions.",
+      "club": "Cycling Club",
+      "short_description": "Cyclomania is an adrenaline-fueled team cycling challenge testing repair, relay, and precision skills in three unique, reality-show style events.",
+      "tagline": "Fix, flow, and go – only the fastest team steals the show.",
+      "image": "https://i.imgur.com/dXPzuPx.jpeg",
+      "start_date": "2025-09-27T14:00:00Z",
+      "end_date": "2025-09-27T19:00:00Z"
+    },
+    {
+      "name": "GlowRide",
+      "type": "Games",
+      "description": "Get ready to experience the city like never before! Glow Ride 2025 is an enchanting night-time cyclothon that combines fitness, fun, and festivity into one unforgettable evening. As the sun sets and the streets come alive, join us for a dazzling ride under the stars, where every turn of the pedal will be lit with brilliance, energy, and excitement.\n\nThis unique event is designed to light up the night—literally! With cycles provided for participants, you won’t need to worry about bringing your own gear. Adorned with glowing lights and glitter, the ride will create a spectacular trail of luminescence, turning the road into a vibrant celebration of motion and color.\n\nWhether you’re a cycling enthusiast, a fitness lover, or simply someone who enjoys unforgettable experiences, Glow Ride promises the perfect blend of adventure and atmosphere. Imagine cruising through the night breeze, surrounded by a sea of glowing bicycles, laughter, and cheers—a true festival on wheels!",
+      "club": "CYCLING CLUB",
+      "short_description": "Glow Ride 2025 is a vibrant night-time cyclothon where fitness meets festivity. With cycles provided for participants, the event transforms the streets into a glowing trail of lights, glitter, and energy. Join us for an unforgettable evening ride under the stars and be part of a community celebration that blends health, fun, and radiance.\nshort event description",
+      "tagline": "Shine through the night, ride into the light",
+      "image": "https://i.imgur.com/mrSOVYd.jpeg",
+      "start_date": "2025-09-25T20:00:00Z",
+      "end_date": "2025-09-25T21:00:00Z"
+    }
+  ],
+  "SOFT COMPUTING RESEARCH SOCIETY (SCRS)": [
+    {
+      "name": "ESCAPE.EXE II",
+      "type": "Games",
+      "description": "Escape.exe II, the thrilling sequel to last year’s hit escape room. This time, the mystery is deadlier, the puzzles tougher, and the story darker.\n Participants will enter a fully immersive darkened space divided into four suspense-filled zones, each packed with chilling clues, intricate puzzles, and hidden secrets. Every solved challenge brings players closer to unmasking the murderer before time runs out.\n Blending suspense, teamwork, and critical thinking, Escape.exe II offers a gripping experience that tests logic and collaboration while keeping participants on edge till the very end.",
+      "club": "Soft Computing Research Society",
+      "short_description": "Escape.exe II: Darker, deadlier, tougher puzzles — solve mysteries, uncover secrets, and escape before time runs out!",
+      "tagline": "When you’ve found the light, beware of the shadows it leaves behind.",
+      "image": "https://i.imgur.com/NtFsvdZ.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T17:00:00Z"
+    }
+  ],
+  "DANCE CLUB": [
+    {
+      "name": "Grooveathon",
+      "type": "Hackathon",
+      "description": "A lively competition where teams create choreography in real time, combining creativity with technical skill.\nPhase 1 (DAY 1): QR CODE SCAVENGER HUNT \nAll teams, made up of 8 members, come together for a mini QR code hunt on the first day of the event. After finishing the hunt, teams will receive their theme and their technical challenge, which they must include in their choreography. \n\nPhase 2 (DAY 1): Theme Evaluation (Review 1) \nJudges will assess how well teams express the given theme and challenges in their performances. \n\nPhase 3 (DAY 1): The Prop Allotment \nRight after the first review, each team receives a prop they must creatively add to their existing routine. \n\nPhase 4 (DAY 2): Rhythm Lab \nTeams move into a focused rehearsal stage to refine movements, improve transitions, and strengthen coordination to make sure their performance reflects the essence of the theme. \n\nPhase 5 (DAY 2): Elimination Round (Review 2) \nTeams perform half of their routine, including the prop in their choreography. This is an elimination round. \n\nDAY 3- \nThe Final Showcase: All finalists perform one last time (the entire set lasting between 2:30 and 3 minutes) for the judges, who will score them and crown the champion.",
+      "club": "DANCE CLUB",
+      "short_description": "The competition kicks off with a QR Code Hunt, unveiling hidden themes and code snippets that inspire dynamic dance challenges. Teams incorporate surprise props, choreographic twists, and stunning effects, clashing in creative face-offs before showcasing their finest performances in a spectacular grand finale.",
+      "tagline": "The ultimate Dance & Tech collision",
+      "image": "https://i.imgur.com/Vkk09wt.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-28T21:00:00Z"
+    },
+    {
+      "name": "Step Up Stars",
+      "type": "Workshop",
+      "description": "The Dance Workshop is an exclusive opportunity for students of Grades 6–12 to experience dance in a vibrant setting. \n\nIn this workshop, students will:\n\nLearn a new freestyle choreography blending multiple dance styles( 7 different teams housed by the VIT dance club), set to age-appropriate music.\nBe guided by professional and experienced choreographers in a beginner-friendly format, and volunteers who will be present throughout the session for appropriate guidance and teaching. \nParticipate in a 2 hour session that includes short interactive games to create a fun, engaging, and collaborative environment.\n\nThe workshop is designed not only to teach dance but also to encourage creativity, confidence, and an enjoyable learning experience within the energetic atmosphere of GraVITas.\n",
+      "club": "DANCE CLUB",
+      "short_description": "A 2-hour beginner-friendly dance workshop for students of Grades 6–12 during GraVITas. Participants will learn freestyle choreography on trendy, age-appropriate songs through interactive and engaging sessions conducted by trained choreographers.",
+      "tagline": "Where every step makes u shine",
+      "image": "https://i.imgur.com/1yHnMUR.png",
+      "start_date": "2025-09-23T09:00:00Z",
+      "end_date": "2025-09-23T13:00:00Z"
+    }
+  ],
+  "GOOGLE DEVELOPERS STUDENT CLUB (GDSC)": [
+    {
+      "name": "DevJams",
+      "type": "Hackathon",
+      "description": "DevJams is a high-energy, 48-hour hackathon where innovators, problem-solvers, and tech enthusiasts come together to turn bold ideas into impactful solutions. Open to both beginners and seasoned developers, the event is designed to challenge creativity, sharpen technical skills, and foster collaboration.\n\nOver the past seven editions, DevJams has evolved into a landmark event for the GDSC community, drawing participants from across the country. This September, the 8th edition will once again provide a space where diverse minds converge, building projects that push boundaries, solve real problems, and inspire the next wave of innovation.\n\n",
+      "club": "GOOGLE DEVELOPERS STUDENT CLUB (GDSC)",
+      "short_description": "DevJams is a 48-hour hackathon where beginners and pros come together to build bold, impactful solutions. Now in its 8th edition, it’s a landmark GDSC event that sparks creativity, collaboration, and real-world innovation. Checkout the Website at  [DevJams'25](https://devjams.dscvit.com?utm_source=Gravitas&utm_medium=description&utm_campaign=Event_Description)",
+      "tagline": "Wham Bam, Let’s DevJam!",
+      "image": "https://i.postimg.cc/YqZNvq9Z/devjams25-tb9rhj.jpg",
+      "start_date": "2025-09-21T08:00:00Z",
+      "end_date": "2025-09-23T11:00:00Z"
+    }
+  ],
+  "ASTRONOMY CLUB- VIT STELLAR": [
+    {
+      "name": "Celestial Dive 4.0",
+      "type": "Workshop",
+      "description": "Celestial Dive 4.0 is VIT-Stellar's annual overnight stargazing event, held as part of Gravitas in collaboration with Space India. Hosted at KC Lawn, the event features live celestial observations through professional telescopes, guided workshops on astronomy and telescope handling, and interactive discussions on space science. It offers participants a hands-on opportunity to explore planets, nebulae, and star clusters while deepening their understanding of the night sky.",
+      "club": "ASTRONOMY CLUB- VIT STELLAR",
+      "short_description": "Celestial Dive 4.0 invites astronomy enthusiasts for an unforgettable overnight experience under the stars. Witness the wonders of the night sky through powerful telescopes, accompanied by engaging educational talks that explore celestial mysteries and ignite cosmic curiosity.",
+      "tagline": "Zooming into the cosmos to witness the wonders of stars, planets, and galaxies.",
+      "image": "https://i.imgur.com/vW5k9eS.jpeg",
+      "start_date": "2025-09-26T21:00:00Z",
+      "end_date": "2025-09-27T05:00:00Z"
+    },
+    {
+      "name": "Aerovate 2.0",
+      "type": "Workshop",
+      "description": "Aerovate 2.0 is VIT-Stellar's two-day rocketry event, conducted in collaboration with Thrust Tech India. Day 1 features an intensive workshop on rocketry fundamentals, including simulations, design principles, and hands-on construction of prototype rockets by participating teams. On Day 2, teams will launch their rockets at SJT Ground, testing their designs and applying the concepts learned. The event aims to provide a practical, engaging introduction to aerospace engineering and experimental rocketry",
+      "club": "ASTRONOMY CLUB- VIT STELLAR",
+      "short_description": "Aerovate 2.0 is a 2-day rocketry event by VIT-Stellar & Thrust Tech India, featuring a workshop on rocketry fundamentals & hands-on prototype building on Day 1, followed by rocket launches on Day 2.",
+      "tagline": "Sky’s not the limit-it’s just the parking lot.",
+      "image": "https://i.imgur.com/7DCocPW.jpeg",
+      "start_date": "2025-09-23T09:00:00Z",
+      "end_date": "2025-09-24T17:00:00Z"
+    }
+  ],
+  "IEEE COMPUTER SOCIETY (IEEE-CS)": [
+    {
+      "name": "What the Flag",
+      "type": "Competition",
+      "description": "This isn’t for you if you want hints or anything easy. WTF is IEEE-CS VIT’s high stakes technical Capture the Flag event for those who uncover vulnerabilities, outsmart systems, and think differently. Handcrafted challenges hide subtle flaws and clues across the internet. Every flag is concealed in plain sight or buried deep. Think fast. Dig deep. Chase the flag.",
+      "club": "IEEE-CS",
+      "short_description": "WTF is a technical CTF event. Tackle web exploits, digital forensics, reverse engineering, and cybersecurity challenges to capture hidden flags.",
+      "tagline": "Nothing is random if you know where to look.",
+      "image": "https://i.imgur.com/8tpBUFl.png",
+      "start_date": "2025-09-28T14:00:00Z",
+      "end_date": "2025-09-28T20:00:00Z"
+    }
+  ],
+  "YOGA CLUB": [
+    {
+      "name": "AsanaVision Hackathon",
+      "type": "Hackathon",
+      "description": "A 24 hour hackathon where participants create AI powered yoga pose detection solutions with real time feedback gamification and health insights to promote yoga wellness and fitness while showcasing final demos",
+      "club": "Yoga Club",
+      "short_description": "Hackathon combining AI and yoga through pose detection technology and wellness innovation",
+      "tagline": "Code, Pose and Innovate",
+      "image": "https://i.imgur.com/TLJNtXQ.png",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    }
+  ],
+  "QUIZ CLUB": [
+    {
+      "name": "The Grand GraVITas Quiz",
+      "type": "Competition",
+      "description": "DBQC - The VIT Quiz Club, brings you the ultimate quizzing event of graVITas ‘25, Grand GraVITas Quiz. This flagship Sci-Biz-Teach quiz, open to all students, who can participate in teams of two or as Lonewolves, consists of a Preliminary round and a Final rounds. Winners will be given cash prizes and certificates.",
+      "club": "DBQC : The VIT Quiz Club",
+      "short_description": "The Grand GraVITas Quiz is DBQC's premiere event. TGGQ is a Sci-Biz-Tech Quiz consisting of a preliminary round and finals.",
+      "tagline": "VIT's Premiere Sci-Biz-Tech Quiz",
+      "image": "https://i.imgur.com/YN1CyiZ.png",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-26T18:00:00Z"
+    }
+  ],
+  "INTERNET OF THINGS COMMUNITY (IOTHINC)": [
+    {
+      "name": "Hackademia - College Survival Edition",
+      "type": "Hackathon",
+      "description": "Hackademia – College Survival Edition is a student-focused hackathon where participants create clever, minimal yet impactful solutions for real campus-life struggles. With the theme “Less is More,” projects should be creative, practical, and relevant to student life — from mess menu predictions to clash-free timetables. Judging emphasizes creativity, usability, justified tech choices, and minimal but effective implementation.",
+      "club": "Internet of Things Community (IoThinC)",
+      "short_description": "Hackademia – College Survival Edition challenges students to build minimal, clever tech solutions for real campus struggles, judged on creativity and usability.",
+      "tagline": "Less is More: innovate student life, one hack at a time",
+      "image": "https://i.imgur.com/kYrAZY2.jpeg",
+      "start_date": "2025-09-27T10:00:00Z",
+      "end_date": "2025-09-28T19:00:00Z"
+    },
+    {
+      "name": "Introduction to Linux",
+      "type": "Workshop",
+      "description": "Linux is everywhere, from the servers powering the internet to embedded systems running in everyday devices. Yet, many still see it as a “complex” or “intimidating” platform. This session aims to break that barrier.\n\nThrough this hands-on workshop, participants will be introduced to the fundamentals of Linux: the philosophy that drives it, the structure of the operating system, and the essential commands that give users complete control over their machines. We will explore the Linux filesystem, process management, permissions, package management, and shell scripting basics. Along the way, attendees will gain practical experience navigating the command line and learn how Linux empowers developers, engineers, and innovators across the world.\n\nWhether you’re a beginner curious about Linux, a developer looking to strengthen your foundation, or someone interested in exploring open-source, this workshop will equip you with the tools and mindset to get started.\n\nBy the end of the session, you’ll walk away not just knowing what Linux is, but also how to use it effectively.",
+      "club": "INTERNET OF THINGS COMMUNITY (IOTHINC)",
+      "short_description": "This hands-on session will introduce you to the Linux ecosystem, covering core commands, filesystem navigation, process management, and the open-source philosophy. Perfect for beginners and enthusiasts eager to explore the backbone of modern computing.",
+      "tagline": "Live The Linux Way",
+      "image": "https://i.imgur.com/w1lJNe9.jpeg",
+      "start_date": "2025-09-27T09:00:00Z",
+      "end_date": "2025-09-27T13:00:00Z"
+    },
+    {
+      "name": "Gamified 3.0",
+      "type": "Workshop",
+      "description": "Gamified 3.0 is a hands-on workshop where you explore the fundamentals of electronics and microcontrollers by building your own game controller. From circuit design and coding to wired and wireless communication, every step is interactive and engaging. By the end, you’ll not only gain practical skills but also take home a fully functional controller you built yourself!",
+      "club": "IoThinC (Internet of Things community)",
+      "short_description": "Dive into a hands-on workshop where you build your own game controller from scratch using microcontrollers. From circuits to wireless communication, code to debugging — every step is interactive and skill-packed. Walk away with a fully functional controller you created!",
+      "tagline": "Your first step from gamer to maker",
+      "image": "https://i.imgur.com/fdb5vGG.jpeg",
+      "start_date": "2025-09-26T10:00:00Z",
+      "end_date": "2025-09-27T18:00:00Z"
+    }
+  ],
+  "ANOKHA": [
+    {
+      "name": "The Silent Voice",
+      "type": "Ideathon",
+      "description": "Ready to turn your ideas into a real-world impact? Join our Ideathon on Sign Language & Innovation for a full day of creativity, learning, and hands-on problem-solving. This is your chance to shine and build something truly meaningful. The event will kick off with an introduction, followed by a special guest speaker who will guide you through the world of sign language and its importance, giving you the foundational knowledge you need for the challenge. Then, the main event begins! You’ll work in teams to choose a problem domain and create an impactful solution (hardware or software). The top three teams will be awarded prizes and certificates, and all other participants will receive a certificate of participation. Join us and be a part of the future where innovation knows no limits!",
+      "club": "Anokha x Smile Over Stress",
+      "short_description": "Get ready to make an impact! Join our Ideathon on Sign Language and Innovation for an exhilarating challenge that turns your ideas into reality. Compete for incredible prizes and build a solution that changes lives.",
+      "tagline": "Where hands speak, heart listens",
+      "image": "https://i.imgur.com/o2XD4Wq.png",
+      "start_date": "2025-09-11T09:00:00Z",
+      "end_date": "2025-09-11T19:00:00Z"
+    }
+  ],
+  "VIT AMATEUR RADIO CLUB (VARC)": [
+    {
+      "name": "Operation signal chase",
+      "type": "Games",
+      "description": "Operation Signal Chase\n Embark on an adrenaline-filled treasure hunt as a rescue communications team! Decode Morse code clues from your hidden “radio operator,” navigate landmarks, and race across campus to find them. Beware of decoys — speed and accuracy are key. The first team to locate and “rescue” their missing member wins the mission!",
+      "club": "VARC",
+      "short_description": "Operation Signal Chase\n Decode Morse clues, race across campus, outsmart decoys, and rescue your missing teammate before others do!",
+      "tagline": "\"Crack the Code. Track the Signal. Rescue to Win!\" ",
+      "image": "https://i.imgur.com/EMYnIWJ.jpeg",
+      "start_date": "2025-09-24T10:00:00Z",
+      "end_date": "2025-09-24T17:00:00Z"
+    }
+  ],
+  "VIT FILM SOCIETY (VFS)": [
+    {
+      "name": "Mojo Unchained",
+      "type": "Competition",
+      "description": "Step into the director’s chair and recreate your favorite movie scene in this ultimate showdown. Teams can remake any scene shot-for-shot or with creative twists—dubbed, lip-synced, DIY, or cinematic. Once the lights dim, every recreation hits the screen. Prizes await for Best Recreation, Props, Set, Dialogue, and more.",
+      "club": "VIT Film Society",
+      "short_description": "Recreate iconic movie scenes—shot-for-shot or with twists. Dub, lip-sync, DIY props. Compete for Best Recreation, Props, Set, Dialogue.",
+      "tagline": "Lights, camera, freedom—the scene is yours.",
+      "image": "https://i.imgur.com/QIktLtF.jpeg",
+      "start_date": "2025-09-26T14:00:00Z",
+      "end_date": "2025-09-26T19:00:00Z"
+    }
+  ]
+}

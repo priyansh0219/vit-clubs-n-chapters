@@ -13,6 +13,7 @@ import {
 import { getCategoryIcon, getSocialIcon } from "./club-icons";
 import { generateSlug } from "@/lib/slug-utils";
 import { getSortedSocialPlatforms } from "@/lib/social-utils";
+import { GravitasBadge } from "@/components/ui/gravitas-badge";
 import { SafeImage } from "@/components/ui";
 
 interface ClubCardProps {
@@ -84,6 +85,11 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
 
           {/* Flexible spacer to push content to bottom */}
           <div className='flex-1'></div>
+
+          {/* Gravitas Badge */}
+          <div className='mb-3'>
+            <GravitasBadge clubName={club.name} size='sm' showCount={true} />
+          </div>
 
           {/* Category Tags */}
           <div className='flex flex-wrap gap-2 mb-4'>

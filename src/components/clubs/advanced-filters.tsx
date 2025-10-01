@@ -295,6 +295,57 @@ export const AdvancedFilters: React.FC<AdvancedFiltersProps> = ({
             ))}
           </div>
         </div>
+
+        {/* Gravitas 2025 Participant Filter */}
+        <div className='space-y-2'>
+          <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
+            🎉 Gravitas 2025
+          </label>
+          <div className='space-y-2'>
+            <div className='flex items-center space-x-2'>
+              <Checkbox
+                id='gravitas-participant'
+                checked={filters.gravitasParticipant === true}
+                onCheckedChange={(checked) =>
+                  onFiltersChange({
+                    gravitasParticipant: checked
+                      ? true
+                      : filters.gravitasParticipant === true
+                      ? null
+                      : false,
+                  })
+                }
+              />
+              <label
+                htmlFor='gravitas-participant'
+                className='text-sm text-purple-700 dark:text-purple-300 font-medium'
+              >
+                ✨ Participated in Gravitas 2025
+              </label>
+            </div>
+            <div className='flex items-center space-x-2'>
+              <Checkbox
+                id='no-gravitas'
+                checked={filters.gravitasParticipant === false}
+                onCheckedChange={(checked) =>
+                  onFiltersChange({
+                    gravitasParticipant: checked
+                      ? false
+                      : filters.gravitasParticipant === false
+                      ? null
+                      : true,
+                  })
+                }
+              />
+              <label
+                htmlFor='no-gravitas'
+                className='text-sm text-gray-700 dark:text-gray-300'
+              >
+                Did not participate
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Clear Filters Button */}

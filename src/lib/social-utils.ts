@@ -33,8 +33,8 @@ export function calculateSocialPresence(club: ClubData): {
   }
 
   const activePlatforms = Object.entries(club.socials)
-    .filter(([_, url]) => url && url.trim() !== "")
-    .map(([platform, _]) => platform);
+    .filter(([, url]) => url && url.trim() !== "")
+    .map(([platform]) => platform);
 
   const score = activePlatforms.length;
   const percentage = Math.round((score / allPlatforms.length) * 100);

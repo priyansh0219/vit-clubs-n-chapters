@@ -82,8 +82,11 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
             </div>
           </div>
 
+          {/* Flexible spacer to push content to bottom */}
+          <div className='flex-1'></div>
+
           {/* Category Tags */}
-          <div className='flex flex-wrap gap-2 mb-4 flex-1'>
+          <div className='flex flex-wrap gap-2 mb-4'>
             {club.asc_type === "CLUB" && club.club_type ? (
               club.club_type.map((type, index) => {
                 const colors = getBadgeColors(type);

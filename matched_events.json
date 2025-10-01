@@ -1745,5 +1745,29 @@
       "start_date": "2025-09-26T14:00:00Z",
       "end_date": "2025-09-26T19:00:00Z"
     }
+  ],
+  "IEEE SOCIETY ON SOCIAL IMPLICATIONS OF TECHNOLOGY (IEEE-SSIT)": [
+    {
+        "name": "TEA TALK",
+        "type": "Workshop",
+        "description": "When curiosity meets experience and questions spark revelations.\n\nJoin Striver, ex-Google engineer, entrepreneur building his own company, India\u2019s top coding mentor with 1.5M+ followers, and renowned for placement-focused talks, the Vice President of AI and Data at Capgemini, and many more industry experts in a podcast-style conversation exploring the current job market, growth mindset, and entrepreneurship.\n\nReal insights. Unfiltered perspectives. Open\u00a0doubt-solving.",
+        "club": "IEEE SSIT",
+        "short_description": "TEA Talk brings VIT students inspiring sessions with YouTubers, founders, and industry leaders.",
+        "tagline": "Brew Ideas. Spill Stories",
+        "image": "https://i.imgur.com/GeNMPxr.png",
+        "start_date": "2025-09-23T13:00:00Z",
+        "end_date": "2025-09-23T19:00:00Z"
+    },
+    {
+        "name": "HandsOnAI",
+        "type": "Workshop",
+        "description": "Kickstart your journey into AI & ML with this beginner-friendly workshop covering the fundamentals, tools, and real-world applications from industry experts",
+        "club": "IEEE SSIT",
+        "short_description": "Kickstart your journey into AI & ML with this beginner-friendly workshop covering the fundamentals, tools, and real-world applications from industry\u00a0experts",
+        "tagline": "Get your hands good.",
+        "image": "https://i.imgur.com/ZhZDORB.jpeg",
+        "start_date": "2025-09-21T12:00:00Z",
+        "end_date": "2025-09-21T18:00:00Z"
+    }
   ]
 }

@@ -6,7 +6,6 @@ import { AdvancedFilters } from "./advanced-filters";
 import { ClubCard } from "./club-card";
 import { ClubPagination } from "./club-pagination";
 import { EmptyState } from "./empty-state";
-import { ClubFinderForm } from "@/components/club-finder";
 import { fuzzySearch } from "@/lib/fuzzy-search";
 import { GravitasStats } from "@/components/gravitas-stats";
 import { clubHasEvents } from "@/lib/events-utils";
@@ -19,7 +18,6 @@ interface ClubsContainerProps {
 
 export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [showClubFinder, setShowClubFinder] = useState(false);
   const [filters, setFilters] = useState<FilterState>({
     searchTerm: "",
     filterType: "ALL",
@@ -206,14 +204,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
     }
   };
 
-  const handleFindPerfectClub = () => {
-    setShowClubFinder(true);
-  };
-
-  const handleCloseClubFinder = () => {
-    setShowClubFinder(false);
-  };
-
   return (
     <>
       {/* Header */}
@@ -221,7 +211,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         clubData={clubData}
         clubTypes={clubTypes}
         onStartExploring={handleStartExploring}
-        onFindPerfectClub={handleFindPerfectClub}
       />
 
       {/* Gravitas 2025 Stats */}
@@ -264,11 +253,6 @@ export const ClubsContainer: React.FC<ClubsContainerProps> = ({ clubData }) => {
         </>
       ) : (
         <EmptyState onClearFilters={handleClearFilters} />
-      )}
-
-      {/* Club Finder Form Modal */}
-      {showClubFinder && (
-        <ClubFinderForm clubData={clubData} onClose={handleCloseClubFinder} />
       )}
     </>
   );

@@ -16,14 +16,12 @@ interface HeaderProps {
   clubData: ClubData[];
   clubTypes: string[];
   onStartExploring: () => void;
-  onFindPerfectClub: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   clubData,
   clubTypes,
   onStartExploring,
-  onFindPerfectClub,
 }) => {
   return (
     <div className='text-center mb-16'>
@@ -151,21 +149,9 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Call to Action */}
-      <div className='flex flex-col sm:flex-row justify-center items-center gap-4'>
+      <div className='flex justify-center items-center'>
         <Button
-          className='bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group cursor-pointer'
-          onClick={onFindPerfectClub}
-        >
-          <span className='flex items-center'>
-            <div className='mr-2 p-1 bg-white/20 rounded-full group-hover:rotate-12 transition-transform duration-300'>
-              ✨
-            </div>
-            Find My Perfect Club
-          </span>
-        </Button>
-        <Button
-          variant='outline'
-          className='border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer'
+          className='bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer'
           onClick={onStartExploring}
         >
           Browse All Clubs

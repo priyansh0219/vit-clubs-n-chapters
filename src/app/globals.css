@@ -28,6 +28,113 @@
     animation-delay: 500ms;
   }
 
+  /* Ensure all interactive elements have proper cursor */
+  button,
+  [role="button"],
+  [type="button"],
+  [type="submit"],
+  [type="reset"],
+  select,
+  [role="option"],
+  [role="menuitem"],
+  [role="tab"],
+  .cursor-pointer,
+  a,
+  label[for],
+  input[type="checkbox"],
+  input[type="radio"],
+  [onclick]:not(input):not(textarea),
+  [data-testid*="button"],
+  [aria-expanded],
+  [tabindex="0"]:not(input):not(textarea) {
+    cursor: pointer;
+  }
+
+  /* Specific cursor styles for different states */
+  button:disabled,
+  [role="button"][aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="search"],
+  input[type="url"],
+  textarea,
+  [contenteditable="true"] {
+    cursor: text;
+  }
+
+  [aria-disabled="true"]:not(button):not([role="button"]) {
+    cursor: default;
+  }
+
+  /* Beautiful Custom Scrollbars - Apply to entire site */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(59, 130, 246, 0.7) rgba(156, 163, 175, 0.1);
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(156, 163, 175, 0.1);
+    border-radius: 4px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: rgba(156, 163, 175, 0.1);
+  }
+
+  /* Dark mode scrollbars */
+  .dark *::-webkit-scrollbar-track {
+    background: rgba(75, 85, 99, 0.2);
+  }
+
+  .dark *::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  }
+
+  .dark *::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  }
+
+  .dark *::-webkit-scrollbar-corner {
+    background: rgba(75, 85, 99, 0.2);
+  }
+
+  .dark * {
+    scrollbar-color: rgba(96, 165, 250, 0.7) rgba(75, 85, 99, 0.2);
+  }
+
+  /* Enhanced scrollbars for specific areas */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    transform: scale(1.1);
+  }
+
   .animation-delay-700 {
     animation-delay: 700ms;
   }

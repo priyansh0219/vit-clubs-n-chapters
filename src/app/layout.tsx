@@ -18,6 +18,28 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://vit-clubs-n-chapters.vercel.app"),
   title: "VIT Clubs and Chapters",
   description: "Get all info you need for the club/chapter registration",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+    apple: {
+      url: "/favicon.svg",
+      type: "image/svg+xml",
+    },
+  },
+  manifest: "/manifest.json",
+};
+
+export const viewport = {
+  themeColor: "#1e40af",
 };
 
 export default function RootLayout({
@@ -36,6 +58,14 @@ export default function RootLayout({
           name='google-adsense-account'
           content='ca-pub-4670700793173319'
         ></meta>
+        <link rel='icon' href='/favicon.svg' type='image/svg+xml' />
+        <link
+          rel='icon'
+          href='/favicon-32x32.png'
+          type='image/png'
+          sizes='32x32'
+        />
+        <link rel='apple-touch-icon' href='/favicon.svg' />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

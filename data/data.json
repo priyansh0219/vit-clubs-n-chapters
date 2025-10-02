@@ -2114,7 +2114,11 @@
         "img_path": "SIGMA XI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/sigma-xi-vit",
+            "instagram": "https://www.instagram.com/sigmaxi.vit/",
+            "youtube": "https://youtube.com/@sigmaxithescientificresear6084"
+        }
     },
     {
         "serial": 146,
@@ -2123,7 +2127,11 @@
         "img_path": "SPE.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/spe_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/society-of-petroleum-engineers-vit",
+            "facebook": "https://www.facebook.com/spevit/"
+        }
     },
     {
         "serial": 147,
@@ -2132,7 +2140,10 @@
         "img_path": "TMI.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/toastmastersvit/?hl=en",
+            "facebook": "https://www.facebook.com/toastmastersvit/"
+        }
     },
     {
         "serial": 148,
@@ -2141,7 +2152,11 @@
         "img_path": "VITMAS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/in/vitmas",
+            "instagram": "https://www.instagram.com/vitmas_/?hl=en",
+            "facebook": "https://www.facebook.com/vitmasstudentchapter/"
+        }
     },
     {
         "serial": 149,
@@ -2150,7 +2165,9 @@
         "img_path": "ISET.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/iset_vit/"
+        }
     },
     {
         "serial": 150,
@@ -2159,7 +2176,9 @@
         "img_path": "IEEE Electromagnetic Compatibility Society (IEEE-EMCS).webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ieeeemcsvit/"
+        }
     },
     {
         "serial": 151,
@@ -2168,7 +2187,10 @@
         "img_path": "IGS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/igs.vit_/",
+            "linkedin": "https://in.linkedin.com/company/igs-vellore"
+        }
     },
     {
         "serial": 152,
@@ -2177,7 +2199,10 @@
         "img_path": "ISHRAE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ishrae-vit",
+            "instagram": "https://www.instagram.com/ishrae_vit/?hl=en"
+        }
     },
     {
         "serial": 153,
@@ -2186,7 +2211,10 @@
         "img_path": "IEEE - EDS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ieeeedsvit/",
+            "linkedin": "https://in.linkedin.com/company/ieeeedsvit"
+        }
     },
     {
         "serial": 154,
@@ -2195,7 +2223,10 @@
         "img_path": "IEEE - PSES.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/ieeepsesvit/",
+            "linkedin": "https://in.linkedin.com/in/ieee-pses-vit-6846a016a"
+        }
     },
     {
         "serial": 155,
@@ -2204,7 +2235,9 @@
         "img_path": "ASM.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/in/material-advantage-vit-vellore-8b39aa303"
+        }
     },
     {
         "serial": 156,
@@ -2213,7 +2246,10 @@
         "img_path": "SESI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/sesi-vit",
+            "instagram": "https://www.instagram.com/sesi.vit/"
+        }
     },
     {
         "serial": 157,

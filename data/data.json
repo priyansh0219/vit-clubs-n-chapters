@@ -1490,7 +1490,10 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/in/anti-drug-club-vit-925085331",
+            "instagram": "https://www.instagram.com/adc.vit/?hl=en"
+        }
     },
     {
         "serial": 98,
@@ -1501,7 +1504,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/whitehats.vit/",
+            "linkedin": "https://www.linkedin.com/company/thewhitehatsclub",
+            "website": "https://twhvitc.github.io/"
+        }
     },
     {
         "serial": 99,
@@ -1512,7 +1519,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/devclub_iitd/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/v-innovate-it",
+            "website": "https://vinnovateit.com/"
+        }
     },
     {
         "serial": 100,
@@ -1534,7 +1545,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://www.geospatialvit.site/",
+            "instagram": "https://www.instagram.com/geospatialvit/",
+            "linkedin": "https://www.linkedin.com/company/geospatial-club"
+        }
     },
     {
         "serial": 102,
@@ -1545,7 +1560,9 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/mathverse_vit/"
+        }
     },
     {
         "serial": 103,
@@ -1554,7 +1571,11 @@
         "img_path": "AMSI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/amsi-vitvellore",
+            "facebook": "https://www.facebook.com/AMSIVIT/",
+            "instagram": "https://www.instagram.com/amsi.vit/?hl=en"
+        }
     },
     {
         "serial": 104,
@@ -1563,7 +1584,9 @@
         "img_path": "AICHE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/aichevit/"
+        }
     },
     {
         "serial": 105,
@@ -1572,7 +1595,11 @@
         "img_path": "ASCE-VIT.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/asceVIT/",
+            "linkedin": "https://in.linkedin.com/company/ascevit",
+            "instagram": "https://www.instagram.com/asce.vit/"
+        }
     },
     {
         "serial": 106,
@@ -1581,7 +1608,11 @@
         "img_path": "ASHRAE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ashrae__vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/in/ashrae--vit",
+            "facebook": "https://www.facebook.com/p/ASHRAE-VIT-100064009185782/?_rdr"
+        }
     },
     {
         "serial": 107,
@@ -1590,7 +1621,10 @@
         "img_path": "ASME.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/american-society-of-mechanical-engineers-asme-vit-vellore",
+            "instagram": "https://www.instagram.com/asme.vit/?hl=en"
+        }
     },
     {
         "serial": 108,
@@ -1599,7 +1633,13 @@
         "img_path": "ACM.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "website": "https://www.acmvit.in/",
+            "instagram": "https://www.instagram.com/acmvit/?hl=en",
+            "github": "https://github.com/acm-vit",
+            "linkedin": "https://in.linkedin.com/company/acmvit",
+            "facebook": "https://www.facebook.com/acmvitvellore/"
+        }
     },
     {
         "serial": 109,

@@ -14,13 +14,11 @@ import {
   Gamepad2,
   GraduationCap,
   Code2,
-  Lightbulb,
   Handshake,
 } from "lucide-react";
 import {
   getTotalEventsCount,
   getClubsWithEvents,
-  getEventsByType,
   getEventsCountByType,
   getCollaborativeEventsCount,
 } from "@/lib/events-utils";

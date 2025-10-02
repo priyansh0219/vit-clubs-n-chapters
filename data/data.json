@@ -1488,11 +1488,12 @@
         "img_path": "ADC.jpg",
         "asc_type": "CLUB",
         "club_type": [
-            "SOCIAL_OUTREACH"
+            "HEALTH_&_WELLNESS"
         ],
         "socials": {
             "linkedin": "https://in.linkedin.com/in/anti-drug-club-vit-925085331",
-            "instagram": "https://www.instagram.com/adc.vit/?hl=en"
+            "instagram": "https://www.instagram.com/adc.vit/?hl=en",
+            "medium": "https://medium.com/@adc_VIT_Vellore"
         }
     },
     {

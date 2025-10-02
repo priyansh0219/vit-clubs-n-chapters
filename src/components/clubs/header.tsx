@@ -1,15 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import {
-  Users,
-  Building2,
-  Palette,
-  Globe,
-  ExternalLink,
-  Trophy,
-  Sparkles,
-} from "lucide-react";
-import { getTotalEventsCount, getClubsWithEvents } from "@/lib/events-utils";
+import { Users, Building2, Palette, Globe, ExternalLink } from "lucide-react";
+
 import { ClubData } from "@/types/club";
 
 interface HeaderProps {

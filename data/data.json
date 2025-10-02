@@ -1806,7 +1806,12 @@
         "img_path": "IEEE - PCS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieee-pcs-vit-v.github.io/website/",
+            "instagram": "https://www.instagram.com/ieeepcsvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieeepcsvit",
+            "facebook": "https://www.facebook.com/PCSVIT/"
+        }
     },
     {
         "serial": 122,
@@ -1815,7 +1820,11 @@
         "img_path": "IEEE - SPS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ieee-sps-vit",
+            "instagram": "https://www.instagram.com/ieee_sps_vitv/",
+            "facebook": "https://www.facebook.com/vitieeesps/"
+        }
     },
     {
         "serial": 123,
@@ -1824,7 +1833,12 @@
         "img_path": "IEEE - SSIT.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ssitvit.netlify.app/",
+            "instagram": "https://www.instagram.com/ieeessit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-ssit-vit",
+            "facebook": "https://www.facebook.com/SSITVIT/"
+        }
     },
     {
         "serial": 124,
@@ -1833,7 +1847,11 @@
         "img_path": "IEEE - WIE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ieee_wie_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-women-in-engineering-vit",
+            "facebook": "https://www.facebook.com/IEEEWIEVIT/"
+        }
     },
     {
         "serial": 125,
@@ -1842,7 +1860,11 @@
         "img_path": "IEEE - MTTS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ieee-mtts-vit",
+            "instagram": "https://www.instagram.com/vit.ieee.mtts/?hl=en",
+            "youtube": "https://youtube.com/@ieee-mtts-vit-vellore"
+        }
     },
     {
         "serial": 126,
@@ -1851,7 +1873,13 @@
         "img_path": "IEEE - RAS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ieeerasvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-ras-vit",
+            "medium": "https://medium.com/ieee-ras-vit",
+            "website": "https://ieeeras-vit.vercel.app/",
+            "twitter": "https://x.com/ieeeras_vit"
+        }
     },
     {
         "serial": 127,
@@ -1860,7 +1888,9 @@
         "img_path": "ISGF.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/profile.php?id=100057375702664&locale=en_GB#"
+        }
     },
     {
         "serial": 128,
@@ -1869,7 +1899,11 @@
         "img_path": "IICHE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/iiche-vit",
+            "website": "https://iichevit.com/",
+            "instagram": "https://www.instagram.com/iichevit/?hl=en"
+        }
     },
     {
         "serial": 129,
@@ -1878,7 +1912,12 @@
         "img_path": "ISTE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/indian-society-for-technical-education",
+            "website": "https://istevit.in/",
+            "instagram": "https://www.instagram.com/iste_vit_vellore/?hl=en",
+            "youtube": "https://youtube.com/@istevitvellore"
+        }
     },
     {
         "serial": 130,
@@ -1887,7 +1926,10 @@
         "img_path": "IDSA.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/idsavit/?hl=en",
+            "facebook": "https://www.facebook.com/vitidsa/"
+        }
     },
     {
         "serial": 131,
@@ -1896,7 +1938,11 @@
         "img_path": "IEEE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieeevit.org/",
+            "instagram": "https://www.instagram.com/ieeevitvellore/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-vit-vellore"
+        }
     },
     {
         "serial": 132,
@@ -1905,7 +1951,10 @@
         "img_path": "IETE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/iete_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/iete-vit"
+        }
     },
     {
         "serial": 133,

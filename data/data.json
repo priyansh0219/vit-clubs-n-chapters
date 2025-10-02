@@ -766,7 +766,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/nutrition_club.vit/",
+            "linkedin": "https://in.linkedin.com/in/nutrition-club-of-vit-b49040226",
+            "facebook": "https://www.facebook.com/profile.php?id=100064089038245&locale=de_DE#"
+        }
     },
     {
         "serial": 50,
@@ -777,7 +781,9 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/gurutva_vit/"
+        }
     },
     {
         "serial": 51,
@@ -788,7 +794,12 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/juvenile-care-vit",
+            "medium": "https://medium.com/juvenile-care-vit",
+            "instagram": "https://www.instagram.com/juvenilecarevit/?hl=en",
+            "facebook": "https://www.facebook.com/juvenilecarevit/"
+        }
     },
     {
         "serial": 52,
@@ -799,7 +810,13 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/aikyataan_vit/?hl=en",
+            "medium": "https://medium.com/aikyataan",
+            "linkedin": "https://in.linkedin.com/company/aikyataan-bengali-literary-association",
+            "facebook": "https://www.facebook.com/aikyataan.vitu/",
+            "youtube": "https://youtube.com/@bengaliliteraryassociation4659"
+        }
     },
     {
         "serial": 53,
@@ -810,7 +827,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://hlavitu.github.io/",
+            "instagram": "https://www.instagram.com/hla_vitu/?hl=en",
+            "linkedin": "https://www.linkedin.com/company/hindi-literary-association",
+            "facebook": "https://www.facebook.com/hla.vitu/"
+        }
     },
     {
         "serial": 54,
@@ -821,7 +843,12 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitmusicclub/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/vit-music-club",
+            "youtube": "https://www.youtube.com/@MUSICCLUBVIT",
+            "facebook": "https://www.facebook.com/musicclubvit/"
+        }
     },
     {
         "serial": 55,
@@ -832,7 +859,9 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/red-ribbon-club-vit-vellore"
+        }
     },
     {
         "serial": 56,
@@ -843,7 +872,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/bullsandbears_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/bnbvit",
+            "twitter": "https://x.com/bnbvit",
+            "facebook": "https://www.facebook.com/bnbvit/"
+        }
     },
     {
         "serial": 57,
@@ -854,7 +888,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://robovitics.in/",
+            "instagram": "https://www.instagram.com/robovitics/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/robovitics",
+            "facebook": "https://www.facebook.com/robovitics/"
+        }
     },
     {
         "serial": 58,
@@ -865,7 +904,12 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/bif_vit/?hl=en",
+            "medium": "https://medium.com/becoming-i-foundation",
+            "facebook": "https://www.facebook.com/onestopvit/",
+            "linkedin": "https://in.linkedin.com/company/becoming-i-foundation-vellore-chapter"
+        }
     },
     {
         "serial": 59,
@@ -876,7 +920,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/kla.vit/?hl=en",
+            "facebook": "https://www.facebook.com/vitu.kla/",
+            "linkedin": "https://in.linkedin.com/company/kannada-literary-association"
+        }
     },
     {
         "serial": 60,
@@ -887,7 +935,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/arch.i.tech/?hl=en",
+            "linkedin": "https://in.linkedin.com/in/archi-tech-club-a4b854230",
+            "twitter": "https://x.com/ArchitechCLUB1"
+        }
     },
     {
         "serial": 61,

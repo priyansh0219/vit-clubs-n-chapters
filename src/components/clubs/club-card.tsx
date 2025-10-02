@@ -14,6 +14,7 @@ import { getCategoryIcon, getSocialIcon } from "./club-icons";
 import { generateSlug } from "@/lib/slug-utils";
 import { getSortedSocialPlatforms } from "@/lib/social-utils";
 import { GravitasBadge } from "@/components/ui/gravitas-badge";
+import { CollaborativeEventsBadge } from "@/components/ui/collaborative-events-badge";
 import { SafeImage } from "@/components/ui";
 
 interface ClubCardProps {
@@ -86,9 +87,10 @@ export const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
           {/* Flexible spacer to push content to bottom */}
           <div className='flex-1'></div>
 
-          {/* Gravitas Badge */}
-          <div className='mb-3'>
+          {/* Gravitas Badge & Collaboration Badge */}
+          <div className='mb-3 flex flex-wrap gap-2'>
             <GravitasBadge clubName={club.name} size='sm' showCount={true} />
+            <CollaborativeEventsBadge clubName={club.name} size='sm' />
           </div>
 
           {/* Category Tags */}

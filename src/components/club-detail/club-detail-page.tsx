@@ -223,7 +223,7 @@ export const ClubDetailPage: React.FC<ClubDetailPageProps> = ({ club }) => {
         {/* Gravitas Events Section */}
         {clubEvents.length > 0 && (
           <div className='mt-8'>
-            <ClubEvents events={clubEvents} />
+            <ClubEvents events={clubEvents} clubName={club.name} />
           </div>
         )}
 

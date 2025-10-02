@@ -66,33 +66,6 @@ export const Header: React.FC<HeaderProps> = ({
         </p>
       </div>
 
-      {/* Gravitas 2025 Highlight */}
-      <div className='mb-8 max-w-4xl mx-auto'>
-        <div className='bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500 rounded-2xl p-6 text-white text-center shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-[1.02]'>
-          <div className='flex items-center justify-center gap-3 mb-3'>
-            <Sparkles className='w-8 h-8 animate-pulse' />
-            <h3 className='text-2xl font-bold'>Gravitas 2025 Events</h3>
-            <Trophy className='w-8 h-8 animate-pulse' />
-          </div>
-          <p className='text-lg mb-4 text-white/90'>
-            Discover which clubs organized amazing events during VIT&apos;s
-            premier fest!
-          </p>
-          <div className='grid grid-cols-2 gap-6 max-w-md mx-auto'>
-            <div>
-              <div className='text-3xl font-bold'>{getTotalEventsCount()}</div>
-              <div className='text-white/80'>Total Events</div>
-            </div>
-            <div>
-              <div className='text-3xl font-bold'>
-                {getClubsWithEvents().length}
-              </div>
-              <div className='text-white/80'>Participating Clubs</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Statistics Cards */}
       <div className='grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8'>
         <div className='bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/40 dark:border-slate-700/40 hover:shadow-xl transition-all duration-300 hover:scale-105'>

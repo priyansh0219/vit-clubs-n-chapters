@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { EventImage } from "@/components/ui/event-image";
+import { CollaborationBadge } from "@/components/ui/collaboration-badge";
 import {
   Calendar,
   Clock,
@@ -24,6 +25,7 @@ import { format, parseISO } from "date-fns";
 
 interface ClubEventsProps {
   events: GravitasEvent[];
+  clubName: string;
 }
 
 const getEventTypeIcon = (type: string) => {
@@ -96,7 +98,7 @@ const formatEventDate = (startDate: string, endDate: string) => {
   }
 };
 
-export const ClubEvents: React.FC<ClubEventsProps> = ({ events }) => {
+export const ClubEvents: React.FC<ClubEventsProps> = ({ events, clubName }) => {
   const [expanded, setExpanded] = useState(false);
   const [expandedEvents, setExpandedEvents] = useState<Set<string>>(new Set());
 
@@ -117,7 +119,7 @@ export const ClubEvents: React.FC<ClubEventsProps> = ({ events }) => {
   };
 
   return (
-    <Card className='bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 dark:from-slate-800 dark:via-slate-700 dark:to-slate-800 border-purple-200 dark:border-purple-700/50 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.01]'>
+    <Card className='bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 dark:from-slate-800 dark:via-slate-700 dark:to-slate-800 border-purple-200 dark:border-purple-700/50 shadow-xl hover:shadow-2xl transition-shadow duration-300'>
       <CardHeader className='pb-4'>
         <div className='flex items-center justify-between'>
           <CardTitle className='text-2xl font-bold flex items-center gap-3 text-purple-900 dark:text-purple-100'>
@@ -157,7 +159,7 @@ export const ClubEvents: React.FC<ClubEventsProps> = ({ events }) => {
                         src={event.image}
                         alt={event.name}
                         fill
-                        className='object-cover group-hover:scale-105 transition-transform duration-300'
+                        className='object-cover transition-opacity duration-300'
                         sizes='(max-width: 768px) 100vw, 33vw'
                       />
                       <div className='absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent' />
@@ -181,14 +183,28 @@ export const ClubEvents: React.FC<ClubEventsProps> = ({ events }) => {
                     <div className='space-y-4'>
                       {/* Event Header */}
                       <div>
-                        <h3 className='text-xl font-bold text-gray-900 dark:text-white mb-2'>
+                        <h3 className='text-xl font-bold text-gray-900 dark:text-white mb-3'>
                           {event.name}
                         </h3>
+
+                        {/* Tagline - Premium styling */}
                         {event.tagline && event.tagline !== "NA" && (
-                          <p className='text-sm font-medium text-purple-600 dark:text-purple-400 italic'>
-                            &ldquo;{event.tagline}&rdquo;
-                          </p>
+                          <div className='relative mb-4 p-3 bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 dark:from-purple-900/20 dark:via-pink-900/20 dark:to-indigo-900/20 rounded-lg border-l-4 border-purple-400 dark:border-purple-500'>
+                            <div className='absolute top-1 left-1 w-2 h-2 bg-purple-400 rounded-full animate-pulse opacity-60'></div>
+                            <p className='text-base font-semibold text-purple-700 dark:text-purple-300 italic leading-relaxed pl-2'>
+                              &ldquo;{event.tagline}&rdquo;
+                            </p>
+                            <div className='absolute bottom-1 right-1 w-1.5 h-1.5 bg-pink-400 rounded-full animate-pulse opacity-40'></div>
+                          </div>
                         )}
+
+                        {/* Collaboration info - Subtle placement */}
+                        <CollaborationBadge
+                          eventName={event.name}
+                          currentClubName={clubName}
+                          className='mb-3'
+                          showClubNames={true}
+                        />
                       </div>
 
                       {/* Event Date & Time */}

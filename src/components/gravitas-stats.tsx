@@ -11,11 +11,18 @@ import {
   Award,
   TrendingUp,
   Star,
+  Gamepad2,
+  GraduationCap,
+  Code2,
+  Lightbulb,
+  Handshake,
 } from "lucide-react";
 import {
   getTotalEventsCount,
   getClubsWithEvents,
   getEventsByType,
+  getEventsCountByType,
+  getCollaborativeEventsCount,
 } from "@/lib/events-utils";
 
 interface GravitasStatsProps {
@@ -27,14 +34,13 @@ export const GravitasStats: React.FC<GravitasStatsProps> = ({
 }) => {
   const totalEvents = getTotalEventsCount();
   const participatingClubs = getClubsWithEvents();
-  const competitionEvents = getEventsByType("Competition").length;
-  const gameEvents = getEventsByType("Games").length;
 
   if (totalEvents === 0) {
     return null;
   }
 
-  const stats = [
+  // First row stats
+  const primaryStats = [
     {
       icon: Trophy,
       label: "Total Events",
@@ -51,21 +57,51 @@ export const GravitasStats: React.FC<GravitasStatsProps> = ({
       bgColor: "bg-blue-50 dark:bg-blue-900/20",
       borderColor: "border-blue-200 dark:border-blue-700",
     },
+  ];
+
+  // Second row - Event categories
+  const eventCategoryStats = [
     {
       icon: Award,
       label: "Competitions",
-      value: competitionEvents,
+      value: getEventsCountByType("Competition"),
       color: "text-green-600",
       bgColor: "bg-green-50 dark:bg-green-900/20",
       borderColor: "border-green-200 dark:border-green-700",
     },
     {
-      icon: Star,
+      icon: Gamepad2,
       label: "Games & Fun",
-      value: gameEvents,
+      value: getEventsCountByType("Games"),
       color: "text-purple-600",
       bgColor: "bg-purple-50 dark:bg-purple-900/20",
       borderColor: "border-purple-200 dark:border-purple-700",
+    },
+    {
+      icon: GraduationCap,
+      label: "Workshops",
+      value:
+        getEventsCountByType("Workshop") + getEventsCountByType("workshop"),
+      color: "text-indigo-600",
+      bgColor: "bg-indigo-50 dark:bg-indigo-900/20",
+      borderColor: "border-indigo-200 dark:border-indigo-700",
+    },
+    {
+      icon: Code2,
+      label: "Hackathons & Ideas",
+      value:
+        getEventsCountByType("Hackathon") + getEventsCountByType("Ideathon"),
+      color: "text-orange-600",
+      bgColor: "bg-orange-50 dark:bg-orange-900/20",
+      borderColor: "border-orange-200 dark:border-orange-700",
+    },
+    {
+      icon: Handshake,
+      label: "Collaborative Events",
+      value: getCollaborativeEventsCount(),
+      color: "text-pink-600",
+      bgColor: "bg-pink-50 dark:bg-pink-900/20",
+      borderColor: "border-pink-200 dark:border-pink-700",
     },
   ];
 
@@ -93,12 +129,38 @@ export const GravitasStats: React.FC<GravitasStatsProps> = ({
       </CardHeader>
 
       <CardContent>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mb-6'>
-          {stats.map((stat, index) => (
+        {/* First Row - Primary Stats */}
+        <div className='grid grid-cols-2 gap-4 mb-4 max-w-md mx-auto'>
+          {primaryStats.map((stat, index) => (
             <div
               key={stat.label}
-              className={`${stat.bgColor} ${stat.borderColor} border-2 rounded-xl p-4 text-center hover:scale-105 transition-all duration-300 cursor-pointer group`}
+              className={`${stat.bgColor} ${stat.borderColor} border-2 rounded-xl p-4 text-center transition-colors duration-300 group max-w-xs`}
               style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <div className='flex items-center justify-center mb-3'>
+                <div
+                  className={`p-2 ${stat.color} bg-white dark:bg-slate-800 rounded-lg shadow-sm group-hover:shadow-md transition-shadow`}
+                >
+                  <stat.icon className='w-6 h-6' />
+                </div>
+              </div>
+              <div className={`text-2xl font-bold ${stat.color} mb-1`}>
+                {stat.value}
+              </div>
+              <div className='text-sm text-gray-600 dark:text-gray-400 font-medium'>
+                {stat.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Second Row - Event Categories */}
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6 max-w-6xl mx-auto'>
+          {eventCategoryStats.map((stat, index) => (
+            <div
+              key={stat.label}
+              className={`${stat.bgColor} ${stat.borderColor} border-2 rounded-xl p-4 text-center transition-colors duration-300 group max-w-xs`}
+              style={{ animationDelay: `${(index + 2) * 100}ms` }}
             >
               <div className='flex items-center justify-center mb-3'>
                 <div

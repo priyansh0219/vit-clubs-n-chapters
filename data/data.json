@@ -1963,7 +1963,9 @@
         "img_path": "IE(I).webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/iei_vit/?hl=en"
+        }
     },
     {
         "serial": 134,
@@ -1972,7 +1974,11 @@
         "img_path": "IISE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/iise-vit-linkedin",
+            "instagram": "https://www.instagram.com/iise_vit/?hl=en",
+            "facebook": "https://www.facebook.com/iievitu/"
+        }
     },
     {
         "serial": 135,
@@ -1981,7 +1987,12 @@
         "img_path": "ISA.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/international-society-of-automation-isa-vit",
+            "instagram": "https://www.instagram.com/isa_vit_/?hl=en",
+            "facebook": "https://www.facebook.com/isavitchapter/",
+            "medium": "https://medium.com/isa-vit"
+        }
     },
     {
         "serial": 136,
@@ -1990,7 +2001,10 @@
         "img_path": "SBE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/sbe-vit",
+            "facebook": "https://www.facebook.com/sbevit/"
+        }
     },
     {
         "serial": 137,
@@ -1999,7 +2013,9 @@
         "img_path": "SIAM.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/siamvit/?hl=en"
+        }
     },
     {
         "serial": 138,
@@ -2008,7 +2024,10 @@
         "img_path": "SME.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/sme_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/smevit"
+        }
     },
     {
         "serial": 139,
@@ -2017,7 +2036,10 @@
         "img_path": "SAE-VIT.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/society-of-automotive-engineers-vit-vellore-",
+            "instagram": "https://www.instagram.com/sae_vit/?hl=en"
+        }
     },
     {
         "serial": 140,
@@ -2026,7 +2048,11 @@
         "img_path": "SCRS.jpeg",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "website": "https://www.scrsvit.in/",
+            "linkedin": "https://in.linkedin.com/company/soft-computing-research-society-vit",
+            "facebook": "https://www.facebook.com/p/Soft-Computing-Research-Society-VIT-100064194633426/"
+        }
     },
     {
         "serial": 141,
@@ -2035,7 +2061,12 @@
         "img_path": "SEDS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "website": "https://www.sedsvit.in/",
+            "linkedin": "https://in.linkedin.com/company/sedsvit",
+            "instagram": "https://www.instagram.com/sedsvit/",
+            "facebook": "https://www.facebook.com/SEDSVIT/"
+        }
     },
     {
         "serial": 142,
@@ -2044,7 +2075,11 @@
         "img_path": "BRSI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/brsivitvellore/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/brsivit",
+            "facebook": "https://www.facebook.com/brsivituniversity/"
+        }
     },
     {
         "serial": 143,
@@ -2053,7 +2088,11 @@
         "img_path": "IET.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "website": "https://ietvit.tech/",
+            "linkedin": "https://in.linkedin.com/company/ietvit",
+            "instagram": "https://www.instagram.com/ietvit/?hl=en"
+        }
     },
     {
         "serial": 144,
@@ -2062,7 +2101,11 @@
         "img_path": "ISOI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/isoi.vit/?hl=en",
+            "facebook": "https://www.facebook.com/isoivit/",
+            "linkedin": "https://in.linkedin.com/company/instrument-society-of-india-isoi-vit-vellore"
+        }
     },
     {
         "serial": 145,

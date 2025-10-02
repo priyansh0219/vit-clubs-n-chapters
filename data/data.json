@@ -950,7 +950,11 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/uddeshyavit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/uddeshyavit",
+            "facebook": "https://www.facebook.com/VIT.Uddeshya/"
+        }
     },
     {
         "serial": 62,
@@ -961,7 +965,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit_stellar/?hl=en",
+            "facebook": "https://www.facebook.com/vitstellar/",
+            "linkedin": "https://in.linkedin.com/company/vit-stellar"
+        }
     },
     {
         "serial": 63,
@@ -972,7 +980,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/e2pcvit/",
+            "instagram": "https://www.instagram.com/e2pc.vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/energy-and-environment-club-vit"
+        }
     },
     {
         "serial": 64,
@@ -983,7 +995,10 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit.fla/",
+            "linkedin": "https://www.linkedin.com/company/french-literary-association-vit-vellore"
+        }
     },
     {
         "serial": 65,
@@ -995,7 +1010,12 @@
             "TECHNICAL",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://csedvit.com/",
+            "linkedin": "https://in.linkedin.com/company/csedvit",
+            "instagram": "https://www.instagram.com/csed.vit/?hl=en",
+            "facebook": "https://www.facebook.com/vit.csed/"
+        }
     },
     {
         "serial": 66,
@@ -1006,7 +1026,10 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/matrix.vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/matrixvit"
+        }
     },
     {
         "serial": 67,
@@ -1017,7 +1040,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/boardgamersclubvit/",
+            "linkedin": "https://in.linkedin.com/company/boardgamersclubvit",
+            "facebook": "https://www.facebook.com/p/Board-Gamers-Club-VIT-100064045115317/"
+        }
     },
     {
         "serial": 68,
@@ -1028,7 +1055,10 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/tam.vit_vellore/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/tam-vit"
+        }
     },
     {
         "serial": 69,
@@ -1039,7 +1069,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/heritageclubvit/",
+            "facebook": "https://www.facebook.com/heritageclubvit/",
+            "linkedin": "https://in.linkedin.com/company/heritage-club-vit"
+        }
     },
     {
         "serial": 70,
@@ -1050,7 +1084,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/culinaryclubvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/culinaryclubvit",
+            "facebook": "https://www.facebook.com/culinaryclubvit/"
+        }
     },
     {
         "serial": 71,
@@ -1061,7 +1099,10 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/fnbvit/",
+            "linkedin": "https://in.linkedin.com/company/fitness-and-beyond-vit"
+        }
     },
     {
         "serial": 72,
@@ -1072,7 +1113,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit_lug/",
+            "linkedin": "https://in.linkedin.com/company/vit-lug",
+            "github": "https://github.com/vitlug",
+            "website": "https://lugvitc.net/"
+        }
     },
     {
         "serial": 73,

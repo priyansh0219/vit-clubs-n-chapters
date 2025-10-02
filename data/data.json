@@ -1648,7 +1648,10 @@
         "img_path": "ADI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/adi_vitv/",
+            "linkedin": "https://in.linkedin.com/company/adi-vit"
+        }
     },
     {
         "serial": 110,
@@ -1657,7 +1660,11 @@
         "img_path": "AEE.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/school/aee-vit/",
+            "facebook": "https://www.facebook.com/aeevitchapter/",
+            "instagram": "https://www.instagram.com/aee.vit/?hl=en"
+        }
     },
     {
         "serial": 111,
@@ -1666,7 +1673,9 @@
         "img_path": "COMPBIO CELL.jpg",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/compbiocellvit/?hl=en"
+        }
     },
     {
         "serial": 112,
@@ -1675,7 +1684,13 @@
         "img_path": "CSI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "website": "https://csivit.com/",
+            "linkedin": "https://in.linkedin.com/company/csivitu",
+            "instagram": "https://www.instagram.com/csivitu/?hl=en",
+            "github": "https://github.com/csivitu",
+            "facebook": "https://www.facebook.com/csivitu/"
+        }
     },
     {
         "serial": 113,
@@ -1684,7 +1699,11 @@
         "img_path": "IEEE - TEMS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieeetemsvit.in/",
+            "instagram": "https://www.instagram.com/ieeetemsvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-tems"
+        }
     },
     {
         "serial": 114,
@@ -1693,7 +1712,11 @@
         "img_path": "IEEE - COMSOC.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitieeecomsoc/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieeecomsocvit",
+            "facebook": "https://www.facebook.com/IEEE.ComSoc.VIT/"
+        }
     },
     {
         "serial": 115,
@@ -1702,7 +1725,11 @@
         "img_path": "IEEE- CAS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ieee_cas_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-circuits-and-systems-vit",
+            "facebook": "https://www.facebook.com/profile.php?id=100067787119412&locale=ml_IN#"
+        }
     },
     {
         "serial": 116,
@@ -1711,7 +1738,11 @@
         "img_path": "IEEE - CS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieeecsvit.com/",
+            "instagram": "https://www.instagram.com/ieeecs_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ieee-cs-vit"
+        }
     },
     {
         "serial": 117,
@@ -1720,7 +1751,12 @@
         "img_path": "IEEE-EMBS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ieee-embs-chapter-vit",
+            "instagram": "https://www.instagram.com/embs_vit/?hl=en",
+            "website": "https://embs-vit.netlify.app/",
+            "facebook": "https://www.facebook.com/IEEE.EMBS.VIT/"
+        }
     },
     {
         "serial": 118,
@@ -1729,7 +1765,11 @@
         "img_path": "IEEE - IAS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ieeeiasvit",
+            "instagram": "https://www.instagram.com/ieeeiasvit/?hl=en",
+            "facebook": "https://www.facebook.com/ieeeiasvit/"
+        }
     },
     {
         "serial": 119,
@@ -1738,7 +1778,11 @@
         "img_path": "IEEE -NPSS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ieee-npss-vit-chapter",
+            "facebook": "https://www.facebook.com/ieeenpss.vit/",
+            "instagram": "https://www.instagram.com/ieee_npss_vit/?hl=en"
+        }
     },
     {
         "serial": 120,
@@ -1747,7 +1791,13 @@
         "img_path": "IEEE - PES.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieee-pes-vit.github.io/IEEEPESVIT/",
+            "linkedin": "https://in.linkedin.com/company/ieee-power-and-energy-society-vitc",
+            "instagram": "https://www.instagram.com/ieeepesvit/?hl=en",
+            "facebook": "https://www.facebook.com/groups/vit.ieee.pes/",
+            "github": "https://github.com/IEEE-PES-VIT"
+        }
     },
     {
         "serial": 121,

@@ -390,7 +390,17 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://www.dscvit.com/",
+            "instagram": "https://www.instagram.com/gdscvitvellore/",
+            "twitter": "https://twitter.com/gdscvit",
+            "facebook": "https://www.facebook.com/gdscvitvellore",
+            "medium": "https://medium.com/gdg-vit",
+            "telegram": "https://t.me/joinchat/Zlq0k9DMj6cxYTQ9",
+            "linkedin": "https://www.linkedin.com/company/dscvit/",
+            "youtube": "https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg",
+            "github": "https://github.com/GDGVIT"
+        }
     },
     {
         "serial": 26,
@@ -401,7 +411,12 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/cube_vit/",
+            "youtube": "https://www.youtube.com/@cubevit",
+            "linkedin": "https://www.linkedin.com/company/the-cubing-club-vit-vellore",
+            "facebook": "https://www.facebook.com/c.u.b.e.VITclub/"
+        }
     },
     {
         "serial": 27,
@@ -412,7 +427,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vittrekkingclub/?hl=en",
+            "facebook": "https://www.facebook.com/VitTrekkingClub/",
+            "linkedin": "https://in.linkedin.com/company/vit-trekking-club"
+        }
     },
     {
         "serial": 28,
@@ -423,7 +442,12 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitdanceclub/?hl=en",
+            "youtube": "https://www.youtube.com/@vitdanceclub",
+            "linkedin": "https://www.linkedin.com/company/vit-dance-club",
+            "facebook": "https://www.facebook.com/vitdc/"
+        }
     },
     {
         "serial": 29,
@@ -435,7 +459,11 @@
             "HEALTH_&_WELLNESS",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit_cycling_club/",
+            "facebook": "https://www.facebook.com/vitcyclingclub/",
+            "linkedin": "https://in.linkedin.com/in/cycling-club-vit-79384134a"
+        }
     },
     {
         "serial": 30,
@@ -446,7 +474,12 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitdramatics/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/vit-dramatics-club",
+            "facebook": "https://www.facebook.com/VitDramaClub/",
+            "youtube": "https://www.youtube.com/@vitdramatics"
+        }
     },
     {
         "serial": 31,
@@ -457,7 +490,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/creativityclub_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/creativity-club-vit",
+            "facebook": "https://www.facebook.com/creativityclubvit/mentions/"
+        }
     },
     {
         "serial": 32,
@@ -469,7 +506,10 @@
             "SOCIAL_OUTREACH",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/natureclubvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/nature-club-vit"
+        }
     },
     {
         "serial": 33,
@@ -480,7 +520,10 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/thecatalystclubvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/in/the-catalyst-club-vit-756b9926a"
+        }
     },
     {
         "serial": 34,
@@ -491,7 +534,10 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/rotaract_club_of_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/rotaract-at-vit"
+        }
     },
     {
         "serial": 35,
@@ -502,7 +548,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/quizclubvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/dbqc-the-vit-quiz-club",
+            "facebook": "https://www.facebook.com/vitquizclub/"
+        }
     },
     {
         "serial": 36,
@@ -513,7 +563,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/iothincvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/iothincvit",
+            "medium": "https://medium.com/iothincvit",
+            "facebook": "https://www.facebook.com/iothincVIT/"
+        }
     },
     {
         "serial": 37,

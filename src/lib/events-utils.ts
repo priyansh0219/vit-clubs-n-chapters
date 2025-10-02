@@ -1,5 +1,5 @@
 import { GravitasEvent, EventsByClub } from "@/types/events";
-import matchedEventsData from "@/../matched_events.json";
+import matchedEventsData from "@/../data/matched_events.json";
 
 /**
  * Get events for a specific club by club name

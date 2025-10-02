@@ -201,7 +201,12 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/thepc_vit/?hl=en",
+            "facebook": "https://www.facebook.com/vitthehindueplusclub/",
+            "website": "https://www.thepcvit.com/",
+            "linkedin": "https://in.linkedin.com/school/the-hindu-education-plus-club/"
+        }
     },
     {
         "serial": 14,
@@ -212,7 +217,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/sahiti_tla/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/sahiti-tla-vit",
+            "facebook": "https://www.facebook.com/sahiti.vit/",
+            "youtube": "https://youtube.com/@sahititlavit4066"
+        }
     },
     {
         "serial": 15,
@@ -223,7 +233,14 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ayuda.ngo/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/ayuda-ngo",
+            "medium": "https://medium.com/ayuda-ngo",
+            "website": "https://linktr.ee/ayudango",
+            "facebook": "https://www.facebook.com/ngoayuda/",
+            "youtube": "https://www.youtube.com/@ayudango4843"
+        }
     },
     {
         "serial": 16,
@@ -234,7 +251,10 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/pixelatevit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/pixelatee"
+        }
     },
     {
         "serial": 17,
@@ -245,7 +265,10 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/gla_vit/",
+            "facebook": "https://www.facebook.com/gla.vitu/"
+        }
     },
     {
         "serial": 18,
@@ -257,7 +280,12 @@
             "TECHNICAL",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/zwm_vit_vellore/",
+            "linkedin": "https://in.linkedin.com/company/zero-waste-management-club",
+            "facebook": "https://www.facebook.com/zwm.v.vellore",
+            "medium": "https://medium.com/@zerowastezwmvitvellore"
+        }
     },
     {
         "serial": 19,
@@ -268,7 +296,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vbc_vit/",
+            "linkedin": "https://www.linkedin.com/company/visual-bloggers-club-vit",
+            "facebook": "https://www.facebook.com/vbcvit/",
+            "twitter": "https://x.com/vbcvit"
+        }
     },
     {
         "serial": 20,
@@ -279,7 +312,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/sabest-student-association-of-bioengineering-science-technology",
+            "instagram": "https://www.instagram.com/sabest_vit/?hl=en",
+            "facebook": "https://www.facebook.com/vitsabest/"
+        }
     },
     {
         "serial": 21,
@@ -290,7 +327,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/digitsquad_vit/?hl=en",
+            "discord": "https://discord.com/invite/HVDNQnX5yh",
+            "linkedin": "https://in.linkedin.com/company/digitsquadvitv",
+            "facebook": "https://www.facebook.com/digitsquadvitv/"
+        }
     },
     {
         "serial": 22,
@@ -301,7 +343,12 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://vitmun.vit.ac.in/",
+            "instagram": "https://www.instagram.com/vitmunsoc/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/munsocvit",
+            "facebook": "https://www.facebook.com/MUNSocVIT/"
+        }
     },
     {
         "serial": 23,
@@ -312,7 +359,13 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://ngoanokha.github.io/",
+            "instagram": "https://www.instagram.com/ngoanokha/?hl=en",
+            "youtube": "https://youtube.com/@anokha8228",
+            "facebook": "https://www.facebook.com/anokhavit/",
+            "linkedin": "https://in.linkedin.com/company/anokha-ngo"
+        }
     },
     {
         "serial": 24,
@@ -323,7 +376,10 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/youth-red-cross-vit",
+            "facebook": "https://www.facebook.com/YouthRedCrossVit/"
+        }
     },
     {
         "serial": 25,

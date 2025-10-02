@@ -2258,7 +2258,10 @@
         "img_path": "IXDA.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INTERNATIONAL",
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/ixda_vit/",
+            "linkedin": "https://in.linkedin.com/company/ixda-vellore"
+        }
     },
     {
         "serial": 158,
@@ -2267,7 +2270,10 @@
         "img_path": "IEEE-ITS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieee-its-landing.vercel.app/",
+            "linkedin": "https://ieee-its-landing.vercel.app/"
+        }
     },
     {
         "serial": 159,
@@ -2276,7 +2282,10 @@
         "img_path": "ICI.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "INDIAN",
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ici-vit",
+            "instagram": "https://www.instagram.com/ici_vit/"
+        }
     },
     {
         "serial": 160,
@@ -2285,7 +2294,11 @@
         "img_path": "IEEE-PELS.webp",
         "asc_type": "CHAPTER",
         "chapter_type": "IEEE",
-        "socials": {}
+        "socials": {
+            "website": "https://ieee-pelsvitv.vercel.app/",
+            "instagram": "https://www.instagram.com/ieeepels_vitvellore/",
+            "linkedin": "https://in.linkedin.com/company/ieee-pels-vitv"
+        }
     },
     {
         "serial": 161,

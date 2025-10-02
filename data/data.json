@@ -1309,7 +1309,10 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit_yoga_club/",
+            "linkedin": "https://in.linkedin.com/in/yoga-club-7979982a8"
+        }
     },
     {
         "serial": 86,
@@ -1320,7 +1323,11 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/nssvit_/?hl=en",
+            "website": "https://nssvit.in/",
+            "linkedin": "https://in.linkedin.com/in/nss-vit-vellore"
+        }
     },
     {
         "serial": 87,
@@ -1342,7 +1349,17 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://www.dscvit.com/",
+            "instagram": "https://www.instagram.com/gdscvitvellore/",
+            "twitter": "https://twitter.com/gdscvit",
+            "facebook": "https://www.facebook.com/gdscvitvellore",
+            "medium": "https://medium.com/gdg-vit",
+            "telegram": "https://t.me/joinchat/Zlq0k9DMj6cxYTQ9",
+            "linkedin": "https://www.linkedin.com/company/dscvit/",
+            "youtube": "https://www.youtube.com/channel/UCvT-ZJF7fXHJi9kDeCPR-zg",
+            "github": "https://github.com/GDGVIT"
+        }
     },
     {
         "serial": 89,
@@ -1353,7 +1370,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/vit-blockchain-community",
+            "instagram": "https://www.instagram.com/blockchainvit/?hl=en",
+            "twitter": "https://x.com/vit_bcc?lang=en"
+        }
     },
     {
         "serial": 90,
@@ -1364,7 +1385,13 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit_leo_club/?hl=en",
+            "medium": "https://leoclubvit.medium.com/",
+            "website": "https://www.e-leoclubhouse.org/sites/vituniversity/",
+            "linkedin": "https://in.linkedin.com/company/vit-leo-club",
+            "facebook": "https://www.facebook.com/vitlionsclub/"
+        }
     },
     {
         "serial": 91,
@@ -1375,7 +1402,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/vitios",
+            "twitter": "https://twitter.com/adgvit",
+            "instagram": "https://www.instagram.com/adgvit/",
+            "website": "https://adg-vit.github.io/"
+        }
     },
     {
         "serial": 92,
@@ -1386,7 +1418,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "twitter": "https://x.com/enajori_vit?lang=en",
+            "linkedin": "https://in.linkedin.com/company/enajori-the-assamese-literary-association",
+            "instagram": "https://www.instagram.com/enajori_vit/",
+            "youtube": "https://www.youtube.com/@enajori_vit"
+        }
     },
     {
         "serial": 93,
@@ -1397,7 +1434,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/utkalsamaj_vit/",
+            "linkedin": "https://in.linkedin.com/company/odisha-literary-association",
+            "facebook": "https://www.facebook.com/UtkalSamaj.OLA/"
+        }
     },
     {
         "serial": 94,
@@ -1408,7 +1449,9 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://ytc.tourism.gov.in/"
+        }
     },
     {
         "serial": 95,
@@ -1419,7 +1462,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/standardsclubvit/?hl=en",
+            "website": "https://www.standardsvit.live/",
+            "linkedin": "https://in.linkedin.com/in/standards-club-vit-b512a829a"
+        }
     },
     {
         "serial": 96,
@@ -1430,7 +1477,9 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/spanish-literary-association-vit"
+        }
     },
     {
         "serial": 97,

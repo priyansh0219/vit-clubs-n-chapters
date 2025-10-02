@@ -1129,7 +1129,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/ecellvitvellore",
+            "instagram": "https://www.instagram.com/ecell_vit/?hl=en",
+            "website": "https://e-cell-vit-22.vercel.app/"
+        }
     },
     {
         "serial": 74,
@@ -1140,7 +1144,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://www.codechefvit.com/",
+            "instagram": "https://www.instagram.com/codechefvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/codechefvit",
+            "facebook": "https://www.facebook.com/codechefvit/"
+        }
     },
     {
         "serial": 75,
@@ -1151,7 +1160,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/dla_vit/",
+            "linkedin": "https://in.linkedin.com/company/german-literary-association-dla-vit",
+            "facebook": "https://www.facebook.com/dlavit"
+        }
     },
     {
         "serial": 76,
@@ -1162,7 +1175,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/theotakuclub_vit/?hl=en",
+            "linkedin": "https://www.linkedin.com/company/theotakuclubvitv/",
+            "facebook": "https://www.facebook.com/theotakuclubvit/"
+        }
     },
     {
         "serial": 77,
@@ -1173,7 +1190,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vit.anchoringclub/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/vit-anchoring-club",
+            "facebook": "https://www.facebook.com/anchoring2020/"
+        }
     },
     {
         "serial": 78,
@@ -1184,7 +1205,10 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/heartsvit/",
+            "linkedin": "https://in.linkedin.com/company/hearts-club-vit"
+        }
     },
     {
         "serial": 79,
@@ -1195,7 +1219,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitspartans/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/vit-spartans",
+            "facebook": "https://www.facebook.com/vitspartans/"
+        }
     },
     {
         "serial": 80,
@@ -1206,7 +1234,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://yuvamarathivit.in/",
+            "linkedin": "https://in.linkedin.com/company/yuva-marathi",
+            "instagram": "https://www.instagram.com/yuva.marathi/",
+            "facebook": "https://www.facebook.com/YuvaMarathiYM/"
+        }
     },
     {
         "serial": 81,
@@ -1218,7 +1251,10 @@
             "SOCIAL_OUTREACH",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vriksh.club/?hl=en",
+            "linkedin": "https://www.linkedin.com/company/vriksh-ngo"
+        }
     },
     {
         "serial": 82,
@@ -1229,7 +1265,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://vitarc.github.io/main.html",
+            "instagram": "https://www.instagram.com/varc_vit/",
+            "linkedin": "https://in.linkedin.com/company/varc-vit"
+        }
     },
     {
         "serial": 83,
@@ -1240,7 +1280,10 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/admark.vit/",
+            "linkedin": "https://in.linkedin.com/company/theadvertisingandmarketingclub"
+        }
     },
     {
         "serial": 84,
@@ -1251,7 +1294,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/spicmacay_vit_vellore/?hl=en",
+            "medium": "https://medium.com/@spicmacayvitvellore",
+            "linkedin": "https://in.linkedin.com/company/spicmacay-vit-vellore"
+        }
     },
     {
         "serial": 85,

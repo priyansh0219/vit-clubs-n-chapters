@@ -579,7 +579,13 @@
         "club_type": [
             "SOCIAL_OUTREACH"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/5pvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/5th-pillar",
+            "website": "https://5pvit.wordpress.com/",
+            "facebook": "https://www.facebook.com/5pvit/",
+            "medium": "https://medium.com/@5thpillar"
+        }
     },
     {
         "serial": 38,
@@ -590,7 +596,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/pla_vit/?hl=en",
+            "facebook": "https://www.facebook.com/people/Punjabi-Literary-Association/100068130679238/",
+            "linkedin": "https://in.linkedin.com/company/pla-vit"
+        }
     },
     {
         "serial": 39,
@@ -601,7 +611,11 @@
         "club_type": [
             "HEALTH_&_WELLNESS"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/health_club_vit/?hl=en",
+            "facebook": "https://www.facebook.com/healthclubvit/",
+            "linkedin": "https://in.linkedin.com/company/health-club-vit"
+        }
     },
     {
         "serial": 40,
@@ -612,7 +626,12 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "discord": "https://discord.com/invite/2VymrSvyWH",
+            "instagram": "https://www.instagram.com/elaavit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/elavit",
+            "medium": "https://elaavit.medium.com/"
+        }
     },
     {
         "serial": 41,
@@ -623,7 +642,10 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "linkedin": "https://in.linkedin.com/company/innovation-and-creation-club-vit",
+            "instagram": "https://www.instagram.com/iacc_vit/"
+        }
     },
     {
         "serial": 42,
@@ -634,7 +656,11 @@
         "club_type": [
             "ARTS_AND_CULTURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/thefineartsclubvit/?hl=en",
+            "facebook": "https://www.facebook.com/thefineartsclubvit/",
+            "website": "https://thefineartsclubvit.netlify.app/"
+        }
     },
     {
         "serial": 43,
@@ -645,7 +671,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/thenextchapter.vit/?hl=en",
+            "medium": "https://medium.com/@bookclub_86365",
+            "linkedin": "https://in.linkedin.com/company/the-next-chapter-vit"
+        }
     },
     {
         "serial": 44,
@@ -656,7 +686,11 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/dreammerchantsvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/dream-merchants-vit",
+            "facebook": "https://www.facebook.com/DreamMerchantsVIT/"
+        }
     },
     {
         "serial": 45,
@@ -667,7 +701,11 @@
         "club_type": [
             "LITERATURE"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/vitu.tla/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/tamil-literary-association-tla",
+            "facebook": "https://www.facebook.com/vitu.tla/#"
+        }
     },
     {
         "serial": 46,
@@ -679,7 +717,13 @@
             "TECHNICAL",
             "ENVIRONMENTAL_SUSTAINABILITY"
         ],
-        "socials": {}
+        "socials": {
+            "instagram": "https://www.instagram.com/solaiclubvit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/solaiclubvit",
+            "medium": "https://medium.com/solai-club-vit",
+            "facebook": "https://www.facebook.com/solaiclubvit/",
+            "website": "https://solaiclub-vit.blogspot.com/"
+        }
     },
     {
         "serial": 47,
@@ -690,7 +734,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "facebook": "https://www.facebook.com/vitios",
+            "twitter": "https://twitter.com/adgvit",
+            "instagram": "https://www.instagram.com/adgvit/",
+            "website": "https://adg-vit.github.io/"
+        }
     },
     {
         "serial": 48,
@@ -701,7 +750,12 @@
         "club_type": [
             "TECHNICAL"
         ],
-        "socials": {}
+        "socials": {
+            "website": "https://www.mfcvit.in/",
+            "instagram": "https://www.instagram.com/mfc_vit/?hl=en",
+            "linkedin": "https://in.linkedin.com/company/mfcvit",
+            "github": "https://github.com/MFC-VIT"
+        }
     },
     {
         "serial": 49,

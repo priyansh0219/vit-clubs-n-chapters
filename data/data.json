@@ -1942,7 +1942,10 @@
         "socials": {
             "website": "https://ieeevit.org/",
             "instagram": "https://www.instagram.com/ieeevitvellore/?hl=en",
-            "linkedin": "https://in.linkedin.com/company/ieee-vit-vellore"
+            "linkedin": "https://in.linkedin.com/company/ieee-vit-vellore",
+            "facebook": "https://www.facebook.com/IEEEVIT/",
+            "twitter": "https://twitter.com/ieeevitvellore",
+            "github": "https://github.com/ieee-vit"
         }
     },
     {

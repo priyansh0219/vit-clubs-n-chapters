@@ -26,7 +26,10 @@ export function clubHasEvents(clubName: string): boolean {
  */
 export function getClubsWithEvents(): string[] {
   const eventsData = matchedEventsData as EventsByClub;
-  return Object.keys(eventsData);
+  return Object.keys(eventsData).filter((clubName) => {
+    const events = eventsData[clubName];
+    return events && events.length > 0;
+  });
 }
 
 /**
